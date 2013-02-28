@@ -1,0 +1,4 @@
+d = {'iphone' : 'apple', 'nexus4' : 'Google-LG'} #create dictionary with predefined values
+d['htc desire x'] = 'HTC' #add new value
+print d['xyz']
+

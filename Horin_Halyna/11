@@ -1,0 +1,17 @@
+import nltk
+train_sents =[[('I', 'PRO'), ('am', 'V'), ('learning', 'VG'), ('Python', 'NP')],[('You', 'PRO'), ('can', 'MOD'), ('use', 'V'), ('something', 'DET')],
+[('the', 'DT'), ('select', 'NN'), ('files', 'NNS')],]
+text = 'I use some files'
+affix_tagger = nltk.AffixTagger(train_sents, affix_length=-3, min_stem_length=2)
+tags = affix_tagger.tag(nltk.word_tokenize(text))
+print tags
+affix_tagger = nltk.AffixTagger(train_sents, affix_length=-1, min_stem_length=2)
+tags = affix_tagger.tag(nltk.word_tokenize(text))
+print tags
+affix_tagger = nltk.AffixTagger(train_sents, affix_length=2, min_stem_length=2)
+tags = affix_tagger.tag(nltk.word_tokenize(text))
+print tags
+affix_tagger = nltk.AffixTagger(train_sents, affix_length=2, min_stem_length=5)
+tags = affix_tagger.tag(nltk.word_tokenize(text))
+print tags
+
