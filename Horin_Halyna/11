@@ -1,3 +1,7 @@
+#TODO 
+#The train data is very  scantily. Train tagger with brown corpus.
+#Add coments, please
+#
 import nltk
 train_sents =[[('I', 'PRO'), ('am', 'V'), ('learning', 'VG'), ('Python', 'NP')],[('You', 'PRO'), ('can', 'MOD'), ('use', 'V'), ('something', 'DET')],
 [('the', 'DT'), ('select', 'NN'), ('files', 'NNS')],]
