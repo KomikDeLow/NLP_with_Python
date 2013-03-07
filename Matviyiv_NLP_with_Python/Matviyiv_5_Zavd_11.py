@@ -1,3 +1,6 @@
+#TODO
+#You must divide data on train and test
+#
 import nltk
 from nltk.corpus import brown
 brown_tagged_sents = brown.tagged_sents(categories='news')

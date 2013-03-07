@@ -1,3 +1,7 @@
+#TODO
+# I don't see your rules? please add it
+#
+
 import nltk
 from nltk.corpus import brown
 patterns = [
