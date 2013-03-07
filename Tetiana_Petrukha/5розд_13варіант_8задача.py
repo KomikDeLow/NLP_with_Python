@@ -1,3 +1,5 @@
+# All your files aren't Python modules
+#
 import nltk
 e = nltk.defaultdict(list)
 def dic(headword,part_of_speech,sense,example):
