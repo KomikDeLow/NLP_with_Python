@@ -9,8 +9,8 @@ print aff_tagger.tag(['In', 'this', 'section,', 'you', 'can', 'practise', 'your'
                       'understand.', 'Have', 'fun', 'and', 'enjoy', 'your', 'reading'])
 print '==============================================================='
 print 'Affix tagger size = ',aff_tagger.size()
-print 'Sentences used to evaluete = ',len(brown_tagged_sents)
-print 'Evaluation = ',aff_tagger.evaluate(brown_tagged_sents)
+print 'Sentences used to evaluete = ',len(brown.tagged_sents()[:1000])
+print 'Evaluation = ',aff_tagger.evaluate(brown.tagged_sents()[:1000])
 print '==============================================================='
 
 brown_tagged_sents = brown.tagged_sents(categories='news')
@@ -22,8 +22,8 @@ print aff_tagger.tag(['In', 'this', 'section,', 'you', 'can', 'practise', 'your'
                       'understand.', 'Have', 'fun', 'and', 'enjoy', 'your', 'reading'])
 print '==============================================================='
 print 'Affix length changed to = -2 ','Affix tagger size = ',aff_tagger.size()
-print 'Sentences used to evaluete = ',len(brown_tagged_sents)
-print 'Evaluation = ',aff_tagger.evaluate(brown_tagged_sents)
+print 'Sentences used to evaluete = ',len(brown.tagged_sents()[:1000])
+print 'Evaluation = ',aff_tagger.evaluate(brown.tagged_sents()[:1000])
 print '==============================================================='
 
 brown_tagged_sents = brown.tagged_sents(categories='news')
@@ -35,6 +35,6 @@ print aff_tagger.tag(['In', 'this', 'section,', 'you', 'can', 'practise', 'your'
                       'understand.', 'Have', 'fun', 'and', 'enjoy', 'your', 'reading'])
 print '==============================================================='
 print 'Minimum stem length changed to = 4 ','Affix tagger size = ',aff_tagger.size()
-print 'Sentences used to evaluete = ',len(brown_tagged_sents)
-print 'Evaluation = ',aff_tagger.evaluate(brown_tagged_sents)
+print 'Sentences used to evaluete = ',len(brown.tagged_sents()[:1000])
+print 'Evaluation = ',aff_tagger.evaluate(brown.tagged_sents()[:1000])
 print '==============================================================='

@@ -15,10 +15,10 @@ regexp_tagger.tag(brown.sents()[9])
 brown_test=brown.tagged_sents()[:100]
 print 'Regular expressions Tagger:'
 print 'Accuracy: %4.1f%%' % (
-    100.0 * regexp_tagger.evaluate(brown_test))
+    100.0 * regexp_tagger.evaluate(brown.tagged_sents()[100:1000]))
 
 
 two_tagger=nltk.UnigramTagger(brown_test, backoff=regexp_tagger)
 print 'Regular expressions Tagger + Unigram tagger:'
 print 'Accuracy: %4.1f%%' % (
-    100.0 * two_tagger.evaluate(brown_test))
+    100.0 * two_tagger.evaluate(brown.tagged_sents()[100:1000]))
