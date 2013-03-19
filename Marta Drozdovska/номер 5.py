@@ -1,3 +1,7 @@
+# TODO
+# Invalid syntax
+#
+#
 Drozdovska Marta ALs-12,5.10 № 5
 import nltk
 pos=dict(favourable='ADJ',books'N',walk'V',accurately='ADV')
