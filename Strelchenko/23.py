@@ -43,3 +43,4 @@ regexp_tagger.tag(brown_sents[5])
 [('It', None), ('recommended', 'VBD'), ('that', None), ('Fulton', None), ('legislators', 'NNS'), ('act', None), ('``', None), ('to', None), ('have', None), ('these', None), ('laws', 'NNS'), ('studied', 'VBD'), ('and', None), ('revised', 'VBD'), ('to', None), ('the', None), ('end', None), ('of', None), ('modernizing', 'VBG'), ('and', None), ('improving', 'VBG'), ('them', None), ("''", None), ('.', 'AT')]
 regexp_tagger.evaluate(brown_tagged_sents)
 0.12730473178590607
+
