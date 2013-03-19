@@ -1,3 +1,7 @@
+# TODO
+# Your program doesn't give output
+# What is it kk?
+
 #Shtanhret Iryna
 import nltk
 from nltk.corpus import brown
