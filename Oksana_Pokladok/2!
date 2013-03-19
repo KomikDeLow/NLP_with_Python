@@ -1,3 +1,9 @@
+# TODO
+# It isn't a Python modul
+# Comments?
+#
+
+
 import nltk
 from nltk.corpus import brown
 fd=nltk.FreqDist(brown.words(categories='news'))

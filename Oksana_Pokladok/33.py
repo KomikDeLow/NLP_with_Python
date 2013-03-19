@@ -1,3 +1,7 @@
+# TODO
+# Comments?
+# What do these variables w,c,d,e,a mean?
+
 import nltk
 from nltk.corpus import brown
 br=nltk.corpus.brown.tagged_words()
