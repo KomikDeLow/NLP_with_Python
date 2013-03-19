@@ -1,3 +1,7 @@
+# TODO
+# Comments?
+# I don't understand that your program do
+
 import nltk
 import types
 from nltk.corpus import senseval

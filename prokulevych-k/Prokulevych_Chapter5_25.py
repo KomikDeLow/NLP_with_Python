@@ -1,3 +1,7 @@
+# TODO
+# plagiarism!!!
+#
+
 import nltk
 fd= nltk.FreqDist(nltk.corpus.floresta.words ())
 a= fd.keys()[:150]
