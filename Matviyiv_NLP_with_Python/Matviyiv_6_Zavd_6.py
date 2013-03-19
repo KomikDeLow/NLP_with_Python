@@ -1,3 +1,6 @@
+# TODO
+# Comments?
+# I see this program in Shudlo branch today !!!
 import nltk
 import random
 from nltk.corpus import brown

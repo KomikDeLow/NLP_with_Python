@@ -1,3 +1,6 @@
+# TODO
+# Comments?
+# test and train data?
 import nltk
 from nltk.corpus import brown
 words_tagged=brown.tagged_words(categories='news')

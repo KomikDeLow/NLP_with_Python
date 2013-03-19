@@ -1,3 +1,6 @@
+# TODO
+# Comments?
+#
 import nltk
 import random
 from nltk.corpus import names

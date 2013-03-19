@@ -1,3 +1,7 @@
+# TODO
+# Comments?
+#
+
 dict1={}
 dict1['colorless'] = 'ADJ'
 dict1['ideas'] = 'N'
