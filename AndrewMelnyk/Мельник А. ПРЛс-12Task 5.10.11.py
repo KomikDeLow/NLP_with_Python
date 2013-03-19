@@ -1,6 +1,9 @@
 # TODO
 # There are only two experements.
 # Do you change affix_length and min_stem_length in loop?
+# Дані не розділені на частини для тренування та тестування
+# Програма нічого не виводить ні на екран ні у файл
+#
 #пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ-12 27.02.12
 import nltk
 from nltk.corpus import brown
