@@ -1,3 +1,9 @@
+﻿# TODO
+# Те що ви надіслали це не модуль!
+#
+#
+
+
 Python 2.6.6 (r266:84297, Aug 24 2010, 18:46:32) [MSC v.1500 32 bit (Intel)] on win32
 Type "copyright", "credits" or "license()" for more information.
 
