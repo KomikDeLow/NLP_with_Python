@@ -1,3 +1,7 @@
+# TODO
+# NameError: name 'miracle_regex' is not defined
+#
+
 # Khrystyna Maschakevich, AL-13, exercise 22
 import nltk
 from nltk.corpus import brown

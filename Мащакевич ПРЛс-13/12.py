@@ -1,22 +1,29 @@
+# TODO
+# It isn't Python modul
+#
+
 Python 2.7.3 (default, Apr 10 2012, 23:31:26) [MSC v.1500 32 bit (Intel)] on win32
 Type "copyright", "credits" or "license()" for more information.
 >>> import nltk
 >>> from nltk.corpus import brown
-
+
+
 >>> bigram_tagger = nltk.BigramTagger(train_sents)
 
 Traceback (most recent call last):
   File "<pyshell#2>", line 1, in <module>
     bigram_tagger = nltk.BigramTagger(train_sents)
 NameError: name 'train_sents' is not defined
-
+
+
 >>> size = int(len(brown_tagged_sents)*0.9)
 
 Traceback (most recent call last):
   File "<pyshell#4>", line 1, in <module>
     size = int(len(brown_tagged_sents)*0.9)
 NameError: name 'brown_tagged_sents' is not defined
-
+
+
 >>> training=brown.tagged_sents(categories='religion')
 >>> size = int(len(brown_tagged_sents) * 0.9)
 
@@ -25,13 +32,15 @@ Traceback (most recent call last):
     size = int(len(brown_tagged_sents) * 0.9)
 NameError: name 'brown_tagged_sents' is not defined
 >>> training=brown.tagged_sents(categories='religion')
->>> size = int(len(training) * 0.9)
+>>> size = int(len(training) * 0.9)
+
 >>> training=brown.tagged_sents(categories='religion')
 >>> size = int(len(training) * 0.9)
 >>> train_sents = training[:size]
 >>> test_sents = training[size:]
 >>> bigram_tagger = nltk.BigramTagger(train_sents)
-
+
+
 >>> bigram_tagger.tag(brown_sents[2007])
 
 Traceback (most recent call last):
@@ -55,7 +64,8 @@ Traceback (most recent call last):
     raise IndexError('index out of range')
 IndexError: index out of range
 >>> brown_sents=brown.sents()
-
+
+
 >>> bigram_tagger.tag(brown_sents[2007])
 [('Various', None), ('of', None), ('the', None), ('apartments', None), ('are', None), ('of', None), ('the', None), ('terrace', None), ('type', None), (',', None), ('being', None), ('on', None), ('the', None), ('ground', None), ('floor', None), ('so', None), ('that', None), ('entrance', None), ('is', None), ('direct', None), ('.', None)]
 >>> unseen_sent = brown_sents[4203]
@@ -65,19 +75,23 @@ IndexError: index out of range
 0.13702733058779484
 >>> ================================ RESTART ================================
 >>> #Maschakevich Khrystyna, ALs-13
-
+
+
 >>> import nltkfrom nltk.corpus import brown
 SyntaxError: invalid syntax
 >>> ================================ RESTART ================================
 >>> #Maschakevich Khrystyna, ALs-13
-
+
+
 >>> import nltk
-
+
+
 >>> from nltk.corpus import brown
 >>> 
 >>> bts=brown.tagged_sents(categories='religion')
 >>> size = int(len(bts) * 0.9)
-
+
+
 >>> train_sents = bts[:size] #split the data, training on 90% and testing on the remaining 10%
 >>> test_sents = bts[size:]
 >>> bigram_tagger = nltk.BigramTagger(train_sents)

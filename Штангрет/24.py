@@ -1,3 +1,6 @@
+п»ї# TODO
+# Bad modul name
+# Train and test dates are identical
 # -*- coding: cp1251 -*-
 #Shtanhret Iryna AL-13, zadacha 24
 import nltk
@@ -7,5 +10,5 @@ test=brown.sents(categories='news')
 for n in range (6):
 	ngram=nltk.NgramTagger(n, brown_news_tagged)
 	ngram.tag(test[3])
-	print ngram.evaluate(brown_news_tagged)#побудувала цикл з н-грам тегів від 1-6 та оцінила через функцію евалуейт результати
+	print ngram.evaluate(brown_news_tagged)#РїРѕР±СѓРґСѓРІР°Р»Р° С†РёРєР» Р· РЅ-РіСЂР°Рј С‚РµРіС–РІ РІС–Рґ 1-6 С‚Р° РѕС†С–РЅРёР»Р° С‡РµСЂРµР· С„СѓРЅРєС†С–СЋ РµРІР°Р»СѓРµР№С‚ СЂРµР·СѓР»СЊС‚Р°С‚Рё
 

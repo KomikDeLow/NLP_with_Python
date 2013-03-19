@@ -1,3 +1,6 @@
+# TODO
+# Bad modul name
+# Is the number of task  1
 #Maschakevich Khrystyna, ALs-13
 import nltk
 from nltk.corpus import brown

@@ -1,3 +1,6 @@
+# TODO
+# Bad modul name
+# I didn't understand that your program does.
 #Shtanhret Iryna AL-13, task 28
 import nltk
 from nltk.tag.simplify import simplify_wsj_tag
