@@ -1,3 +1,6 @@
+# TODO
+# Comments?
+# The train data is low
 import nltk
 train_sents = [
 [('I','PRO'), ('her','PRO'), ('its','PRO'), ('my','PRO'), ('us','PRO')],

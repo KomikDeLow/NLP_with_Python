@@ -1,3 +1,7 @@
+﻿# TODO
+# It didn't work.
+# Error in 		mapping[v],t = v,t (неправильний відступ)
+
 import nltk
 from nltk.corpus import brown
 brown_tagged_sents = brown.tagged_sents(categories='news')
