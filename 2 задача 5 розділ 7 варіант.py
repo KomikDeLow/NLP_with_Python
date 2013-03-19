@@ -1,3 +1,8 @@
+# TODO
+# Syntax error!!
+#
+#
+
 iimport nltk
 from nltk.corpus import brown
 fd=nltk.FreqDist(brown.words(categories='news'))

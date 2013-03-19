@@ -1,3 +1,7 @@
+# TODO
+# It isn't Python modul
+#
+#
 >>> import nltk
 from nltk
 >>> from nltk.corpus import brown

@@ -1,4 +1,7 @@
-      
+# TODO
+# It isn't Python modul
+#
+#
 >>> import nltk
 >>> posts = nltk.corpus.nps_chat.xml_posts()
 >>> history=[]
