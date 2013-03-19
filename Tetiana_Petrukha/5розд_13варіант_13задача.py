@@ -1,3 +1,7 @@
+# TODO
+# comments ??
+#
+
 import datetime
 now=datetime.date.today().strftime("%B %d, %Y")
 print now

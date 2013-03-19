@@ -1,3 +1,6 @@
+# TODO
+# Comments?
+# I didn't see answer
 import nltk
 st = nltk.corpus.treebank.tagged_words(simplify_tags=True)
 word_tag_fd = nltk.FreqDist(st)

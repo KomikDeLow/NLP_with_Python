@@ -1,3 +1,7 @@
+# TODO
+# Comments?
+# accuracy is lowest?
+
 import nltk
 from nltk.corpus import brown
 featureset=[]

@@ -1,3 +1,6 @@
+# TODO
+# Comments?
+# Two different for loops for creating fd? Why?
 import nltk
 fd = nltk.FreqDist()
 text=nltk.corpus.brown.words(categories='romance')

@@ -1,5 +1,5 @@
 # All your files aren't Python modules
-#
+# Add  docstring to the function
 import nltk
 e = nltk.defaultdict(list)
 def dic(headword,part_of_speech,sense,example):
