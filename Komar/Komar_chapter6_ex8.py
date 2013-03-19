@@ -1,3 +1,8 @@
+# TODO
+# Comments?
+# The style of program is bad. Four nested for loop. Why?
+#
+
 import nltk
 import random
 from nltk.corpus import movie_reviews

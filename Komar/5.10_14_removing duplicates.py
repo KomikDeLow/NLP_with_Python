@@ -1,3 +1,8 @@
+# TODO
+# Comments?
+# Use full set of tags
+#
+
 import nltk
 from nltk.corpus import brown
 brown_tagged=brown.tagged_words(simplify_tags=True)

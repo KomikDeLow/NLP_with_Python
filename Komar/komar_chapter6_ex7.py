@@ -1,3 +1,7 @@
+# TODO
+# Comments?
+#
+#
 import nltk
 posts = nltk.corpus.nps_chat.xml_posts()
 komar=[]

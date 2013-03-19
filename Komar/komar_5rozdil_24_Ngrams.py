@@ -1,3 +1,7 @@
+# TODO
+# Comments?
+# What does your program do?
+# The train data and test data are identical. Why?
 import nltk
 from nltk.corpus import brown
 for i in range (1,6):

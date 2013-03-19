@@ -1,3 +1,6 @@
+# TODO
+# Comments?
+# What do your variables x,y,z, mean?
 import nltk
 import types
 from nltk.corpus import senseval
