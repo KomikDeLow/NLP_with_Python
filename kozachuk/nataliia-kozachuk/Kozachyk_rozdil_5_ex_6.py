@@ -1,3 +1,5 @@
+# ex is fine
+#
 dict1={}
 dict1['meningless']='ADJ'
 #part-of-speech is adjective
