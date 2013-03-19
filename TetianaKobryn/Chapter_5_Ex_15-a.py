@@ -1,3 +1,9 @@
+# TODO
+# It isn't Python modul
+# I don't see words that "are more common in their plural form"
+#
+#
+
 >>> import nltk
 >>> from nltk.corpus import brown
 >>> cfd = nltk.ConditionalFreqDist((tag, word) for (word, tag) in brown.tagged_words(categories = 'news'))

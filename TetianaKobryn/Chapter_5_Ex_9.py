@@ -1,3 +1,6 @@
+# TODO
+# It isn't Python modul
+#
 # Forms 'go' and 'went' are morphologically distinct from one another.
 # 'went' is only used in Past Simple tense and 'go' in Present Simple or is an infinitive.
 

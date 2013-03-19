@@ -1,3 +1,9 @@
+# TODO
+# It isn't Python modul
+# Data didn't divide on train and test part!
+#
+#
+
 >>> import nltk
 >>> from nltk.corpus import floresta
 >>> from nltk.corpus import brown
