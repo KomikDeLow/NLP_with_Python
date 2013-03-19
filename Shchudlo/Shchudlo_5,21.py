@@ -1,5 +1,6 @@
 #TODO
-#love and like are a noun too
+#love and like are a noun too!
+
 import nltk
 from nltk.corpus import brown
 bigram_list=nltk.bigrams(brown.tagged_words())

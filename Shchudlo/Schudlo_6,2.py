@@ -1,3 +1,9 @@
+# TODO
+# Comments?
+# It doesn't work
+# NameError: name 'test_set' is not defined
+
+
 import nltk
 import random
 from nltk.corpus import names

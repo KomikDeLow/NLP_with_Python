@@ -1,3 +1,8 @@
+# TODO
+# Comments?
+# If there are  8729  words that have more than one tag 
+# and the persentage of ambiguous words is =  0.751727535154  %
+# then there are only 11612?
 from __future__ import division
 import nltk
 from nltk.corpus import brown

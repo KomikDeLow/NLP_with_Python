@@ -1,3 +1,7 @@
+# TODO
+# It doesn't work
+# NameError: name 'featureSet' is not defined
+# Comments?
 import nltk
 import random
 from nltk.corpus import brown

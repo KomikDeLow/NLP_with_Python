@@ -1,5 +1,5 @@
 #TODO
-#Why you didn't divide date on train date and test date
+#Why you didn't divide date on train date and test date?
 #
 import nltk
 from nltk.corpus import *
