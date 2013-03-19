@@ -1,3 +1,6 @@
+# TODO
+# Comments?
+#
 pos = {}
 pos['colorless'] = 'ADJ'
 pos['ideas'] = 'N'
