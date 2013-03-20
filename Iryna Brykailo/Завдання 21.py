@@ -1,3 +1,12 @@
+# TODO
+# Comments?
+# What does your program do?
+# Wtat is it?
+# ['', 'more like']
+#['', 'more like', 'that like']
+#['', 'more like', 'that like', 'little like']
+#['', 'more like', 'that like', 'little like', 'almost like']
+#
 import nltk
 from nltk.corpus import brown
 fd = nltk.FreqDist()

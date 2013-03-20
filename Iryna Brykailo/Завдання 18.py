@@ -1,3 +1,9 @@
+# TODO
+# Comments?
+# What does your program do?
+# What proportion?
+# How many words?
+# What percentage?
 import nltk
 from nltk.corpus import brown
 brown_adventure_tagged = brown.tagged_words(categories='adventure', simplify_tags=True)

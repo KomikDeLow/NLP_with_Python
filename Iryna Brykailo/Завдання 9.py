@@ -1,3 +1,7 @@
+# TODO
+# Comments?
+# What does your program do?
+#
 import nltk
 from nltk.corpus import brown
 def process(sentence):
