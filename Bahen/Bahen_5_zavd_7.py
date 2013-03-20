@@ -1,3 +1,8 @@
+# TODO
+# Comments?
+# 
+#
+
 import nltk
 from nltk import*
 d1={}.fromkeys(['help', 'room', 'red'])

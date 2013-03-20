@@ -1,3 +1,12 @@
+# TODO
+# Comments?
+# What happens to the tagger performance for the various model sizes when a
+# backoff tagger is omitted?
+# Can you come up with scenarios...
+#
+#
+
+
 import nltk,re,pprint
 from nltk.corpus import brown
 fd=nltk.FreqDist(nltk.corpus.brown.words(categories='news'))

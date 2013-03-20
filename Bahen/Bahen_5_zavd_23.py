@@ -1,3 +1,9 @@
+# TODO
+# Comments?
+# try to come up with ways to improve its performance
+#
+
+
 import nltk
 from nltk.corpus import brown
 patterns = [

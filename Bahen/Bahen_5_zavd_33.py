@@ -1,3 +1,8 @@
+# TODO
+# Comments?
+# What do your variables e,d,a,c,w mean?
+#
+
 import nltk
 brown_tagged=nltk.corpus.brown.tagged_words()
 def tag(word,tag):
