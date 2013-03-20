@@ -1,3 +1,4 @@
+# fine
 # Daria Morozova
 # PRLs-12
 # zad.6 
