@@ -1,3 +1,7 @@
+# TODO
+# Comments?
+#
+
 import nltk
 from nltk import*
 d1={}.fromkeys(['call','mother','home'])
