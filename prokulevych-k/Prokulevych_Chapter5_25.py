@@ -1,35 +1,35 @@
-# TODO
-# plagiarism!!!
-#
-
+# -*- coding: cp1251 -*-
 import nltk
-fd= nltk.FreqDist(nltk.corpus.floresta.words ())
-a= fd.keys()[:150]
-a
-print a
-cfd= nltk.ConditionalFreqDist(nltk.corpus.floresta.tagged_words())
-b= dict((word, cfd[word].max()) for word in a)
-b['primeiro']
-print b['primeiro']
-b['sempre']
-print b['sempre']
-b['novo']
-print b['novo']
-b['Se']
-print b['Se']
-unigram_tagger= nltk.UnigramTagger (model=b)
-unigram_tagger.evaluate(nltk.corpus.floresta.tagged_sents())
-print unigram_tagger.evaluate(nltk.corpus.floresta.tagged_sents())
-c= nltk.corpus.floresta.tagged_sents ()
-t= nltk.DefaultTagger('NN')
-t1 = nltk.UnigramTagger(c, backoff=t)
-t2=nltk.BigramTagger(c, cutoff=0, backoff=t1)
-t2.evaluate(c)
-print t2.evaluate(c)
-from nltk.corpus import treebank
-d=nltk.corpus.treebank.tagged_sents()
-t= nltk.DefaultTagger('NN')
-t1 = nltk.UnigramTagger(d, backoff=t)
-t2=nltk.BigramTagger(d, cutoff=0, backoff=t1)
-t2.evaluate(d)
-print t2.evaluate(d)
+from nltk.corpus import floresta
+print'Unigram tagger:'
+floresta_tagged_sents=floresta.tagged_sents
+floresta_sents=floresta.sents
+unigram_tagger=nltk.UnigramTagger(floresta.tagged_sents())
+unigram_tagger.tag(floresta.sents()[100])
+print unigram_tagger.tag(floresta.sents()[100])# проводимо навчання unigram tagger, щоб протагувати слова з корпусу floresta
+unigram_tagger.evaluate(floresta.tagged_sents()[:100])
+print unigram_tagger.evaluate(floresta.tagged_sents()[:100])#а також робимо оцінювання unigram tagger
+
+from nltk.corpus import brown
+brown_tagged_sents=brown.tagged_sents(categories='adventure')
+brown_sents=brown.sents(categories='adventure')
+unigram_tagger=nltk.UnigramTagger(brown.tagged_sents())
+unigram_tagger.tag(brown.sents()[100])
+print unigram_tagger.tag(brown.sents()[100])# проводимо навчання unigram tagger, щоб протагувати слова з корпусу brown
+unigram_tagger.evaluate(brown.tagged_sents()[:100])
+print unigram_tagger.evaluate(brown.tagged_sents()[:100])#а також робимо оцінювання unigram tagger
+
+print'Bigram tagger:'
+#використання bigram tagger для тренування та оцінки
+bigram_tagger=nltk.BigramTagger(floresta.tagged_sents())
+bigram_tagger.tag(floresta.sents()[100])
+print bigram_tagger.tag(floresta.sents()[100])
+bigram_tagger.evaluate(floresta.tagged_sents()[:100])
+print bigram_tagger.evaluate(floresta.tagged_sents()[:100])
+bigram_tagger=nltk.BigramTagger(brown.tagged_sents())
+bigram_tagger.tag(brown.sents()[100])
+print bigram_tagger.tag(brown.sents()[100])
+bigram_tagger.evaluate(brown.tagged_sents()[:100])
+print bigram_tagger.evaluate(brown.tagged_sents()[:100])
+#результати показують, що unigram tagger дає точнішу оцінку, аніж bigram tagger. Це можна пояснити тим, що bigram tagger призначає теги тим словам, які він бачив під час навчання, а іншим-ні.
+#якщо порівнювати точність unigram tagger між корпусами floresta та brown, то точнішим є результат оцінювання корпусу brown
