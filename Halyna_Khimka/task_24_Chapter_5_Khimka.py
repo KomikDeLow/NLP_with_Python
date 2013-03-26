@@ -1,4 +1,4 @@
-# fine
+# fine but you created variable "sents" -  and didn't use.
 #Halyna Khimka
 # Chapter 5, Task 24
 # How serious is the sparse data problem? Investigate the performance of n-gram

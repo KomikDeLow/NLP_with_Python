@@ -1,3 +1,6 @@
+# TODO
+# <DT>* - please, sample two or more DT in english sentences
+#
 # Komar Mariia ALs-11, Chapter_7, Ex_2
 # Write a tag pattern to match noun phrases containing plural head nouns.
 # Do this by generalizing the tag pattern that handled singular noun phrases.
