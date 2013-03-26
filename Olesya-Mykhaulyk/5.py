@@ -1,3 +1,4 @@
+# fine
 #Olesya Mykhaulyk ALs-12 5.10 - 5
 d={} # stvoryemo pystui slovnuk
 d['apple']=['N'] # dodaemo v slovnuk slova

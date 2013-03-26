@@ -1,3 +1,6 @@
+# TODO
+# Please, read TODO comments!!!
+# What does your loop do? You had "tegu vsih sliv" and it add to list in for loop
 #Olesya Mykhaulyk ALs-12 5.10-14
 import nltk
 from nltk.corpus import brown

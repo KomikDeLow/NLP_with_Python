@@ -1,3 +1,5 @@
+# TODO
+# I didn't understand "rozbuvaemo na tegu"? zadaemo parametr? nakladaem na novui tekst z rozdily news? 
 #Olesya Mykhaulyk ALs-12 5/10-10
 import nltk
 from nltk.corpus import brown # importyemo korpus brown
