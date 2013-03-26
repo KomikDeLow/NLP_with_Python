@@ -1,4 +1,8 @@
 # -*- coding: cp1251 -*-
+
+# TODO 
+# Bad style (line length must be 80 symbols)
+#
 import nltk
 from nltk.corpus import floresta
 print'Unigram tagger:'

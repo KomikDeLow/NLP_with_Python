@@ -2,6 +2,8 @@
 # Comments ?
 # What  different  pronunciations  and  parts-of-speech  are involved?
 #
+# "присвоює кожному слову тег частину мови" what is it mean?
+# Bad style (modul name, string (line) lenght)
 
 import nltk
 text = nltk.word_tokenize("They wind back the clock, while we chase after the wind.")

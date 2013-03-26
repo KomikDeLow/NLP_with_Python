@@ -1,6 +1,6 @@
 # TODO
 # Comments?
-# I don't understand that your program do
+# I don't understand that your program does
 
 import nltk
 import types
