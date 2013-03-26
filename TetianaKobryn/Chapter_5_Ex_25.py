@@ -1,3 +1,9 @@
+# TODO
+# Comments?
+# How work your program?
+#
+
+
 import nltk
 from nltk.corpus import floresta
 from nltk.corpus import brown

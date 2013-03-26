@@ -1,3 +1,7 @@
+# TODO
+# Comments?
+# What does your program do?
+
 import nltk
 from nltk.corpus import brown
 tagged_words = brown.tagged_words(categories='adventure', simplify_tags=False)

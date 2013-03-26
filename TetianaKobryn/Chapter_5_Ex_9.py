@@ -1,3 +1,6 @@
+# TODO
+# I don't see the result of your program? 
+#
 # Ex.9. Satisfy yourself that there are restrictions on the distribution of go and went, in
 # the sense that they cannot be freely interchanged in the kinds of contexts illustrated
 # in (3), Section 5.7.

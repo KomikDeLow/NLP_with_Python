@@ -1,3 +1,8 @@
+# TODO
+# Comments?
+# What does your program do?
+# simplify_tag set doesn't use 
+
 import nltk
 from nltk.corpus import brown
 brown_adventure_tagged = brown.tagged_words(categories='adventure', simplify_tags=False)
