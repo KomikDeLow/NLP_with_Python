@@ -1,3 +1,7 @@
+# TODO 
+# unexpected indent
+#
+
 # Andrew Melnyk ALs-12
 
 import nltk

@@ -1,3 +1,8 @@
+# TODO
+# NameError: name 'fdist' is not defined
+#
+
+
 # Andrew Melnyk ALs-12
 import nltk
 from nltk.corpus import brown

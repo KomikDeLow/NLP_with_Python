@@ -1,3 +1,6 @@
+# TODO
+# syntax errors "Loading tagged data... "
+# "Done loading"
 # Andrew Melnyk ALs-12
 
 # Подившись у Help властивості nltk.tag.brill.demo налаштовую його і перевіряю резульатти роботи.

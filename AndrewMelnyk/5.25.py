@@ -1,3 +1,7 @@
+# TODO
+# result output?
+#
+
 # Andrew Melnyk ALs-12
 
 import nltk

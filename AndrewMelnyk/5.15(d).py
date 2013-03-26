@@ -1,3 +1,6 @@
+# TODO
+# Program doesn't have output
+
 # Andrew Melnyk ALs-12
 
 import nltk
