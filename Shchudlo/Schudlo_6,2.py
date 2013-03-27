@@ -30,5 +30,5 @@ dev_test_data2=featuresets2[500:1000]
 training_data2=featuresets2[1000:]
 classifier2 = nltk.NaiveBayesClassifier.train(training_data2)
 print 'Accurasy of classifier using two last letters: ', nltk.classify.accuracy(classifier2, dev_test_data2)
-print 'Accurasy of standart classifier (on test_set): ', nltk.classify.accuracy(classifier, test_set)
-print 'Accurasy of classifier using two last letters (on test_set): ', nltk.classify.accuracy(classifier2, test_set2)
+print 'Accurasy of standart classifier (on test_data): ', nltk.classify.accuracy(classifier, test_data)
+print 'Accurasy of classifier using two last letters (on test_data2): ', nltk.classify.accuracy(classifier2, test_data2)
