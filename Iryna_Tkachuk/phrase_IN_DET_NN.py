@@ -1,3 +1,8 @@
+# TODO
+# Are prepositional phrases in Brown
+# What does PP consist? 
+# Look nltk.help.brown_tagset()
+
 #presented by Iryna Tkachuk
 #PRLc 13
 #Identify three-word prepositional phrases of the form IN + DET + NN

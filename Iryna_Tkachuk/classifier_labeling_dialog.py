@@ -1,3 +1,5 @@
+# fine but accuracy?
+#
 # presented by Tkachuk Iryna
 # PRLs 13
 # Build a consecutive classifier for labeling dialogue acts.

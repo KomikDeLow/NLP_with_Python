@@ -1,3 +1,5 @@
+# fine
+#
 # presented by Tkachuk Iryna
 # PRLs 13
 # Analyze_movie_classifier_with_word_net()
