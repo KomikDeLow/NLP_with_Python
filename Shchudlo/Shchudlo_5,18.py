@@ -1,4 +1,5 @@
-# TODO
+# fine
+#TODO
 # Comments?
 # If there are  8729  words that have more than one tag 
 # and the persentage of ambiguous words is =  0.751727535154  %
