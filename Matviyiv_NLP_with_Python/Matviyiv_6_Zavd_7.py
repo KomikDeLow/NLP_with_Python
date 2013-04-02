@@ -1,3 +1,6 @@
+# fine
+#
+
 # Dialog class identifier that uses not only the featuring words of diferrent posts
 # but also the class of the previous post
 import nltk
