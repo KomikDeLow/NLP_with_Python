@@ -1,3 +1,5 @@
+# fine
+#
 #Halyna Khimka
 #Chapter 5, Task 31
 # Modify the program in Example 5-4 to use a logarithmic scale on the x-axis, by

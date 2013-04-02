@@ -1,3 +1,6 @@
+# fine
+# TODO
+#
 #Halyna Khimka
 #Chapter 5, Task 27
 #Inspect the confusion matrix for the bigram tagger t2 defined in Section 5.5, and
