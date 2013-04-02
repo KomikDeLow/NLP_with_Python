@@ -1,3 +1,8 @@
+# TODO
+# bad
+# it isn't the Python modul
+#
+
 >>> import nltk, random
 >>> from nltk.corpus import movie_reviews
 >>> from nltk.corpus import wordnet as wn

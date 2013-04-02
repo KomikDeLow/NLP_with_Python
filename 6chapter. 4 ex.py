@@ -1,3 +1,7 @@
+# TODO
+# bad
+# it isn't the Python modul
+
 >>> import nltk
 >>>  from nltk.corpus import movie_reviews
 >>> documents = [(list(movie_reviews.words(fileid)), category)
