@@ -1,3 +1,7 @@
+# TODO
+# Comments?
+# What does your program do?
+#
 #Irena Marunyshyn PRLs-12 Chapter5 Ex32
 import nltk
 help(nltk.tag.brill.demo)

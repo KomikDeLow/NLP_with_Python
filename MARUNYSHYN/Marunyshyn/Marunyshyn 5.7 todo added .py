@@ -1,3 +1,5 @@
+# fine
+#
 #Irena Marunyshyn PRLs-12 Chapter 5 Ex7
 import nltk
 from nltk import*
