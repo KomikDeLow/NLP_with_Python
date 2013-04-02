@@ -4,6 +4,7 @@
 # What  different  pronunciations  and  parts-of-speech  are involved?
 #
 # "присвоює кожному слову тег частину мови" what is it mean?
+# "якою частиною мови виступає слово в реченні" ??
 # Bad style (modul name, string (line) lenght)
 
 import nltk

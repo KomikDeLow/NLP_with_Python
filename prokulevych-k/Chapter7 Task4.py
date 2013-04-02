@@ -1,3 +1,7 @@
+# TODO
+# accuracy of your chunk parser??
+#
+
 #Прокулевич К. ПРЛс-11, Розділ 7, Завдання 4
 #the entire sentence is put into a single chunk, then excise the chinks
 import nltk

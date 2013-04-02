@@ -1,3 +1,6 @@
+#TODO
+# Test your program on real sentences with NP that consist with JJ JJ NN...
+#
 #Прокулевич К. ПРЛс-11, Розділ 7, Задача 2
 #Regular expression–based NP chunker
 import nltk
