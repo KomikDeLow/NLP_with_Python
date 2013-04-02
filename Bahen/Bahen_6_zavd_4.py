@@ -1,3 +1,7 @@
+# TODO
+# Comments?
+# How does your program work?
+
 #Bahen Diana, PRLs-11, Chapter 6, Exercise 4
 
 import nltk
