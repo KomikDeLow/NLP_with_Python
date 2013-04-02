@@ -1,3 +1,7 @@
+# TODO
+# Test your parsen on real sentences that contain NP with JJ NNS, CD NNS
+
+
 # Komar Mariia ALs-11, Chapter_7, Ex_2
 # Write a tag pattern to match noun phrases containing plural head nouns.
 # Do this by generalizing the tag pattern that handled singular noun phrases.

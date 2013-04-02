@@ -1,3 +1,7 @@
+# TODO
+# What is accuracy of your parser? (test data - sentences with coordinated noun phrases)
+
+
 #Komar Mariia ALs-11 Chapter_7 Ex_6
 #Write one or more tag patterns to handle coordinated noun phrases
 

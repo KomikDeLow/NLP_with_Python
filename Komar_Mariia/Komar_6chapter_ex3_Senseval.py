@@ -1,3 +1,7 @@
+# TODO
+# What do your variables x,y,z, mean?
+# What do you stote in this string, dictionary, list?
+
 # Komar Mariia Als-11
 # Chapter_6, ex_3
 

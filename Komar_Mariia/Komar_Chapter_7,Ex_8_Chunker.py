@@ -1,3 +1,6 @@
+# TODO
+# What is accuracy of your parser?
+
 #Komar Mariia Als-11
 #Chapter_7, Ex_8
 #Develop a chunker for one of the chunk types in the CoNLL Chunking Corpus

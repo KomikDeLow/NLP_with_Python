@@ -1,3 +1,5 @@
+# fine
+#
 # Komar Mariia Als-11
 #Chapter5_ Ex_24
 #How serious is the sparse data problem?

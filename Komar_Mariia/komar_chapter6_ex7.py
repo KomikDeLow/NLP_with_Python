@@ -1,3 +1,6 @@
+# TODO
+# Plagiarism?
+
 # Komar Mariia Als-11
 # Chapter_6, Ex_7
 

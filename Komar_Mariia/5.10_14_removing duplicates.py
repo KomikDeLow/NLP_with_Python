@@ -1,3 +1,7 @@
+# fine
+# TODO
+# Why do you do sorted(set(tag_fd.keys())) twice ?
+
 # Komar Mariia Als-11
 # Chapter_6, Ex_14 
 

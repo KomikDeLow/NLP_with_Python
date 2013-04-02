@@ -1,3 +1,5 @@
+# fine
+
 #Komar Mariia ALs-11 chapter_5 Ex_5
 #Using the Python interpreter in interactive mode, experiment with the dictionary.
 #Create a dictionary d, and add some entries.

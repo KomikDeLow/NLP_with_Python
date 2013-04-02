@@ -1,3 +1,5 @@
+# fine
+
 # Komar Mariia Als-11
 # Chapter_7, Ex_4 
 # Develop a chunker that starts by putting the whole sentence in a single chunk,
