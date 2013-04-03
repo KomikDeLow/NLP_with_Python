@@ -1,4 +1,9 @@
+# TODO
+# test your parser on real sentences that consist NP with JJ NN, JJ NNS....
+# accuracy of your parser?
+
 # Фуярчук О. Розділ 7 Задача 2
+
 import nltk
 sentence=[("many","JJ"),("researchers","NNS"),("two","CD"),("weeks","NNS"),
           ("both","DT"),("new","JJ"),("positions","NNS")]
