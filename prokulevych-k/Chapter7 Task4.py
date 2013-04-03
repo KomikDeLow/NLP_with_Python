@@ -13,3 +13,7 @@ grammar = r"""
 sentence=[("Every", "DT"), ("day", "NN"), ("Tom", "NNP"), ("goes", "VB"), ("to", "IN"), ("school", "NN")]
 cp = nltk.RegexpParser(grammar)
 print cp.parse(sentence)
+from nltk.corpus import conll2000
+cp = nltk.RegexpParser("")
+test_sents = conll2000.chunked_sents('test.txt', chunk_types=['NP'])
+print cp.evaluate(test_sents)
