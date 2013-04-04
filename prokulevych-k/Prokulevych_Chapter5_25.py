@@ -1,5 +1,6 @@
 # -*- coding: cp1251 -*-
-
+#Прокулевич К, ПРЛс-11, Розділ 5, Задача №25
+#Evaluation and training Unigram tagger and Bigram tagger 
 # TODO 
 # Bad style (line length must be 80 symbols)
 #
@@ -10,18 +11,22 @@ floresta_tagged_sents=floresta.tagged_sents
 floresta_sents=floresta.sents
 unigram_tagger=nltk.UnigramTagger(floresta.tagged_sents())
 unigram_tagger.tag(floresta.sents()[100])
-print unigram_tagger.tag(floresta.sents()[100])# проводимо навчання unigram tagger, щоб протагувати слова з корпусу floresta
+# проводимо навчання unigram tagger, щоб протагувати слова з корпусу floresta:
+print unigram_tagger.tag(floresta.sents()[100])
 unigram_tagger.evaluate(floresta.tagged_sents()[:100])
-print unigram_tagger.evaluate(floresta.tagged_sents()[:100])#а також робимо оцінювання unigram tagger
+#а також робимо оцінювання unigram tagger:
+print unigram_tagger.evaluate(floresta.tagged_sents()[:100])
 
 from nltk.corpus import brown
 brown_tagged_sents=brown.tagged_sents(categories='adventure')
 brown_sents=brown.sents(categories='adventure')
 unigram_tagger=nltk.UnigramTagger(brown.tagged_sents())
 unigram_tagger.tag(brown.sents()[100])
-print unigram_tagger.tag(brown.sents()[100])# проводимо навчання unigram tagger, щоб протагувати слова з корпусу brown
+# проводимо навчання unigram tagger, щоб протагувати слова з корпусу brown:
+print unigram_tagger.tag(brown.sents()[100])
 unigram_tagger.evaluate(brown.tagged_sents()[:100])
-print unigram_tagger.evaluate(brown.tagged_sents()[:100])#а також робимо оцінювання unigram tagger
+#а також робимо оцінювання unigram tagger:
+print unigram_tagger.evaluate(brown.tagged_sents()[:100])
 
 print'Bigram tagger:'
 #використання bigram tagger для тренування та оцінки
