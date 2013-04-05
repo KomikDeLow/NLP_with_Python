@@ -13,6 +13,5 @@ for i,j in words_brown:
         tage_brown.append(j)
 
 	
-sortyem=sorted(tage_brown)
-bez_dyblikativ=set(sortyem)
-bez_dyblikativ
+set(sorted(tage_brown))
+
