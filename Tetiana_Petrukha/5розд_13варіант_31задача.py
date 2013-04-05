@@ -1,6 +1,13 @@
 # TODO
 # Comments?
 # 
+# Petrukha Tetiana Als-11
+# Chapter_5, Ex_31
+
+# Modify the program in Example 5-4 to use a logarithmic scale on the x-axis,
+# by replacing pylab.plot() with pylab.semilogx().
+# What do you notice about the shape of the resulting plot?
+# Does the gradient tell you anything?
 
 import nltk
 from nltk.corpus import brown
@@ -15,7 +22,7 @@ def display():
 	cfd = nltk.ConditionalFreqDist(brown.tagged_words(categories='news'))
 	sizes = 2 ** pylab.arange(15)
 	perfs = [performance(cfd, words_by_freq[:size]) for size in sizes]
-	pylab.semilogx(sizes, perfs, '-bo')
+	pylab.semilogx(sizes, perfs, '-bo')  # replaced pylab.plot() with pylab.semilogx()
 	pylab.title('Lookup Tagger Performance with Varying Model Size')
 	pylab.xlabel('Model Size')
 	pylab.ylabel('Performance')

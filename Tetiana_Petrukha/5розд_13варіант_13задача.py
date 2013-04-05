@@ -1,5 +1,5 @@
 # Petrukha Tetiana Als-11
-# Chapter_7, Ex_1
+# Chapter_5, Ex_13
 
 # We can use a dictionary to specify the values to be substituted into a formatting string.
 # Read Python’s library documentation for formatting strings (http://docs.python.org/lib/typesseq-strings.html)
