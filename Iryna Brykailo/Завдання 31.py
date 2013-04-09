@@ -1,6 +1,5 @@
-# TODO
-# Comments?
-#
+#Iryna Brykailo, Als-13
+#Chapter 5, Task 31
 
 import nltk
 from nltk.corpus import brown
@@ -21,3 +20,7 @@ def display():
     pylab.show()
 
 display()
+
+#У даній програмі я змінила pylab.plot() на pylab.semilogx().
+#У результаті виконання програми я побачила, що графік змінюється, міняється кут нахилу та лінія стає прямою.
+#Можна зробити висновок що вона досягне 1.
