@@ -1,6 +1,4 @@
-# TODO
-# What do your variables x,y,z, mean?
-# What do you stote in this string, dictionary, list?
+
 
 # Komar Mariia Als-11
 # Chapter_6, ex_3
@@ -15,28 +13,22 @@
 #Using this dataset, build a classifier that predicts the correct sense tag for a given
 #instance. See the corpus HOWTO at http://www.nltk.org/howto for
 
-# What do your variables x,y,z, mean?
-# x = string 
-# y = dictionary
-# z = list of tuples
-
 import nltk
 import types
 from nltk.corpus import senseval #import senseval corpus
 instances = senseval.instances('serve.pos') # choose data for word 'serve'
 features=[]
 for inst in instances:
-	x=[]
-
-for i in inst.context:
-	if type(i) == types.TupleType:
-		x.append(i)
-	elif type(i) == types.StringType:
-		 x.append(("None",i))
-	y={"word": inst.word,"position": inst.position,} #create dictionary
-	z=dict(x)
-	y.update(z)
-	features.append((y,' '.join(inst.senses)))
+	comtext=[]
+	for i in inst.context:
+		if type(i) == types.TupleType:
+			comtext.append(i)
+		elif type(i) == types.StringType:
+			comtext.append(("None",i))
+			word_position={"word": inst.word,"position": inst.position,}
+			dictionary=dict(comtext)
+			word_position.update(dictionary)
+			features.append((word_position,' '.join(inst.senses)))
 
 	
 size = int(len(features) * 0.1) # choose data size for testing
