@@ -10,4 +10,4 @@ sent=('Stephane Hessel the former French Resistance fighter whose 2010 manifesto
 for i in range(4):
 	affix_tagger=nltk.AffixTagger(training,affix_length=int(i),min_stem_length=int(i))
 	affix_tagger.tag(sent)
-	affix_tagger.evaluate(brown.tagged_sents(categories='news'))
+	print affix_tagger.evaluate(brown.tagged_sents(categories='news'))
