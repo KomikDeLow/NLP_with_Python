@@ -1,12 +1,8 @@
-# TODO 
-# unexpected indent
-#
-
 # Andrew Melnyk ALs-12
 
 import nltk
 from nltk.corpus import brown
-sents=brown.tagged_sents(categories='news')
+sents=brown.tagged_sents(categories='news') # ЎукаЇмо слова у €ких Ї б≥льше н≥ж 1 тег
     def form_dict(sents):
     cfd = nltk.ConditionalFreqDist()
     for (wd, tg) in sents:
