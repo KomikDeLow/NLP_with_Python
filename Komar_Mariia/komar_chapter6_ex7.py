@@ -1,6 +1,16 @@
 # TODO
 # Plagiarism?
 
+# В умові задачі пише 'See the code in Example 6-5' (ст.232-233 ), в цьму прикладі
+# знаходяться усі функції, які нам потрібні для вирішення даної задачі
+# та , ясна річ, я ними скористалась. А пізніше знайшла ваше рішення задачі
+# на блозі(в якому були використані також такі самі функції), яке було більш досконале
+# ніж моє, тому я визнаю: "я скористалась вашим розв'язком, але не просто скопіювала,
+# а детально проаналізувала і використала тільки ті рядки яких мені не вистачало"
+
+# Я ще швидше закинула цю задачу в попередню мою гілку 'komarmariia', ви мені тоді
+# написали прокоментувати, і в цій гілці я прокоментувала!, а ви пишете 'Plagiarism'
+
 # Komar Mariia Als-11
 # Chapter_6, Ex_7
 
@@ -35,4 +45,4 @@ for i, post in enumerate(posts): # process numbered list of posts
 size=int(len(feature_sets)*0.1) #choose data size for testing
 train_set, test_set = feature_sets[size:], feature_sets[:size] #divide data for train and test
 classifier = nltk.NaiveBayesClassifier.train(train_set) #create a classifier
-print nltk.classify.accuracy(classifier, test_set) #evaluate the accuracy of the work
+print 'Accuracy = ', nltk.classify.accuracy(classifier, test_set) #evaluate the accuracy of the work
