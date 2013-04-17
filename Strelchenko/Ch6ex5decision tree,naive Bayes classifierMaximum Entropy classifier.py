@@ -1,3 +1,7 @@
+# TODO
+# Where is doc string of your modul
+#
+
 import nltk, random
 from nltk.corpus import brown
 suffix_fdist = nltk.FreqDist()

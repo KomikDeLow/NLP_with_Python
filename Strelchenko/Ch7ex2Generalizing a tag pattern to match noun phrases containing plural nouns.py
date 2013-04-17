@@ -1,3 +1,7 @@
+# TODO
+# doc string
+# "sentence" isn't natural language sentence
+
 import nltk
 sentence = [("many", "JJ"), ("researches", "NNS"),(",", ","), ("two", "CD"),("weeks", "NNS"),(",", ","), ("both", "DT"), ("new", "JJ"), ("positions", "NNS")]
 grammar = "NP: {<DT|CD>?<JJ>*<NN.>}" # defining a grammar rule which indicates how sentence should be chunked

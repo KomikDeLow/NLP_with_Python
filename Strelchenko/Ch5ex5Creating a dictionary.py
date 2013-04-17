@@ -1,3 +1,6 @@
+# fine 
+#
+
 pos = {} 
 pos['colorless'] = 'ADJ' 
 pos['ideas'] = 'N'

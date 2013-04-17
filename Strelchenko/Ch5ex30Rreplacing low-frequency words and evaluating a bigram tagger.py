@@ -1,3 +1,7 @@
+# TODO
+# Is your program evaluating a bigram tagger?
+#
+
 import nltk
 from nltk.corpus import brown
 brown_tagged_sents = brown.tagged_sents(categories='news')

@@ -1,3 +1,7 @@
+# TODO
+# Is the value of variable sentence a natural language sentence
+#
+
 import nltk
 from nltk.corpus import conll2000 
 sentence = [("A","DT"), ("dark","JJ"), ("red","JJ"), ("car","NN"), ("came","VDT"),("to","IN"), ("a","DT"), ("stop","NN"), ("in","IN"), ("front","NN"), ("of","IN"), ("the", "DT"), ("Flynn-Fletcher","JJ"), ("residence","NN"), ("that","WDT"), ("same", "JJ"), ("evening","NN"), (",",","), ("in", "IN"), ("another", "DT"), ("demension","NN"), (".",".")]

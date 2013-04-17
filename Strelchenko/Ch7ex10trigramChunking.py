@@ -1,3 +1,7 @@
+# TODO
+# What does your program do?
+#
+
 import nltk
 chunk_data = [[(t,c) for w,t,c in nltk.chunk.tree2conlltags(chtree)] 
 for chtree in nltk.corpus.conll2000.chunked_sents('train.txt')] #building a new unigram chunker,using training sentences in a chunking cirpus

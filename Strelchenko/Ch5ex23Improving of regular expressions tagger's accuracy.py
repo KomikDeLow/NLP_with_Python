@@ -1,3 +1,8 @@
+# TODO
+# The precision is 0.127304731786
+# If use the grammar with one rule r'.+', 'NNS' the precision is 0.13
+#
+
 import nltk
 from nltk.corpus import brown
 brown_tagged_sents=brown.tagged_sents(categories='news')
