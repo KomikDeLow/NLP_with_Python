@@ -1,3 +1,5 @@
+# bad
+#
 # TODO
 # Comments?
 # The style of program is bad. Four nested for loops !

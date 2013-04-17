@@ -1,3 +1,5 @@
+# syntax error!!
+#
 <<<<<<< HEAD
 # Petrukha Tetiana Als-11
 # Chapter_5, Ex_13

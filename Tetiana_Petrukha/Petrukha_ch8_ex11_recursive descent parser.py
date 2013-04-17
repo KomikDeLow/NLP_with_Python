@@ -1,3 +1,6 @@
+# TODO
+# I didn't see a shift-reduce parser
+#
 # Petrukha Tetiana Als-11
 # Chapter_8, Ex_2
 

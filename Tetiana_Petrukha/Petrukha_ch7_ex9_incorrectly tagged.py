@@ -1,3 +1,7 @@
+# TODO
+# example sentence is not correctly chunked
+# Look for other  examples of correctly chunked noun phrases with incorrect tags.
+#
 # Petrukha Tetiana Als-11
 # Chapter_7, Ex_9
 

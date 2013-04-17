@@ -1,3 +1,6 @@
+# TODO
+# Add these patterns to the grammar, one per line.
+#
 # Petrukha Tetiana Als-11
 # Chapter_7, Ex_5
 
