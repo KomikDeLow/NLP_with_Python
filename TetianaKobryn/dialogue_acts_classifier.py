@@ -1,3 +1,6 @@
+#TODO
+# How does your program classify dialogue acts
+#
 # Presented by Tetiana Kobryn
 
 # Chapter 6, Ex.7
