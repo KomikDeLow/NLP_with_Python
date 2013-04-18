@@ -1,3 +1,7 @@
+# TODO
+# What does your program do?
+# ...and try to come up with ways to improve its performance. Discuss your findings
+#
 # zad.23 rozdil 5
 # var 11
 # Morozova Daria PRLS-12

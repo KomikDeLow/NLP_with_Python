@@ -1,3 +1,6 @@
+# TODO
+# What is AffixTagger accuracy with different values 
+#
 # Rozdil 5 zad. 11
 # Morozova Daria PRLs-12
 # Variant 11
