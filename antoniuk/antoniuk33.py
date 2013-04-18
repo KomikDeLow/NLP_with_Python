@@ -1,3 +1,7 @@
+# TODO
+# What does your program do 
+#
+
 import nltk
 brown_tagged=nltk.corpus.brown.tagged_words()
 def tag(word,tag):
