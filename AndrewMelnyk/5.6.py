@@ -1,16 +1,20 @@
+<<<<<<< HEAD
 # fine
 #
 # TODO
 # Program doesn't do output
 
+=======
+>>>>>>> 7 СЂРѕР·РґС–Р»
 #Андрій Мельник ПРЛс-12 27.02.12
+
 d = {} #Створення порожнього словника
 d['god']='NN'
 d['funny']='JJ'
 d['destroy']='V'
 d['fiercly']='ADV' #Наповнення словника
-d
-{'destroy': 'V', 'god': 'NN', 'fiercly': 'ADV', 'funny': 'JJ'}
+print d
+# {'destroy': 'V', 'god': 'NN', 'fiercly': 'ADV', 'funny': 'JJ'}
 del d['god'] #Видалення елементу словника
 print d
-
+# {'destroy': 'V', 'fiercly': 'ADV', 'funny': 'JJ'}
