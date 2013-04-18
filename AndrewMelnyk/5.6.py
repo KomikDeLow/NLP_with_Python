@@ -1,3 +1,5 @@
+# fine
+#
 # TODO
 # Program doesn't do output
 

@@ -1,3 +1,6 @@
+# TODO
+# and the remaining 6,900 words for the training set
+#
 # Andrew Melnyk ALs-12
  
 import nltk

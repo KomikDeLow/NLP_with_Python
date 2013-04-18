@@ -1,4 +1,6 @@
 # TODO
+# invalid syntax
+#
 # NameError: name 'fdist' is not defined
 #
 

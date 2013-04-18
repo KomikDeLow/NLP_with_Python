@@ -1,3 +1,6 @@
+# TODO
+# Плагіат !
+#
 # Andrew Melnyk ALs-12
 
 import nltk, random
