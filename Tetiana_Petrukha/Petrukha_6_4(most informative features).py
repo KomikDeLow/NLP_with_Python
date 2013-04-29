@@ -33,3 +33,8 @@ train_set, test_set=featuresets[100:],featuresets[:100] # divide data for train 
 classifier=nltk.NaiveBayesClassifier.train(train_set) # train classifier
 print nltk.classify.accuracy(classifier,test_set) # assess the accuracy of his work
 print classifier.show_most_informative_features(30) # print a list of the 30 features that the classifier finds to be most informative
+
+# These words are informative, because chosen adjectives and nouns carry useful information
+# about the document. Some words I find surprising, for example, the program chose the
+# proper names of actors and characters (jedi, seagal, damon, flynt).
+# I think as the word "allows" is not informative in this case.
