@@ -1,0 +1,37 @@
+def test():
+  importnltk
+	grammar1 = nltk.parse_cfg("""
+		S -> NP VP
+		NP -> N
+		VP -> V NP
+		N -> "Mary" | "Bob"
+		V -> "saw"
+	""")
+	sr_parse = nltk.ShiftReduceParser(grammar1)
+
+	sent = "Leeranawayhome".split()
+	returnsr_parse.parse(sent)
+
+if __name__=='__main__':
+	fromtimeit import Timer
+	t = Timer("test()", "from __main__ import test")
+	printt.timeit(500)/500
+
+def test():
+	importnltk
+	grammar1 = nltk.parse_cfg("""
+		S -> NP VP
+		NP -> N
+		VP -> V NP
+		N -> "Mary" | "Bob"
+		V -> "saw"
+	""")
+	rd_parser = nltk.RecursiveDescentParser(grammar1)
+
+	sent = "Leeranawayhome".split()
+	t=rd_parser.nbest_parse(sent)
+
+if __name__=='__main__':
+	fromtimeit import Timer
+	t = Timer("test()", "from __main__ import test")
+	printt.timeit(500)/500
