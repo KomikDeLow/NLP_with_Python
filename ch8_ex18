@@ -26,12 +26,12 @@ def test():
 		N -> "Mary" | "Bob"
 		V -> "saw"
 	""")
-	rd_parser = nltk.RecursiveDescentParser(grammar1)
+	rd_parser = nltk.Recursive Descent Parser(grammar1)
 
-	sent = "Leeranawayhome".split()
+	sent = "Lee ran away home".split()
 	t=rd_parser.nbest_parse(sent)
 
 if __name__=='__main__':
-	fromtimeit import Timer
+	from time it import Timer
 	t = Timer("test()", "from __main__ import test")
-	printt.timeit(500)/500
+	printt.time it(500)/500
