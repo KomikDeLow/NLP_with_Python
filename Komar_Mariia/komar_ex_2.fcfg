@@ -1,0 +1,34 @@
+# Komar Mariia Als-11
+# Chapter_9, ex_2
+
+% start S
+# ###################
+# Grammar Productions
+# ###################
+
+# S expansion productions
+S -> NP[NUM=?n] VP[NUM=?n]
+
+# NP expansion productions
+NP[NUM=?n, Count=Uncountable] -> N[NUM=?n] 
+NP[NUM=?n, Count=Countable] -> Det[NUM=?n] N[NUM=?n] 
+
+# VP expansion productions
+VP[TENSE=?t, NUM=?n] -> IV[TENSE=?t, NUM=?n]
+VP[TENSE=?t, NUM=?n] -> TV[TENSE=?t, NUM=?n] Adj
+
+# ###################
+# Lexical Productions
+# ###################
+
+Det -> 'the' 
+
+N[NUM=sg] -> 'boy' | 'water' 
+N[NUM=pl] -> 'boys'  
+
+IV[TENSE=pres,  NUM=sg] -> 'sings'
+TV[TENSE=pres, NUM=sg] -> 'is' 
+
+IV[TENSE=pres,  NUM=pl] -> 'sing'
+
+Adj -> 'precious'
