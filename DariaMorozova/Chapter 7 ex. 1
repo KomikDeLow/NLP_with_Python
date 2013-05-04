@@ -1,0 +1,8 @@
+# Daria Morozova
+# AL-12
+# Chapter 7 Ex.1
+
+# In IOB tags' scheme each token is tagged with one of three special chunk tags, I(inside),
+# O(outside), B(begin). This format permits us to represent more than one chunk type,
+# so long as the chunks do not overlap. And if we use only I and O tags will be an
+# error, because Tag B marks the beginning of the chunk. And for the correct tagging we need all this 3 tags.
