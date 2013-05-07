@@ -1,3 +1,7 @@
+# TODO
+# I need Python modul.
+#
+
 #√енс≥ровська ’ристина,ѕ–Ћс-12
 #розд≥л 6,завданн€ 7
 #The dialogue act classifier assigns labels to individual posts, without considering

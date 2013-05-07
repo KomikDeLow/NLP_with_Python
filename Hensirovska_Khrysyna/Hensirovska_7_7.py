@@ -1,3 +1,7 @@
+# TODO
+# I need Python modul.
+#
+
 #√енс≥ровська ’ристина,ѕ–Ћс-12
 #розд≥л 7,завданн€ 7
 #Carry out the following evaluation tasks for any of the chunkers you have developed

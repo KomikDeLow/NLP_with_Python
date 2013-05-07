@@ -1,3 +1,7 @@
+# TODO
+# I need Python modul.
+#
+
 #import nltk
 #from nltk.corpus import movie_reviews
 #import random

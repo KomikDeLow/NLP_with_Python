@@ -1,3 +1,7 @@
+# TODO
+# I need Python modul.
+#
+
 #Генсіровська Христина,ПРЛс-12
 #Розділ 7,завдання 5
 #Write a tag pattern to cover noun phrases that contain gerunds, e.g., the/DT

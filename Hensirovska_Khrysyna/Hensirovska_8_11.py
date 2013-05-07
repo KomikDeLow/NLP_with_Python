@@ -1,3 +1,7 @@
+# TODO
+# I need Python modul.
+#
+
 #Генсіровська Христина,ПРЛс-12
 #Розділ 8,завдання 11
 #With pen and paper, manually trace the execution of a recursive descent parser

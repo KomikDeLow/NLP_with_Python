@@ -1,3 +1,7 @@
+# TODO
+# I need Python modul.
+#
+
 #√енс≥ровська ’ристина,ѕ–Ћс-12
 #розд≥л 8 завданн€ 26
 #Modify the functions init_wfst() and complete wfst() so that the contents of

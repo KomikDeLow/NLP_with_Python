@@ -1,3 +1,7 @@
+# TODO
+# ???
+#
+
 # Khrystyna Hensirovska,ALs-12
 #In Table 3-1, we saw a table involving frequency counts for the verbs adore,
 #love,like, and prefer, and preceding qualifiers such as really. Investigate

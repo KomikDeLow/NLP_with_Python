@@ -1,3 +1,8 @@
+# TODO
+# I need Python modul.
+#
+
+
 #Генсіровська Христина,ПРЛс-12
 #Розділ 8,завдання 8
 #In the recursive descent parser demo, experiment with changing the sentence to

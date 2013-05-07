@@ -1,3 +1,7 @@
+# TODO
+# I need Python modul.
+#
+
 #Генсіровська Христина,ПРЛс-12
 #Розділ 7,завдання 3
 #Pick one of the three chunk types in the CoNLL-2000 Chunking Corpus. Inspect

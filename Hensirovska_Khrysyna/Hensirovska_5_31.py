@@ -1,3 +1,7 @@
+# TODO
+# I need Python modul.
+#
+
 #Khrystyna Hensirovska,ALs-12
 #Modify the program in Example 5-4 to use a logarithmic scale on the x-axis, by
 #replacing pylab.plot() with pylab.semilogx(). What do you notice about the

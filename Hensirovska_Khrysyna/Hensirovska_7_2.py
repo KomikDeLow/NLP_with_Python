@@ -1,3 +1,8 @@
+# TODO
+# I need Python modul.
+#
+
+
 #Генсіровська Христина,ПРЛс-12
 #Розділ 7,завдання 2
 #Write a tag pattern to match noun phrases containing plural head nouns, e.g.,
