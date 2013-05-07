@@ -1,3 +1,7 @@
+# TODO
+# Your program doesn't  work correctly
+#
+
 #
 # zad. 2 rozdil 6
 # Daria Morozova
@@ -14,7 +18,7 @@ def gender_features(name):       # morphological characteristics of feature set
 	for letter in 'abcdefghijklmnopqrstuvwxyz':
 		features["count(%s)" % letter] = name.lower().count(letter)
 		features["has(%s)" % letter] = (letter in name.lower())
-		return features
+		return features #???
 names = ([(name, 'male') for name in names.words('male.txt')] +
        [(name, 'female') for name in names.words('female.txt')]) #building a set of data
 

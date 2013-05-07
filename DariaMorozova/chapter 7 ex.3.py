@@ -1,3 +1,7 @@
+# TODO
+# What is the precision of your chunker?
+#
+
 # Daria Morozova
 # AL-12
 # variant 11

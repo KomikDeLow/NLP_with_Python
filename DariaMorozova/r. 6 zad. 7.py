@@ -1,3 +1,8 @@
+# TODO
+# Syntax error!
+#
+
+
 #
 # z.7 rozdil 6
 # Daria Morozova AL-12
