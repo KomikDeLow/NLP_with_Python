@@ -1,3 +1,9 @@
+# TODO
+# unexpected indent!!!
+# А що це таке рід імені
+# і про ентропію буде цікаво послухати
+
+
 #Chubko Uliana##
  import nltk# загрузила усі необхідні функції, корпуса, дані
  from nltk.corpus import names

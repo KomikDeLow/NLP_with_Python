@@ -1,3 +1,7 @@
+# TODO
+# unexpected indent!!!
+#
+
 # Uliana Chubko
 import nltk, re, pprint
  sentence = [("Many","JJ"), ("researchers","NNS"), ("developed","VBD "), ("both","DT"),

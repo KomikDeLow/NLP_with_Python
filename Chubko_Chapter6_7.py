@@ -1,3 +1,7 @@
+# TODO
+# unexpected indent!!!
+# 
+
 #Chubko Uliana##
  import nltk
 posts = nltk.corpus.nps_chat.xml_posts()
