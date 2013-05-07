@@ -1,3 +1,8 @@
+# TODO
+# Experiment with trigram chunking
+#
+
+
 ## Nataliia Kozachuk, Prls-12, Chapter 7_Ex10. 
 import nltk
 from nltk.corpus import conll2000 ##acces the data in Chunking corpus

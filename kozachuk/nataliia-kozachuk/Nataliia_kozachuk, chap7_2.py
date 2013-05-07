@@ -1,3 +1,6 @@
+# TODO
+# unexpected indent!!!
+#
 
 #Nataliia_kozachuk, Chap7_Ex2
 import nltk

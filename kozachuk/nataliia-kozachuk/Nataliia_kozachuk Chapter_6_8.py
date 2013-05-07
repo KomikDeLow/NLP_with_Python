@@ -1,3 +1,7 @@
+# TODO
+# Why train_set, test_set = featuresets[90:], featuresets[:30]
+#
+
 # Nataliia Kozachuk PRLs-12 Chapter6_8
 import nltk
 import random
@@ -18,11 +22,11 @@ word_features = all_words.keys()[:200]# feature extractor
 ### Function to create a document feature list.  For each document, for each of
 # our 200 words, we have a feature which is the word and "true" or "false"
 def document_features(document):
-        document_words = set(document)
-	features = {}
-	for word in word_features:
-		 features['contains(%s)' % word] = (word in document_words)
-	return features
+    document_words = set(document)
+    features = {}
+    for word in word_features:
+        features['contains(%s)' % word] = (word in document_words)
+    return features
 # we  call the function.
 featuresets = [(document_features(d),c) for (d,c) in documents]
 # Create our training and test sets, run the classifier

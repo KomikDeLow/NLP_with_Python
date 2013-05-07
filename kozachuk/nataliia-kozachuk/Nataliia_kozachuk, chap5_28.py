@@ -1,3 +1,8 @@
+# TODO
+# unexpected indent
+#
+#
+
 #chapter 5, zadacha 28, Kozachuk Nataliia
  import nltk
 st = nltk.corpus.treebank.tagged_words(simplify_tags=True)

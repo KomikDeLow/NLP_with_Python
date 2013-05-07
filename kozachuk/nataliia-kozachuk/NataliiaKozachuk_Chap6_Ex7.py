@@ -1,3 +1,7 @@
+# fine
+# TODO
+#
+
 #Nataliia Kozachuk PRLs-12 Chapter6 Ex. 7
 import nltk
 posts = nltk.corpus.nps_chat.xml_posts()# vuluchaemo golovni dani z korpusu NPS_Chat

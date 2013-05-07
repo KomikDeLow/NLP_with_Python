@@ -1,3 +1,8 @@
+# TODO
+# What type and quantity of annotated data is required for developing such systems?
+#
+
+
 #chapter 6.ex1
 #Nataliia kozachuk
 # Taki systemu vumagayt velukogo ob'emy danuh, dlya togo wob ostatochno vuznachutu

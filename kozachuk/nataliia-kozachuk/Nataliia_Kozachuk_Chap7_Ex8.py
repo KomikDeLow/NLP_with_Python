@@ -1,3 +1,7 @@
+# TODO
+#  ...merging, or splitting.?
+#
+
 #Nataliia Kozachuk,PRLs-12
 #Chapter 7, Ex8
 
