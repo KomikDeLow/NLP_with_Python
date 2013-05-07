@@ -1,3 +1,7 @@
+# TODO
+# як це "посилаючись на граматику ц≥лого реченн€"
+#
+
 #Iryna Brykailo, ALs-13
 #Chapter 5, Task 9
 

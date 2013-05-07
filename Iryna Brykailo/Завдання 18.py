@@ -1,3 +1,9 @@
+# TODO
+# What proportion...?
+# How many...? 
+# What percentage...?
+#
+
 #Iryna Brykailo, ALs-13
 #Chapter 5, Task 18
 

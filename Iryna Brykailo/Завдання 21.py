@@ -1,3 +1,7 @@
+# TODO
+# 'love', 'like' are also noun
+
+
 #Iryna Brykailo, ALs-13
 #Chapter 5, Task 21
 

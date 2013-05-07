@@ -1,3 +1,7 @@
+# TODO
+# Your program doesn't have output
+#
+
 #Iryna Brykailo, Als-13
 #Chapter 5, Task 3
 
