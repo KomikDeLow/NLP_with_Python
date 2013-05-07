@@ -1,3 +1,7 @@
+# TODO
+# The precision is very low.
+#
+
 # Fuyarchuk O. Chapter 7 Task 6
 import nltk
 sentence=[ ("July", "NNP"), ("and", "CC"), ("August", "NNP"),("all", "DT"),

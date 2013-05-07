@@ -1,3 +1,6 @@
+# TODO
+# ...merging, or splitting ?
+
 # Fuyarchuk O. Chapter 7. Task 8
 
 import nltk

@@ -1,3 +1,12 @@
+# TODO
+# "Determine which  tags  (or  tag sequences) are most  likely  to make up
+# chinks with  the help of your own utility program.
+# Compare the performance and simplicity of this approach relative to a
+# chunker based entirely on chunk rules."
+#
+#
+
+
 # Fuyarchuk O. Chapter 7 Task 4
 import nltk
 grammar= r"""
