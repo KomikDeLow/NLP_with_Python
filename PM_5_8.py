@@ -1,3 +1,7 @@
+# TODO
+# Comments?
+#
+
 import nltk
 books=nltk.defaultdict(list)
 def mydic (headword, part_of_speech, sense, example):

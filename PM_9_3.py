@@ -1,3 +1,6 @@
+# TODO
+# Comments?
+#
 import nltk
 fs1 = nltk.FeatStruct("[A = [D = d]]")
 fs2 = nltk.FeatStruct("[A = [D = d], C = [F = [D = d]]]")

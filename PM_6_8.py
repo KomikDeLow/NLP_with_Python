@@ -1,3 +1,7 @@
+# TODO
+# Comments?
+# It isn't your program.
+#
 import nltk, random
 from nltk.corpus import movie_reviews
 from nltk.corpus import wordnet as wn

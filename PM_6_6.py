@@ -1,3 +1,8 @@
+# TODO
+# Comments?
+#
+
+
 import nltk
 from nltk.corpus import movie_reviews
 import random
@@ -12,7 +17,7 @@ def document_features(document):
 	features={}
 	for word in word_features:
 		features['contains(%s)' %word]=(word in document_words)
-		return features
+		return features # ?????
 featuresets= [(document_features (p), m) for (p,m) in documents]
 train_set, test_set=featuresets[100:], featuresets[:100]
 classifier=nltk.NaiveBayesClassifier.train(train_set)

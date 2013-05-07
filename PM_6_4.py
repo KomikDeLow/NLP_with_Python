@@ -1,3 +1,7 @@
+# TODO
+# Comments?
+#
+
 import nltk
 def gender_features(word):
 	return{'last_letter':word[-1]}
