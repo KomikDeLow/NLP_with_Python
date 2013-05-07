@@ -1,3 +1,8 @@
+# TODO
+# The accuracy is low
+#
+
+
 #Word Choice: Strong or Powerful
 #Halyna Khimka
 #Chapter 6.6

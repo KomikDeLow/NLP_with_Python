@@ -1,3 +1,7 @@
+# TODO
+# How you use the WordNet and why? 
+#
+
 #Halyna Khimka
 #Document Classifier
 #

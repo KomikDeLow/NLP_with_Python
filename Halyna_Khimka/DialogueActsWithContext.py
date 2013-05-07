@@ -1,3 +1,6 @@
+# fine
+# TODO
+
 #Halyna Khimka
 #Chapter 6.7
 #Classifier of dialogue acts with considering the context.
