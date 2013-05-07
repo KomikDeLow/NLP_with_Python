@@ -1,3 +1,7 @@
+# TODO
+#
+#
+
 #Iryna Shtanhret, AL-13, Task7, Chapter6
 import nltk#importing data
 posts = nltk.corpus.nps_chat.xml_posts()#The posts included 1)Hand privacy masked,2) Part-of-speech tagged; and

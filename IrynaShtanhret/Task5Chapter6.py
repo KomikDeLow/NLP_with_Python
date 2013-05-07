@@ -1,3 +1,8 @@
+# TODO
+# Please, read Ch4, because your programming style is bad
+# entropy???
+
+
 #Iryna Shtanhret, Al-13,Task 5 Chapter6. 
 #the task was to select one of the classification
 #i have choosen gender detection, and built classifiers for the task NaiveBayesClassifier, Decision Trees

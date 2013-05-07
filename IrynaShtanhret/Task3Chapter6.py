@@ -1,3 +1,7 @@
+# TODO
+# NameError: name 'inst' is not defined
+#
+
 #Iryna Shtanhret, AL-13, task 3 
 import nltk #importing data
 import types
