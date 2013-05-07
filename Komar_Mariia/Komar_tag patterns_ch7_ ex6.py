@@ -1,5 +1,6 @@
 # TODO
 # What is accuracy of your parser? (test data - sentences with coordinated noun phrases)
+# Does your grammar improve NP chunking?
 
 
 #Komar Mariia ALs-11 Chapter_7 Ex_6

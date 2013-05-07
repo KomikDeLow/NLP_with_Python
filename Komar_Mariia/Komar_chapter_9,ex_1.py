@@ -1,3 +1,8 @@
+# TODO
+# I don't see that your constraints working
+#
+
+
 # Komar Mariia Als-11
 # Chapter_9, Ex_1
 

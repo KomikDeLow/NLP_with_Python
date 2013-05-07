@@ -1,4 +1,6 @@
-
+# TODO
+# I don't understand what does loop do in your program
+#
 
 # Komar Mariia Als-11
 # Chapter_6, ex_3

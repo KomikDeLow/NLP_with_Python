@@ -1,3 +1,7 @@
+# TODO
+# Process each tree !
+#
+
 #Komar Mariia Als-11
 #Chapter8_ Ex_28
 
