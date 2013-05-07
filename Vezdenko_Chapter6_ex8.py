@@ -1,3 +1,7 @@
+# TODO
+# Comments?
+# It isn't your program!
+
 #Vezdenko##
 import nltk
 import random

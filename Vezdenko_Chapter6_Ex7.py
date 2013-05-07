@@ -1,3 +1,8 @@
+# TODO
+# Why "Chubko Uliana" is in comments? 
+# unexpected indent !!!
+
+
 #Chubko Uliana##
  import nltk
 posts = nltk.corpus.nps_chat.xml_posts()

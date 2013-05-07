@@ -1,3 +1,8 @@
+# TODO
+# invalid syntax!!!
+# Does word "tree" can be a verb?
+
+
 #Vezdenko##
 iimport nltk
 from nltk.corpus import brown

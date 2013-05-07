@@ -1,0 +1,4 @@
+Errors for Brill Tagger 'rules.yaml'
+
+             left context |    word/test->gold     | right context
+--------------------------+------------------------+--------------------------

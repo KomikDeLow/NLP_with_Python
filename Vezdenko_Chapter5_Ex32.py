@@ -1,3 +1,7 @@
+# TODO
+# Comments?
+# What does your program do?
+
 #Vezdenko##
 import nltk
 help(nltk.tag.brill.demo)

@@ -1,3 +1,7 @@
+# TODO
+# unexpected indent!!!
+#
+
 # Vezdenko
  import nltk
  sentence = [ ("All", "DT"), ("your", "PRP$"), ("managers", "NNS"),("and","CC"),
