@@ -1,3 +1,6 @@
+# TODO
+# I need a Python modul!
+
 #Olesya Mykhaulyk ALs-12
 #7.2
 #          jj         nns

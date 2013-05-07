@@ -1,3 +1,8 @@
+# TODO
+# I need a Python modul!
+#
+
+
 #Olesya Mykhaulyk ALs-12
 # 7.6
 # I have found 3 ways to deal with this task

@@ -1,4 +1,5 @@
 #TODO
+# bad
 #Program is not well
 #You use a lot variables (words_brown,tage_brown,tage_brown,sortyem,bez_dyblikativ) and it is a bad programming style
 #You append tags to not empty tage_brown list
