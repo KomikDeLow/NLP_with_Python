@@ -1,3 +1,7 @@
+# fine
+# TODO
+#
+
 ##Khrystyna Maschakhevich, AL-13, Chapter 7, Task 2. The tast was write a tag for nouns
 ## This program shows tags and diagram
  import nltk

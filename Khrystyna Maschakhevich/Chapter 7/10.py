@@ -1,3 +1,8 @@
+# TODO
+# The BigramChunker is built bad.
+# trigram chunker???
+
+
 ## Khrystyna Maschakevich, AL-13, Chapter 7, Task 10. The task was to study errors of
 ## bigram chunker and experiment with trigram chunker
 import nltk

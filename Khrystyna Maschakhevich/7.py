@@ -1,3 +1,7 @@
+# TODO
+# look ???
+#
+
 ##Khrystyna Maschakhevich, AL-13, Chapter 6, Task 7. The task was to create constructive classifier for marking a dialog
 ##It was recommended to examine code of example 5-6.
 ## To get to the argument history, which contains the list of tags, which were predicted,
@@ -7,7 +11,7 @@ import nltk
 posts = nltk.corpus.nps_chat.xml_posts()
 history=[] ## variable for saving the previous type of message
 
-def dialogue_act_features(post,i,history): ## function to get the type of message
+def dialogue_act_features(post,i,history): ## function to get the type of message???
 	features = {}
 	for word in nltk.word_tokenize(post):
 		features['contains(%s)' % word.lower()] = True
@@ -20,7 +24,7 @@ def dialogue_act_features(post,i,history): ## function to get the type of messag
 featuresets = []
 for i, post in enumerate(posts): ## examine a numerated list
 	featuresets.append((dialogue_act_features(post.text, i, history), post.get('class')))
-	history.append(post.get('class'))## list of all messages
+	history.append(post.get('class'))## list of all messages???
 
 size = int(len(featuresets) * 0.1)
 train_set, test_set = featuresets[size:], featuresets[:size]

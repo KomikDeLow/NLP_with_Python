@@ -1,3 +1,8 @@
+# TODO
+# Use any combination of rules for chunking, chinking, merging, or splitting
+#
+
+
 ## Khrystyna Maschakevich, AL-13, Chapter 7, Task 8. The task was to develop chunker
 ## with the help of regular expressions on the basis of RegexpChunk grammar.
 import nltk

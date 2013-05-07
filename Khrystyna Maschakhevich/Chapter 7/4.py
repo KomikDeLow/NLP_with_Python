@@ -1,3 +1,7 @@
+# TODO
+# What is the precision of your chunker?
+#
+
 ## Khrystyna Maschakevich, AL-13, Chapter 7, Task 4. 
 ##The task was to create a chunker that starts with the sentence in one chunk. To determine those tags which will probably fill the holes with the help of effective program
 

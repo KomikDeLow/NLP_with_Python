@@ -1,6 +1,11 @@
+# TODO
+# build three classifiers
+# Compare the performance of the three classifiers
+# entropy ???
+#
 ##Khrystyna Maschakhevich, AL-13, Chapter 6, Task 5.The task was to select one of the classification, I have chosen gender detection,
 ##using the same training and test data to build classificators and to compare the productivity of that classifiers
-import nltk ##import all necessary functions, corpus, data
+import nltk ##import all necessary functions, corpus?, data?
 from nltk.corpus import names
 import random
 import math
