@@ -11,7 +11,6 @@ a
 a=[w for w in nltk.bigrams(text) if w[0][1].startswith('QL')
 and w[1][1].startswith('V') and w[1][0] in verbs]
 a
-ввиводимо результат на екран
 text=nltk.corpus.brown.tagged_words(categories='romance')
 #Assigning variable text all the words, that belong to brown corpus
 #romance category
