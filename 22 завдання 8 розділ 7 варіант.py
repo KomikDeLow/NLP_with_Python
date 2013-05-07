@@ -1,3 +1,8 @@
+# TODO
+# Нічого не зрозумів
+#  try to suggest some factors that influence
+# неоднозначність то не фактор
+
 # На мою думку, на прийменникові вирази впливає неоднозначність. Наприклад, є два речення: 
 # a.    The policeman saw a burglar with a gun. (побачив саме цього грабіжника)
 # b.		The policeman saw a burglar with a telescope. (побачив грабіжника за допомогою телескопа)

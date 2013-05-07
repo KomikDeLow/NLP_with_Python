@@ -1,3 +1,7 @@
+# TODO
+# It isn't Python modul
+#
+
 >>> d1={'colorless': 'ADJ', 'ideas': 'N', 'sleep': 'V', 'furiously': 'ADV'}
 >>> d1
 {'furiously': 'ADV', 'sleep': 'V', 'ideas': 'N', 'colorless': 'ADJ'}

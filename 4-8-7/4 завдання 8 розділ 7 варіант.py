@@ -1,3 +1,9 @@
+# TODO
+# Comments?
+# unexpected indent!!!
+#
+
+
 import nltk
 from nltk.corpus import treebank
 parsed_sents = treebank.parsed_sents()

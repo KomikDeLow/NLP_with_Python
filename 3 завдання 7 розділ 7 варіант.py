@@ -1,3 +1,8 @@
+# TODO
+# Comments?
+# "Inspect the data and try to observe any patterns in the POS tag sequences that make up
+# this kind of chunk."
+
 import nltk
 sentence = [("A", "DT"), ("white", "JJ"), ("light", "JJ"), ("bus", "NN"), ("came", "VBD"), ("to", "IN"), ("a", "DT"), ("stopt", "NN"), ("in", "IN"), ("front", "NN"), ("of", "IN"), ("the", "DT"), ("Flynn-Fletcher", "JJ"), ("residence", "NN"), ("that", "WDT"), ("same", "JJ"), ("evening", "NN"), (",", ","), ("in", "IN"), ("another", "DT"), ("demension", "NN"), (".", ".")]
 grammar = r"NP:  {<DT>?<JJ>*<NN>}"
