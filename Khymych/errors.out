@@ -1,0 +1,700 @@
+Errors for Brill Tagger 'rules.yaml'
+
+             left context |    word/test->gold     | right context
+--------------------------+------------------------+--------------------------
+f/IN watches/NNS that/WDT |   *T*-36/NN->-NONE-    | now/RB will/MD be/VB elig
+ONE- now/RB will/MD be/VB |    eligible/NN->JJ     | for/IN duty-free/JJ treat
+/NNP watch/NN imports/NNS |      that/WDT->DT      | year/NN ,/, according/VBG
+                          |     Magna/NN->NNP      | International/NNP Inc./NN
+ional/NNP Inc./NNP 's/POS |      chief/NN->JJ      | financial/JJ officer/NN ,
+ officer/NN ,/, James/NNP |    McAlpine/NN->NNP    | ,/, resigned/JJ and/CC it
+ames/NNP McAlpine/NNP ,/, |    resigned/VBD->JJ    | and/CC its/PRP$ chairman/
+ its/PRP$ chairman/NN ,/, |     Frank/NN->NNP      | Stronach/NNP ,/, is/VBZ s
+chairman/NN ,/, Frank/NNP |    Stronach/NN->NNP    | ,/, is/VBZ stepping/VBG i
+P Stronach/NNP ,/, is/VBZ |    stepping/NN->VBG    | in/RB *-1/-NONE- to/TO he
+P ,/, is/VBZ stepping/VBG |       in/IN->RB        | *-1/-NONE- to/TO help/VB 
+ *-1/-NONE- to/TO help/VB |      turn/NN->VB       | the/DT automotive-parts/J
+TO help/VB turn/VB the/DT | automotive-parts/NN->JJ | manufacturer/NN around/RB
+-parts/JJ manufacturer/NN |     around/IN->RB      | ,/, the/DT company/NN sai
+                  Mr./NNP |    Stronach/NN->NNP    | will/MD direct/VB an/DT e
+/NNP Stronach/NNP will/MD |     direct/JJ->VB      | an/DT effort/NN */-NONE- 
+ effort/NN */-NONE- to/TO |     reduce/NN->VB      | overhead/NN and/CC curb/V
+uce/VB overhead/NN and/CC |      curb/NN->VB       | capital/NN spending/NN ``
+`` until/IN a/DT more/RBR |  satisfactory/NN->JJ   | level/NN of/IN profit/NN 
+NN of/IN profit/NN is/VBZ |    achieved/NN->VBN    | and/CC maintained/VBN *-1
+s/VBZ achieved/VBN and/CC |   maintained/NN->VBN   | *-1/-NONE- ,/, ''/'' Magn
+/VBN *-1/-NONE- ,/, ''/'' |     Magna/NN->NNP      | said/VBD 0/-NONE- *T*-2/-
+              Stephen/NNP |   Akerfeldt/NN->NNP    | ,/, currently/RB vice/NN 
+NN finance/NN ,/, will/MD |    succeed/VBP->VB     | Mr./NNP McAlpine/NNP ./.
+ill/MD succeed/VB Mr./NNP |    McAlpine/NN->NNP    | ./.
+                          |       An/NN->DT        | ambitious/JJ expansion/NN
+                    An/DT |    ambitious/NN->JJ    | expansion/NN has/VBZ left
+s/JJ expansion/NN has/VBZ |      left/NN->VBN      | Magna/NNP with/IN excess/
+nsion/NN has/VBZ left/VBN |     Magna/NN->NNP      | with/IN excess/JJ capacit
+eft/VBN Magna/NNP with/IN |     excess/NN->JJ      | capacity/NN and/CC a/DT h
+t/NN load/NN as/IN the/DT |   automotive/NN->JJ    | industry/NN enters/VBZ a/
+The/DT company/NN has/VBZ |   reported/VBD->VBN    | declines/NNS in/IN operat
+ed/VBN declines/NNS in/IN |   operating/VBG->NN    | profit/NN in/IN each/DT o
+JJ three/CD years/NNS ,/, |     despite/NN->IN     | steady/JJ sales/NNS growt
+ years/NNS ,/, despite/IN |     steady/NN->JJ      | sales/NNS growth/NN ./.
+                          |     Magna/NN->NNP      | recently/RB cut/VBD its/P
+    Magna/NNP recently/RB |      cut/NN->VBD       | its/PRP$ quarterly/JJ div
+ently/RB cut/VBD its/PRP$ |    quarterly/NN->JJ    | dividend/NN in/IN half/DT
+erly/JJ dividend/NN in/IN |      half/PDT->DT      | and/CC the/DT company/NN 
+ the/DT company/NN 's/POS |     Class/NN->NNP      | A/NNP shares/NNS are/VBP 
+mpany/NN 's/POS Class/NNP |       A/DT->NNP        | shares/NNS are/VBP wallow
+ A/NNP shares/NNS are/VBP |   wallowing/NN->VBG    | far/RB below/IN their/PRP
+ar/RB below/IN their/PRP$ |     52-week/NN->JJ     | high/NN of/IN 16.125/CD C
+/IN their/PRP$ 52-week/JJ |      high/JJ->NN       | of/IN 16.125/CD Canadian/
+J high/NN of/IN 16.125/CD |    Canadian/NN->JJ     | dollars/NNS -LRB-/-LRB- U
+/IN 16.125/CD Canadian/JJ |    dollars/NN->NNS     | -LRB-/-LRB- US$/$ 13.73/C
+J dollars/NNS -LRB-/-LRB- |       US$/NN->$        | 13.73/CD *U*/-NONE- -RRB-
+ange/NNP yesterday/NN ,/, |     Magna/NN->NNP      | shares/NNS closed/VBD up/
+NNP shares/NNS closed/VBD |       up/RP->RB        | 37.5/CD Canadian/JJ cents
+ closed/VBD up/RB 37.5/CD |    Canadian/NN->JJ     | cents/NNS to/TO C$/$ 9.62
+nadian/JJ cents/NNS to/TO |        C$/NN->$        | 9.625/CD *U*/-NONE- ./.
+                  Mr./NNP |    Stronach/NN->NNP    | ,/, founder/NN and/CC con
+NNP ,/, founder/NN and/CC |  controlling/NN->VBG   | shareholder/NN of/IN Magn
+/VBG shareholder/NN of/IN |     Magna/NN->NNP      | ,/, resigned/VBD as/IN ch
+ year/NN *-1/-NONE- to/TO |      seek/NN->VB       | ,/, unsuccessfully/RB ,/,
+/-NONE- to/TO seek/VB ,/, | unsuccessfully/NN->RB  | ,/, a/DT seat/NN in/IN Ca
+N in/IN Canada/NNP 's/POS |   Parliament/NN->NNP   | ./.
+said/VBD 0/-NONE- Mr./NNP |    Stronach/NN->NNP    | wants/VBZ *-1/-NONE- to/T
+ants/VBZ *-1/-NONE- to/TO |     resume/NN->VB      | a/DT more/RBR influential
+O resume/VB a/DT more/RBR |   influential/NN->JJ   | role/NN in/IN */-NONE- ru
+JJ role/NN in/IN */-NONE- |    running/NN->VBG     | the/DT company/NN ./.
+ expect/VBP him/PRP to/TO |       cut/NN->VB       | costs/NNS throughout/IN t
+/VBP him/PRP to/TO cut/VB |     costs/VBZ->NNS     | throughout/IN the/DT orga
+RP to/TO cut/VB costs/NNS |   throughout/NN->IN    | the/DT organization/NN ./
+said/VBD 0/-NONE- Mr./NNP |    Stronach/NN->NNP    | will/MD personally/RB dir
+/NNP Stronach/NNP will/MD |   personally/NN->RB    | direct/VB the/DT restruct
+NNP will/MD personally/RB |     direct/JJ->VB      | the/DT restructuring/NN ,
+cturing/NN ,/, *-1/-NONE- |    assisted/NN->VBN    | *-2/-NONE- by/IN Manfred/
+sted/VBN *-2/-NONE- by/IN |    Manfred/NN->NNP     | Gingl/NNP ,/, president/N
+/-NONE- by/IN Manfred/NNP |     Gingl/NN->NNP      | ,/, president/NN and/CC c
+T they/PRP nor/CC Mr./NNP |    McAlpine/NN->NNP    | could/MD be/VB reached/VB
+ould/MD be/VB reached/VBN |    *-38/NN->-NONE-     | for/IN comment/NN ./.
+                          |     Magna/NN->NNP      | said/VBD 0/-NONE- Mr./NNP
+said/VBD 0/-NONE- Mr./NNP |    McAlpine/NN->NNP    | resigned/VBD *-1/-NONE- t
+/NN career/NN ,/, with/IN |     Magna/NN->NNP      | as/IN one/CD of/IN his/PR
+/IN one/CD of/IN his/PRP$ |    clients/NN->NNS     | ./.
+                          |      Lord/NN->NNP      | Chilver/NNP ,/, 63-year-o
+                 Lord/NNP |    Chilver/NN->NNP     | ,/, 63-year-old/JJ chairm
+ Lord/NNP Chilver/NNP ,/, |   63-year-old/NN->JJ   | chairman/NN of/IN English
+-old/JJ chairman/NN of/IN |    English/NN->NNP     | China/NNP Clays/NNP PLC/N
+/IN English/NNP China/NNP |     Clays/NN->NNP      | PLC/NNP ,/, was/VBD named
+NNP ,/, was/VBD named/VBN |    *-39/NN->-NONE-     | a/DT nonexecutive/JJ dire
+Japanese/JJ investors/NNS |     nearly/NN->RB      | single-handedly/RB bought
+J investors/NNS nearly/RB | single-handedly/NN->RB | bought/VBD up/RP two/CD n
+rly/RB single-handedly/RB |     bought/NN->VBD     | up/RP two/CD new/JJ mortg
+two/CD new/JJ mortgage/NN | securities-based/NN->JJ | mutual/JJ funds/NNS total
+ed/JJ mutual/JJ funds/NNS |    totaling/NN->VBG    | $/$ 701/CD million/CD *U*
+ Federal/NNP National/NNP |    Mortgage/NN->NNP    | Association/NNP said/VBD 
+                   The/DT |   purchases/NN->NNS    | show/VBP the/DT strong/JJ
+estors/NNS in/IN U.S./NNP | mortgage-based/NN->JJ  | instruments/NNS ,/, Fanni
+.S./NNP mortgage-based/JJ |  instruments/NN->NNS   | ,/, Fannie/NNP Mae/NNP 's
+ed/JJ instruments/NNS ,/, |     Fannie/NN->NNP     | Mae/NNP 's/POS chairman/N
+uments/NNS ,/, Fannie/NNP |      Mae/NN->NNP       | 's/POS chairman/NN ,/, Da
+chairman/NN ,/, David/NNP |       O./NN->NNP       | Maxwell/NNP ,/, said/VBD 
+n/NN ,/, David/NNP O./NNP |    Maxwell/NN->NNP     | ,/, said/VBD 0/-NONE- *T*
+the/DT funds/NNS were/VBD |    placed/VBD->VBN     | *-40/-NONE- with/IN Japan
+s/NNS were/VBD placed/VBN |    *-40/NN->-NONE-     | with/IN Japanese/JJ insti
+NONE- with/IN Japanese/JJ |  institutional/NN->JJ  | investors/NNS ./.
+           The/DT rest/NN |      went/NN->VBD      | to/TO investors/NNS from/
+/TO investors/NNS from/IN |     France/NN->NNP     | and/CC Hong/NNP Kong/NNP 
+from/IN France/NNP and/CC |      Hong/NN->NNP      | Kong/NNP ./.
+rance/NNP and/CC Hong/NNP |      Kong/NN->NNP      | ./.
+                          |    Earlier/NN->JJR     | this/DT year/NN ,/, Japan
+Japanese/JJ investors/NNS |    snapped/NN->VBD     | up/RP a/DT similar/JJ ,/,
+NS snapped/VBD up/RP a/DT |     similar/NN->JJ     | ,/, $/$ 570/CD million/CD
+/CD million/CD *U*/-NONE- | mortgage-backed/NN->JJ | securities/NNS mutual/JJ 
+                  That/DT |      fund/VB->NN       | was/VBD put/VBN *-41/-NON
+  That/DT fund/NN was/VBD |      put/NN->VBN       | *-41/-NONE- together/RP b
+T fund/NN was/VBD put/VBN |    *-41/NN->-NONE-     | together/RP by/IN Blackst
+s/VBD put/VBN *-41/-NONE- |    together/RB->RP     | by/IN Blackstone/NNP Grou
+/-NONE- together/RP by/IN |   Blackstone/NN->NNP   | Group/NNP ,/, a/DT New/NN
+ne/NNP Group/NNP ,/, a/DT |      New/JJ->NNP       | York/NNP investment/NN ba
+NS were/VBD assembled/VBN |    *-42/NN->-NONE-     | jointly/RB by/IN Goldman/
+assembled/VBN *-42/-NONE- |     jointly/NN->RB     | by/IN Goldman/NNP ,/, Sac
+2/-NONE- jointly/RB by/IN |    Goldman/NN->NNP     | ,/, Sachs/NNP &/CC Co./NN
+/RB by/IN Goldman/NNP ,/, |     Sachs/NN->NNP      | &/CC Co./NNP of/IN the/DT
+P and/CC Japan/NNP 's/POS |     Daiwa/NN->NNP      | Securities/NNPS Co/NNP ./
+Daiwa/NNP Securities/NNPS |       Co/NN->NNP       | ./.
+        The/DT new/JJ ,/, |   seven-year/NN->JJ    | funds/NNS --/: one/CD off
+/JJ funds/NNS --/: one/CD |    offering/NN->VBG    | a/DT fixed-rate/JJ return
+ one/CD offering/VBG a/DT |   fixed-rate/NN->JJ    | return/NN and/CC the/DT o
+ng/VBG a/DT fixed-rate/JJ |     return/VB->NN      | and/CC the/DT other/JJ wi
+/DT other/JJ with/IN a/DT |  floating-rate/NN->JJ  | return/NN linked/VBN */-N
+/IN a/DT floating-rate/JJ |     return/VB->NN      | linked/VBN */-NONE- to/TO
+loating-rate/JJ return/NN |     linked/NN->VBN     | */-NONE- to/TO the/DT Lon
+VBN */-NONE- to/TO the/DT |     London/NN->NNP     | interbank/NN offered/VBD 
+T London/NNP interbank/NN |    offered/VBN->VBD    | rate/NN --/: offer/VBP tw
+ offered/VBD rate/NN --/: |     offer/VB->VBP      | two/CD key/JJ advantages/
+/NN --/: offer/VBP two/CD |       key/NN->JJ       | advantages/NNS to/TO Japa
+: offer/VBP two/CD key/JJ |   advantages/NN->NNS   | to/TO Japanese/JJ investo
+                          |     First/NNP->JJ      | ,/, they/PRP are/VBP desi
+t/JJ ,/, they/PRP are/VBP |    designed/NN->VBN    | *-1/-NONE- to/TO eliminat
+gned/VBN *-1/-NONE- to/TO |    eliminate/NN->VB    | the/DT risk/NN of/IN prep
+ of/IN prepayment/NN --/: | mortgage-backed/NN->JJ | securities/NNS can/MD be/
+ can/MD be/VB retired/VBN |    *-43/NN->-NONE-     | early/RB if/IN interest/N
+B retired/VBN *-43/-NONE- |      early/JJ->RB      | if/IN interest/NN rates/N
+/IN interest/NN rates/NNS |    decline/NN->VBP     | ,/, and/CC such/JJ prepay
+/CC such/JJ prepayment/NN |     forces/NN->VBZ     | investors/NNS to/TO redep
+s/VBZ investors/NNS to/TO |    redeploy/NN->VB     | their/PRP$ money/NN at/IN
+                          |     Second/NN->JJ      | ,/, they/PRP channel/VBP 
+   Second/JJ ,/, they/PRP |    channel/NN->VBP     | monthly/JJ mortgage/NN pa
+BP monthly/JJ mortgage/NN |    payments/NN->NNS    | into/IN semiannual/JJ pay
+e/NN payments/NNS into/IN |   semiannual/NN->JJ    | payments/NNS ,/, *-1/-NON
+NNS into/IN semiannual/JJ |    payments/NN->NNS    | ,/, *-1/-NONE- reducing/V
+yments/NNS ,/, *-1/-NONE- |    reducing/NN->VBG    | the/DT administrative/JJ 
+           By/IN */-NONE- |   addressing/NN->VBG   | those/DT problems/NNS ,/,
+ problems/NNS ,/, Mr./NNP |    Maxwell/NN->NNP     | said/VBD 0/-NONE- *T*-1/-
+have/VBP become/VBN ``/`` |    extremely/NN->RB    | attractive/JJ to/TO Japan
+me/VBN ``/`` extremely/RB |   attractive/NN->JJ    | to/TO Japanese/JJ and/CC 
+CC other/JJ investors/NNS |     outside/JJ->IN     | the/DT U.S./NNP ./. ''/''
+                          |      Such/NN->JJ       | devices/NNS have/VBP boos
+h/JJ devices/NNS have/VBP |    boosted/NN->VBN     | Japanese/JJ investment/NN
+se/JJ investment/NN in/IN | mortgage-backed/NN->JJ | securities/NNS to/TO more
+ *U*/-NONE- in/IN such/JJ |  instruments/NN->NNS   | outstanding/JJ ,/, and/CC
+N such/JJ instruments/NNS |   outstanding/NN->JJ   | ,/, and/CC their/PRP$ pur
+/JJ ,/, and/CC their/PRP$ |   purchases/NN->NNS    | are/VBP growing/VBG at/IN
+BP growing/VBG at/IN a/DT |      rapid/NN->JJ      | rate/NN ./.
+         They/PRP also/RB |      have/VB->VBP      | become/VBN large/JJ purch
+e/VBP become/VBN large/JJ |   purchasers/NN->NNS   | of/IN Fannie/NNP Mae/NNP 
+e/JJ purchasers/NNS of/IN |     Fannie/NN->NNP     | Mae/NNP 's/POS corporate/
+sers/NNS of/IN Fannie/NNP |      Mae/NN->NNP       | 's/POS corporate/JJ debt/
+JJ debt/NN ,/, *-2/-NONE- |     buying/NN->VBG     | $/$ 2.4/CD billion/CD *U*
+llion/CD *U*/-NONE- in/IN |     Fannie/NN->NNP     | Mae/NNP bonds/NNS during/
+*/-NONE- in/IN Fannie/NNP |      Mae/NN->NNP       | bonds/NNS during/IN the/D
+/DT tenth/NN of/IN the/DT |      total/NN->JJ      | amount/NN issued/VBN */-N
+the/DT total/JJ amount/NN |     issued/NN->VBN     | */-NONE- ./.
+                James/NNP |       L./NN->NNP       | Pate/NNP ,/, 54-year-old/
+         James/NNP L./NNP |      Pate/NN->NNP      | ,/, 54-year-old/JJ execut
+s/NNP L./NNP Pate/NNP ,/, |   54-year-old/NN->JJ   | executive/NN vice/NN pres
+/NN ,/, was/VBD named/VBN |    *-44/NN->-NONE-     | a/DT director/NN of/IN th
+N concern/NN ,/, */-NONE- |   expanding/NN->VBG    | the/DT board/NN to/TO 14/
+e/DT board/NN to/TO 14/CD |    members/NN->NNS     | ./.
+                          |      LTV/NN->NNP       | Corp./NNP said/VBD 0/-NON
+ptcy/NN court/NN judge/NN |     agreed/NN->VBD     | *-1/-NONE- to/TO extend/V
+reed/VBD *-1/-NONE- to/TO |     extend/NN->VB      | until/IN March/NNP 8/CD ,
+/, the/DT period/NN in/IN |     which/IN->WDT      | the/DT steel/NN ,/, aeros
+company/NN has/VBZ the/DT |    exclusive/NN->JJ    | right/NN */-NONE- to/TO f
+J right/NN */-NONE- to/TO |      file/NN->VB       | a/DT reorganization/NN pl
+D of/IN the/DT federal/JJ |   Bankruptcy/NN->NNP   | Code/NNP ,/, */-NONE- giv
+federal/JJ Bankruptcy/NNP |      Code/NN->NNP      | ,/, */-NONE- giving/VBG i
+NNP Code/NNP ,/, */-NONE- |     giving/NN->VBG     | it/PRP court/NN protectio
+/NN protection/NN from/IN |   creditors/NN->NNS    | '/POS lawsuits/NNS while/
+om/IN creditors/NNS '/POS |    lawsuits/NN->NNS    | while/IN it/PRP attempts/
+suits/NNS while/IN it/PRP |   attempts/NNS->VBZ    | *-1/-NONE- to/TO work/VB 
+mpts/VBZ *-1/-NONE- to/TO |      work/NN->VB       | out/RP a/DT plan/NN */-NO
+ *-1/-NONE- to/TO work/VB |       out/IN->RP       | a/DT plan/NN */-NONE- to/
+NE- to/TO pay/VB its/PRP$ |     debts/NN->NNS      | ./.
+n/JJ chemical/NN giant/NN |   Montedison/NN->NNP   | S.p.A./NNP ,/, through/IN
+N giant/NN Montedison/NNP |     S.p.A./NN->NNP     | ,/, through/IN its/PRP$ M
+P ,/, through/IN its/PRP$ |   Montedison/NN->NNP   | Acquisition/NNP N.V./NNP 
+N its/PRP$ Montedison/NNP |  Acquisition/NN->NNP   | N.V./NNP indirect/JJ unit
+ Acquisition/NNP N.V./NNP |    indirect/NN->JJ     | unit/NN ,/, began/VBD its
+/, began/VBD its/PRP$ $/$ |   37-a-share/NN->JJ    | *U*/-NONE- tender/NN offe
+e/JJ *U*/-NONE- tender/NN |      offer/VB->NN      | for/IN all/DT the/DT comm
+e/DT common/JJ shares/NNS |   outstanding/NN->JJ   | of/IN Erbamont/NNP N.V./N
+/NNS outstanding/JJ of/IN |    Erbamont/NN->NNP    | N.V./NNP ,/, a/DT maker/N
+of/IN pharmaceuticals/NNS |  incorporated/NN->VBN  | */-NONE- in/IN the/DT Net
+VBN */-NONE- in/IN the/DT |  Netherlands/NN->NNPS  | ./.
+                   The/DT |      offer/VB->NN      | ,/, advertised/VBN */-NON
+      The/DT offer/NN ,/, |   advertised/NN->VBN   | */-NONE- in/IN today/NN '
+NE- in/IN today/NN 's/POS |    editions/NN->NNS    | of/IN The/DT Wall/NNP Str
+uled/VBN *-1/-NONE- to/TO |     expire/NN->VB      | at/IN the/DT end/NN of/IN
+at/IN the/DT end/NN of/IN |    November/NN->NNP    | ./.
+/POS common/JJ shares/NNS |   outstanding/NN->JJ   | ./.
+                   The/DT |      offer/VB->NN      | is/VBZ being/VBG launched
+BZ being/VBG launched/VBN |    *-45/NN->-NONE-     | pursuant/JJ to/TO a/DT pr
+ launched/VBN *-45/-NONE- |    pursuant/NN->JJ     | to/TO a/DT previously/RB 
+ to/TO a/DT previously/RB |   announced/VBD->VBN   | agreement/NN between/IN t
+convertible/JJ foreign/JJ |   currencies/NN->NNS   | ,/, and/CC special/JJ dra
+s/NNS fell/VBD by/IN a/DT |      hefty/NN->JJ      | $/$ 1.82/CD billion/CD *U
+/CD *U*/-NONE- ,/, the/DT |    Finance/NN->NNP     | Ministry/NNP said/VBD 0/-
+          The/DT total/NN |     marks/NN->VBZ      | the/DT sixth/JJ consecuti
+total/NN marks/VBZ the/DT |      sixth/NN->JJ      | consecutive/JJ monthly/JJ
+marks/VBZ the/DT sixth/JJ |   consecutive/NN->JJ   | monthly/JJ decline/NN ./.
+                   The/DT |   protracted/NN->JJ    | downturn/NN reflects/VBZ 
+protracted/JJ downturn/NN |    reflects/NN->VBZ    | the/DT intensity/NN of/IN
+the/DT intensity/NN of/IN |      Bank/NN->NNP      | of/IN Japan/NNP yen-suppo
+ Bank/NNP of/IN Japan/NNP |   yen-support/NN->JJ   | intervention/NN since/IN 
+ intervention/NN since/IN |      June/NN->NNP      | ,/, when/WRB the/DT U.S./
+e/DT U.S./NNP currency/NN |   temporarily/NN->RB   | surged/VBD above/IN the/D
+urrency/NN temporarily/RB |     surged/NN->VBD     | above/IN the/DT 150.00/CD
+temporarily/RB surged/VBD |      above/NN->IN      | the/DT 150.00/CD yen/NNS 
+above/IN the/DT 150.00/CD |      yen/NN->NNS       | level/NN *T*-1/-NONE- ./.
+   The/DT announcement/NN |    follows/NN->VBZ     | a/DT sharper/JJR $/$ 2.2/
+ement/NN follows/VBZ a/DT |    sharper/NN->JJR     | $/$ 2.2/CD billion/CD *U*
+                 */-NONE- |      Pick/NN->VB       | a/DT country/NN ,/, any/D
+JS investment/NN craze/NN |    sweeping/NN->VBG    | Wall/NNP Street/NNP :/: a
+a/DT rash/NN of/IN new/JJ |   closed-end/NN->JJ    | country/NN funds/NNS ,/, 
+NN funds/NNS ,/, those/DT |    publicly/NN->RB     | traded/VBN portfolios/NNS
+ ,/, those/DT publicly/RB |     traded/NN->VBN     | portfolios/NNS that/WDT *
+DT publicly/RB traded/VBN |   portfolios/NN->NNS   | that/WDT *T*-37/-NONE- in
+N portfolios/NNS that/WDT |   *T*-37/NN->-NONE-    | invest/VBP in/IN stocks/N
+NS that/WDT *T*-37/-NONE- |     invest/NN->VBP     | in/IN stocks/NNS of/IN a/
+7/-NONE- invest/VBP in/IN |     stocks/NN->NNS     | of/IN a/DT single/JJ fore
+/IN stocks/NNS of/IN a/DT |     single/NN->JJ      | foreign/JJ country/NN ./.
+                          |       No/DT->RB        | fewer/JJR than/IN 24/CD c
+ched/VBN *-2/-NONE- or/CC |  registered/VBD->VBN   | *-2/-NONE- with/IN regula
+ed/VBN *-2/-NONE- with/IN |   regulators/NN->NNS   | this/DT year/NN ,/, tripl
+s/NNS this/DT year/NN ,/, |     triple/NN->RB      | the/DT level/NN of/IN all
+D ,/, according/VBG to/TO |    Charles/NN->NNP     | E./NNP Simon/NNP &/CC Co.
+ing/VBG to/TO Charles/NNP |       E./NN->NNP       | Simon/NNP &/CC Co./NNP ,/
+ to/TO Charles/NNP E./NNP |     Simon/NN->NNP      | &/CC Co./NNP ,/, a/DT Was
+NNP &/CC Co./NNP ,/, a/DT | Washington-based/NN->JJ | research/NN firm/NN ./.
+rf/NN recently/RB has/VBZ |     ranged/NN->VBN     | from/IN Chile/NNP to/TO A
+as/VBZ ranged/VBN from/IN |     Chile/NN->NNP      | to/TO Austria/NNP to/TO P
+N from/IN Chile/NNP to/TO |    Austria/NN->NNP     | to/TO Portugal/NNP ./.
+P to/TO Austria/NNP to/TO |    Portugal/NN->NNP    | ./.
+                          |      Next/NN->JJ       | week/NN ,/, the/DT Philip
+ext/JJ week/NN ,/, the/DT |   Philippine/NN->NNP   | Fund/NNP 's/POS launch/NN
+S launch/NN will/MD be/VB |     capped/NN->VBN     | *-46/-NONE- by/IN a/DT vi
+ will/MD be/VB capped/VBN |    *-46/NN->-NONE-     | by/IN a/DT visit/NN by/IN
+by/IN a/DT visit/NN by/IN |   Philippine/NN->JJ    | President/NNP Corazon/NNP
+ilippine/JJ President/NNP |    Corazon/NN->NNP     | Aquino/NNP --/: the/NNP f
+President/NNP Corazon/NNP |     Aquino/NN->NNP     | --/: the/NNP first/JJ tim
+razon/NNP Aquino/NNP --/: |      the/DT->NNP       | first/JJ time/NN 0/-NONE-
+NN of/IN state/NN has/VBZ |     kicked/NN->VBN     | off/RP an/DT issue/NN at/
+ate/NN has/VBZ kicked/VBN |       off/IN->RP       | an/DT issue/NN at/IN the/
+Z kicked/VBN off/RP an/DT |      issue/VB->NN      | at/IN the/DT Big/NNP Boar
+/DT issue/NN at/IN the/DT |      Big/JJ->NNP       | Board/NNP here/RB *T*-1/-
+e/NN at/IN the/DT Big/NNP |     Board/NN->NNP      | here/RB *T*-1/-NONE- ./.
+ the/DT Big/NNP Board/NNP |      here/NN->RB       | *T*-1/-NONE- ./.
+he/DT next/JJ province/NN |        ?/NN->.         | 
+        ``/`` Anything/NN |      's/POS->VBZ       | possible/JJ --/: how/WRB 
+N 's/VBZ possible/JJ --/: |      how/NN->WRB       | about/RP the/DT New/NNP G
+ possible/JJ --/: how/WRB |      about/IN->RP      | the/DT New/NNP Guinea/NNP
+: how/WRB about/RP the/DT |      New/JJ->NNP       | Guinea/NNP Fund/NNP ?/. '
+B about/RP the/DT New/NNP |     Guinea/NN->NNP     | Fund/NNP ?/. ''/'' quips/
+w/NNP Guinea/NNP Fund/NNP |        ?/NN->.         | ''/'' quips/VBZ *T*-1/-NO
+ea/NNP Fund/NNP ?/. ''/'' |     quips/NN->VBZ      | *T*-1/-NONE- George/NNP F
+'' quips/VBZ *T*-1/-NONE- |     George/NN->NNP     | Foot/NNP ,/, a/DT managin
+Z *T*-1/-NONE- George/NNP |      Foot/NN->NNP      | ,/, a/DT managing/VBG par
+rge/NNP Foot/NNP ,/, a/DT |    managing/NN->VBG    | partner/NN at/IN Newgate/
+ging/VBG partner/NN at/IN |    Newgate/NN->NNP     | Management/NNP Associates
+tner/NN at/IN Newgate/NNP |   Management/NN->NNP   | Associates/NNP of/IN Nort
+ewgate/NNP Management/NNP |   Associates/NN->NNP   | of/IN Northampton/NNP ,/,
+/NNP Associates/NNP of/IN |  Northampton/NN->NNP   | ,/, Mass/NNP ./.
+of/IN Northampton/NNP ,/, |      Mass/NN->NNP      | ./.
+f/IN country/NN funds/NNS |    mirrors/NN->VBZ     | the/DT ``/`` closed-end/J
+ mirrors/VBZ the/DT ``/`` |   closed-end/NN->JJ    | fund/NN mania/NN ''/'' of
+he/DT ``/`` closed-end/JJ |      fund/VB->NN       | mania/NN ''/'' of/IN the/
+nia/NN ''/'' of/IN the/DT |     1920s/NN->NNS      | ,/, Mr./NNP Foot/NNP says
+/DT 1920s/NNS ,/, Mr./NNP |      Foot/NN->NNP      | says/VBZ 0/-NONE- *T*-2/-
+*T*-2/-NONE- ,/, when/WRB |    narrowly/NN->RB     | focused/VBN funds/NNS gre
+ ,/, when/WRB narrowly/RB |    focused/NN->VBN     | funds/NNS grew/VBD wildly
+ed/VBN funds/NNS grew/VBD |     wildly/NN->RB      | popular/JJ *T*-1/-NONE- .
+ds/NNS grew/VBD wildly/RB |     popular/NN->JJ     | *T*-1/-NONE- ./.
+                          |     Unlike/NN->IN      | traditional/JJ open-end/J
+                Unlike/IN |   traditional/NN->JJ   | open-end/JJ mutual/JJ fun
+ Unlike/IN traditional/JJ |    open-end/NN->JJ     | mutual/JJ funds/NNS ,/, m
+J mutual/JJ funds/NNS ,/, |     most/JJS->RBS      | of/IN these/DT one-countr
+, most/RBS of/IN these/DT |   one-country/NN->JJ   | portfolios/NNS are/VBP th
+N these/DT one-country/JJ |   portfolios/NN->NNS   | are/VBP the/DT ``/`` clos
+/NNS are/VBP the/DT ``/`` |   closed-end/NN->JJ    | ''/'' type/NN ,/, *-1/-NO
+'' type/NN ,/, *-1/-NONE- |    issuing/NN->VBG     | a/DT fixed/VBN number/NN 
+1/-NONE- issuing/VBG a/DT |     fixed/NN->VBN      | number/NN of/IN shares/NN
+of/IN shares/NNS that/WDT |   *T*-38/NN->-NONE-    | trade/VBP publicly/RB ./.
+NS that/WDT *T*-38/-NONE- |     trade/NN->VBP      | publicly/RB ./.
+T *T*-38/-NONE- trade/VBP |    publicly/NN->RB     | ./.
+          The/DT surge/NN |     brings/NN->VBZ     | to/TO nearly/RB 50/CD the
+surge/NN brings/VBZ to/TO |     nearly/NN->RB      | 50/CD the/DT number/NN of
+try/NN funds/NNS that/WDT |   *T*-39/NN->-NONE-    | are/VBP *RNR*-1/-NONE- or
+/VBP *RNR*-1/-NONE- or/CC |      soon/NN->RB       | will/MD be/VB *RNR*-1/-NO
+l/MD be/VB *RNR*-1/-NONE- |     listed/NN->VBN     | *-2/-NONE- in/IN New/NNP 
+IN New/NNP York/NNP or/CC |     London/NN->NNP     | ./.
+These/DT funds/NNS now/RB |    account/NN->VBP     | for/IN several/JJ billion
+unt/VBP for/IN several/JJ |    billions/NN->NNS    | of/IN dollars/NNS in/IN a
+ral/JJ billions/NNS of/IN |    dollars/NN->NNS     | in/IN assets/NNS ./.
+                    ``/`` |     People/NN->NNS     | are/VBP looking/VBG *-1/-
+king/VBG *-1/-NONE- to/TO |      stake/NN->VB      | their/PRP$ claims/NNS ''/
+to/TO stake/VB their/PRP$ |     claims/NN->NNS     | ''/'' now/RB before/RB th
+$ claims/NNS ''/'' now/RB |     before/IN->RB      | the/DT number/NN of/IN av
+RB the/DT number/NN of/IN |    available/NN->JJ    | nations/NNS runs/VBZ out/
+ available/JJ nations/NNS |      runs/NN->VBZ      | out/RP ,/, says/VBZ *T*-2
+e/JJ nations/NNS runs/VBZ |       out/IN->RP       | ,/, says/VBZ *T*-2/-NONE-
+,/, says/VBZ *T*-2/-NONE- |    Michael/NN->NNP     | Porter/NNP ,/, an/DT anal
+ *T*-2/-NONE- Michael/NNP |     Porter/NN->NNP     | ,/, an/DT analyst/NN at/I
+/, an/DT analyst/NN at/IN |     Smith/NN->NNP      | Barney/NNP ,/, Harris/NNP
+nalyst/NN at/IN Smith/NNP |     Barney/NN->NNP     | ,/, Harris/NNP Upham/NNP 
+ Smith/NNP Barney/NNP ,/, |     Harris/NN->NNP     | Upham/NNP &/CC Co./NNP ,/
+Barney/NNP ,/, Harris/NNP |     Upham/NN->NNP      | &/CC Co./NNP ,/, New/NNP 
+                          |     Behind/NN->IN      | all/DT the/DT hoopla/NN i
+/VBZ *T*-1/-NONE- some/DT |   heavy-duty/NN->JJ    | competition/NN ./.
+                          |       As/NN->IN        | individual/JJ investors/N
+                    As/IN |   individual/NN->JJ    | investors/NNS have/VBP tu
+JJ investors/NNS have/VBP |    turned/VBD->VBN     | away/RB from/IN the/DT st
+es/NNS firms/NNS have/VBP |   scrambled/NN->VBN    | *-1/-NONE- to/TO find/VB 
+bled/VBN *-1/-NONE- to/TO |      find/NN->VB       | new/JJ products/NNS that/
+/JJ products/NNS that/WDT |    brokers/NN->NNS     | find/VBP *T*-40/-NONE- ea
+/NNS that/WDT brokers/NNS |      find/NN->VBP      | *T*-40/-NONE- easy/JJ 0/-
+/WDT brokers/NNS find/VBP |   *T*-40/NN->-NONE-    | easy/JJ 0/-NONE- */-NONE-
+NS find/VBP *T*-40/-NONE- |      easy/NN->JJ       | 0/-NONE- */-NONE- to/TO s
+J 0/-NONE- */-NONE- to/TO |      sell/NN->VB       | *T*-2/-NONE- ./.
+ the/DT firms/NNS are/VBP |   stretching/NN->VBG   | their/PRP$ nets/NNS far/R
+stretching/VBG their/PRP$ |      nets/NN->NNS      | far/RB and/CC wide/RB *-1
+P$ nets/NNS far/RB and/CC |      wide/NN->RB       | *-1/-NONE- to/TO do/VB it
+ wide/RB *-1/-NONE- to/TO |       do/VBP->VB       | it/PRP ./.
+                          |   Financial/NNP->JJ    | planners/NNS often/RB urg
+             Financial/JJ |    planners/NN->NNS    | often/RB urge/VBP investo
+Financial/JJ planners/NNS |      often/NN->RB      | urge/VBP investors/NNS *-
+/JJ planners/NNS often/RB |      urge/NN->VBP      | investors/NNS *-1/-NONE- 
+tors/NNS *-1/-NONE- to/TO |    diversify/NN->VB    | and/CC to/TO hold/VB a/DT
+diversify/VB and/CC to/TO |      hold/NN->VB       | a/DT smattering/NN of/IN 
+           And/CC many/JJ |    emerging/NN->VBG    | markets/NNS have/VBP outp
+d/CC many/JJ emerging/VBG |    markets/NN->NNS     | have/VBP outpaced/VBN mor
+/VBG markets/NNS have/VBP |    outpaced/NN->VBN    | more/RBR mature/JJ market
+VBP outpaced/VBN more/RBR |     mature/NN->JJ      | markets/NNS ,/, such/JJ a
+ed/VBN more/RBR mature/JJ |    markets/NN->NNS     | ,/, such/JJ as/IN the/DT 
+     Country/NN funds/NNS |     offer/VB->VBP      | an/DT easy/JJ way/NN 0/-N
+funds/NNS offer/VBP an/DT |      easy/NN->JJ       | way/NN 0/-NONE- */-NONE- 
+N 0/-NONE- */-NONE- to/TO |       get/NN->VB       | a/DT taste/NN of/IN forei
+taste/NN of/IN foreign/JJ |     stocks/NN->NNS     | without/IN the/DT hard/JJ
+cks/NNS without/IN the/DT |      hard/RB->JJ       | research/NN of/IN */-NONE
+-NONE- seeking/VBG out/RP |   individual/NN->JJ    | companies/NNS *T*-1/-NONE
+P does/VBZ n't/RB take/VB |      much/RB->JJ       | */-NONE- to/TO get/VB bur
+VB much/JJ */-NONE- to/TO |       get/NN->VB       | burned/VBN *-1/-NONE- ./.
+/JJ */-NONE- to/TO get/VB |     burned/NN->VBN     | *-1/-NONE- ./.
+                          |    Political/NN->JJ    | and/CC currency/NN gyrati
+cal/JJ and/CC currency/NN |   gyrations/NN->NNS    | can/MD whipsaw/VB the/DT 
+y/NN gyrations/NNS can/MD |     whipsaw/NN->VB     | the/DT funds/NNS ./.
+                          |     Another/NN->DT     | concern/NN :/: The/DT fun
+ funds/NNS '/POS share/NN |     prices/NN->NNS     | tend/VBP *-1/-NONE- to/TO
+'/POS share/NN prices/NNS |      tend/NN->VBP      | *-1/-NONE- to/TO swing/VB
+tend/VBP *-1/-NONE- to/TO |      swing/NN->VB      | more/RBR than/IN the/DT b
+B more/RBR than/IN the/DT |    broader/NN->JJR     | market/NN ./.
+/NN market/NN dropped/VBD |     nearly/NN->RB      | 7/CD %/NN Oct./NNP 13/CD 
+d/VBD nearly/RB 7/CD %/NN |      Oct./NN->NNP      | 13/CD *T*-1/-NONE- ,/, fo
+he/DT Mexico/NNP Fund/NNP |    plunged/NN->VBD     | about/RB 18/CD %/NN and/C
+/NNP Fund/NNP plunged/VBD |      about/IN->RB      | 18/CD %/NN and/CC the/DT 
+try/NN funds/NNS were/VBD |   clobbered/NN->VBN    | *-47/-NONE- more/RBR than
+NS were/VBD clobbered/VBN |    *-47/NN->-NONE-     | more/RBR than/IN most/JJS
+more/RBR than/IN most/JJS |     stocks/NN->NNS     | after/IN the/DT 1987/CD c
+   What/WP *ICH*-1/-NONE- |   *T*-41/NN->-NONE-    | 's/VBZ so/RB wild/JJ abou
+H*-1/-NONE- *T*-41/-NONE- |      's/POS->VBZ       | so/RB wild/JJ about/IN th
+T*-41/-NONE- 's/VBZ so/RB |      wild/NN->JJ       | about/IN the/DT funds/NNS
+funds/NNS '/POS frenzy/NN |      right/NN->RB      | now/RB is/VBZ that/IN man
+Z that/IN many/JJ are/VBP |    trading/NN->VBG     | at/IN historically/RB fat
+are/VBP trading/VBG at/IN |  historically/NN->RB   | fat/JJ premiums/NNS to/TO
+VBG at/IN historically/RB |       fat/NN->JJ       | premiums/NNS to/TO the/DT
+IN historically/RB fat/JJ |    premiums/NN->NNS    | to/TO the/DT value/NN of/
+value/NN of/IN their/PRP$ |   underlying/VBG->JJ   | portfolios/NNS ./.
+ their/PRP$ underlying/JJ |   portfolios/NN->NNS   | ./.
+      After/IN *-1/-NONE- |    trading/NN->VBG     | at/IN an/DT average/JJ di
+rage/JJ discount/NN of/IN |     more/RBR->JJR      | than/IN 20/CD %/NN in/IN 
+ than/IN 20/CD %/NN in/IN |      late/NN->JJ       | 1987/CD and/CC part/NN of
+NN funds/NNS currently/RB |     trade/NN->VBP      | at/IN an/DT average/JJ pr
+DT reason/NN :/: Share/NN |     prices/NN->NNS     | of/IN many/JJ of/IN these
+ this/DT year/NN have/VBP |    climbed/NN->VBN     | much/RB more/RBR sharply/
+than/IN the/DT foreign/JJ |     stocks/NN->NNS     | 0/-NONE- they/PRP hold/VB
+cks/NNS 0/-NONE- they/PRP |      hold/NN->VBP      | *T*-1/-NONE- ./.
+for/IN funds/NNS that/WDT |   *T*-42/NN->-NONE-    | invest/VBP in/IN markets/
+NS that/WDT *T*-42/-NONE- |     invest/NN->VBP     | in/IN markets/NNS that/WD
+2/-NONE- invest/VBP in/IN |    markets/NN->NNS     | that/WDT *T*-43/-NONE- ar
+n/IN markets/NNS that/WDT |   *T*-43/NN->-NONE-    | are/VBP partially/RB clos
+WDT *T*-43/-NONE- are/VBP |    partially/NN->RB    | closed/VBN to/TO foreign/
+ONE- are/VBP partially/RB |    closed/VBD->VBN     | to/TO foreign/JJ investor
+NNP Korea/NNP ,/, some/DT |  specialists/NN->NNS   | say/VBP 0/-NONE- *T*-1/-N
+           But/CC some/DT |    European/NN->JJ     | funds/NNS recently/RB hav
+/JJ funds/NNS recently/RB |      have/VB->VBP      | skyrocketed/VBN ;/: Spain
+/NNS recently/RB have/VBP |  skyrocketed/NN->VBN   | ;/: Spain/NNP Fund/NNP ha
+pain/NNP Fund/NNP has/VBZ |     surged/NN->VBN     | to/TO a/DT startling/JJ 1
+VBZ surged/VBN to/TO a/DT |    startling/NN->JJ    | 120/CD %/NN premium/NN ./
+  It/PRP has/VBZ been/VBN |    targeted/NN->VBN    | *-48/-NONE- by/IN Japanes
+VBZ been/VBN targeted/VBN |    *-48/NN->-NONE-     | by/IN Japanese/JJ investo
+rs/NNS as/IN a/DT good/JJ |    long-term/NN->JJ    | play/NN tied/VBN */-NONE-
+d/JJ long-term/JJ play/NN |     tied/VBD->VBN      | */-NONE- to/TO 1992/CD 's
+ONE- to/TO 1992/CD 's/POS |    European/NN->JJ     | economic/JJ integration/N
+new/JJ funds/NNS that/WDT |   *T*-44/NN->-NONE-    | are/VBP n't/RB even/RB fu
+P n't/RB even/RB fully/RB |    invested/NN->VBN    | yet/RB have/VBP jumped/VB
+ly/RB invested/VBN yet/RB |      have/VB->VBP      | jumped/VBN *-1/-NONE- to/
+ested/VBN yet/RB have/VBP |     jumped/NN->VBN     | *-1/-NONE- to/TO trade/VB
+/TO trade/VB at/IN big/JJ |    premiums/NN->NNS    | ./.
+                    ``/`` |       I/NNP->PRP       | 'm/VBP very/RB alarmed/VB
+              ``/`` I/PRP |       'm/NN->VBP       | very/RB alarmed/VBN *-2/-
+`/`` I/PRP 'm/VBP very/RB |    alarmed/NN->VBN     | *-2/-NONE- to/TO see/VB t
+rmed/VBN *-2/-NONE- to/TO |       see/NN->VB       | these/DT rich/JJ valuatio
+NE- to/TO see/VB these/DT |      rich/NN->JJ       | valuations/NNS ,/, ''/'' 
+O see/VB these/DT rich/JJ |   valuations/NN->NNS   | ,/, ''/'' says/VBZ *T*-1/
+/'' says/VBZ *T*-1/-NONE- |     Smith/NN->NNP      | Barney/NNP 's/POS Mr./NNP
+BZ *T*-1/-NONE- Smith/NNP |     Barney/NN->NNP     | 's/POS Mr./NNP Porter/NNP
+Barney/NNP 's/POS Mr./NNP |     Porter/NN->NNP     | ./.
+                   The/DT |      newly/NN->RB      | fattened/VBN premiums/NNS
+          The/DT newly/RB |    fattened/NN->VBN    | premiums/NNS reflect/VBP 
+/DT newly/RB fattened/VBN |    premiums/NN->NNS    | reflect/VBP the/DT increa
+fattened/VBN premiums/NNS |    reflect/NN->VBP     | the/DT increasingly/RB gl
+ms/NNS reflect/VBP the/DT |  increasingly/NN->RB   | global/JJ marketing/NN of
+BP the/DT increasingly/RB |     global/NN->JJ      | marketing/NN of/IN some/D
+/NN funds/NNS ,/, Mr./NNP |     Porter/NN->NNP     | suggests/VBZ 0/-NONE- *T*
+NS ,/, Mr./NNP Porter/NNP |    suggests/NN->VBZ    | 0/-NONE- *T*-1/-NONE- ./.
+                          |     Unlike/NN->IN      | many/JJ U.S./NNP investor
+rs/NNS ,/, those/DT in/IN |      Asia/NN->NNP      | or/CC Europe/NNP seeking/
+e/DT in/IN Asia/NNP or/CC |     Europe/NN->NNP     | seeking/VBG foreign-stock
+CC Europe/NNP seeking/VBG |  foreign-stock/NN->JJ  | exposure/NN may/MD be/VB 
+/NN may/MD be/VB less/RBR |    resistant/NN->JJ    | to/TO */-NONE- paying/VBG
+NE- paying/VBG higher/JJR |     prices/NN->NNS     | for/IN country/NN funds/N
+rnational/JJ viewpoint/NN |      cast/NN->VBN      | *-2/-NONE- on/IN the/DT f
+E- on/IN the/DT funds/NNS |     listed/NN->VBN     | */-NONE- here/RB ,/, ''/'
+s/NNS listed/VBN */-NONE- |      here/NN->RB       | ,/, ''/'' Mr./NNP Porter/
+here/RB ,/, ''/'' Mr./NNP |     Porter/NN->NNP     | says/VBZ *T*-1/-NONE- ./.
+                          |   Nonetheless/NN->RB   | ,/, plenty/JJ of/IN U.S./
+       Nonetheless/RB ,/, |     plenty/NN->JJ      | of/IN U.S./NNP analysts/N
+ plenty/JJ of/IN U.S./NNP |    analysts/NN->NNS    | and/CC money/NN managers/
+y/NN managers/NNS are/VBP |     aghast/NN->JJ      | at/IN the/DT lofty/JJ tra
+BP aghast/JJ at/IN the/DT |      lofty/NN->JJ      | trading/NN levels/NNS of/
+he/DT lofty/JJ trading/NN |     levels/NN->NNS     | of/IN some/DT country/NN 
+IN U.S./NNP investors/NNS |      often/NN->RB      | can/MD buy/VB American/JJ
+stors/NNS often/RB can/MD |       buy/NN->VB       | American/JJ depositary/JJ
+can/MD buy/VB American/JJ |   depositary/NN->JJ    | receipts/NNS on/IN the/DT
+American/JJ depositary/JJ |    receipts/NN->NNS    | on/IN the/DT big/JJ stock
+s/NNS on/IN the/DT big/JJ |     stocks/NN->NNS     | in/IN many/JJ funds/NNS ;
+;/: these/DT so-called/JJ |     ADRs/NN->NNPS      | represent/VBP shares/NNS 
+DT so-called/JJ ADRs/NNPS |   represent/NN->VBP    | shares/NNS of/IN foreign/
+ foreign/JJ companies/NNS |     traded/NN->VBN     | */-NONE- in/IN the/DT U.S
+y/NN investors/NNS can/MD |   essentially/NN->RB   | buy/VB the/DT funds/NNS w
+NNS can/MD essentially/RB |       buy/NN->VB       | the/DT funds/NNS without/
+ For/IN people/NNS who/WP |   *T*-45/NN->-NONE-    | insist/VBP on/RP *-5/-NON
+/NNS who/WP *T*-45/-NONE- |     insist/NN->VBP     | on/RP *-5/-NONE- jumping/
+ *T*-45/-NONE- insist/VBP |       on/IN->RP        | *-5/-NONE- jumping/VBG in
+sist/VBP on/RP *-5/-NONE- |    jumping/NN->VBG     | in/RB now/RB *-1/-NONE- t
+RP *-5/-NONE- jumping/VBG |       in/IN->RB        | now/RB *-1/-NONE- to/TO b
+B now/RB *-1/-NONE- to/TO |       buy/NN->VB       | the/DT funds/NNS ,/, Newg
+y/VB the/DT funds/NNS ,/, |    Newgate/NN->NNP     | 's/POS Mr./NNP Foot/NNP s
+ewgate/NNP 's/POS Mr./NNP |      Foot/NN->NNP      | says/VBZ :/: ``/`` The/DT
+nly/JJ advice/NN 0/-NONE- |       I/NNP->PRP       | have/VBP *T*-2/-NONE- for
+-2/-NONE- for/IN these/DT |     folks/NN->NNS      | is/VBZ that/IN those/DT w
+se/DT who/WP *T*-3/-NONE- |      come/VB->VBP      | to/TO the/DT party/NN lat
+VBP to/TO the/DT party/NN |      late/NN->RB       | had/VBD better/RBR *-4/-N
+ party/NN late/RB had/VBD |     better/NN->RBR     | *-4/-NONE- be/VB ready/JJ
+tter/RBR *-4/-NONE- be/VB |      ready/NN->JJ      | *-4/-NONE- to/TO leave/VB
+*-4/-NONE- to/TO leave/VB |     quickly/NN->RB     | ./.
+   The/DT U.S./NNP and/CC |     Soviet/NN->NNP     | Union/NNP are/VBP holding
+.S./NNP and/CC Soviet/NNP |     Union/NN->NNP      | are/VBP holding/VBG techn
+n/NNP are/VBP holding/VBG |    technical/NN->JJ    | talks/NNS about/IN possib
+ holding/VBG technical/JJ |     talks/NN->NNS      | about/IN possible/JJ repa
+ble/JJ repayment/NN by/IN |     Moscow/NN->NNP     | of/IN $/$ 188/CD million/
+llion/CD *U*/-NONE- in/IN |  pre-Communist/NN->JJ  | Russian/JJ debts/NNS owed
+E- in/IN pre-Communist/JJ |     Russian/NN->JJ     | debts/NNS owed/VBD */-NON
+e-Communist/JJ Russian/JJ |     debts/NN->NNS      | owed/VBD */-NONE- to/TO t
+t/JJ Russian/JJ debts/NNS |      owed/NN->VBD      | */-NONE- to/TO the/DT U.S
+ government/NN ,/, the/DT |     State/NN->NNP      | Department/NNP said/VBD 0
+t/NN ,/, the/DT State/NNP |   Department/NN->NNP   | said/VBD 0/-NONE- *T*-2/-
+                          |       If/NN->IN        | the/DT debts/NNS are/VBP 
+             If/IN the/DT |     debts/NN->NNS      | are/VBP repaid/VBN *-49/-
+ the/DT debts/NNS are/VBP |     repaid/NN->VBN     | *-49/-NONE- ,/, it/PRP co
+ts/NNS are/VBP repaid/VBN |    *-49/NN->-NONE-     | ,/, it/PRP could/MD clear
+NONE- ,/, it/PRP could/MD |      clear/NN->VB      | the/DT way/NN 0/-NONE- fo
+DT way/NN 0/-NONE- for/IN |     Soviet/NN->JJ      | bonds/NNS to/TO be/VB sol
+/NNS to/TO be/VB sold/VBN |    *-50/NN->-NONE-     | in/IN the/DT U.S./NNP *T*
+etings/NNS with/IN the/DT |    Soviets/NN->NNS     | ,/, a/DT State/NNP Depart
+e/DT Soviets/NNS ,/, a/DT |     State/NN->NNP      | Department/NNP spokesman/
+ts/NNS ,/, a/DT State/NNP |   Department/NN->NNP   | spokesman/NN said/VBD tha
+N said/VBD that/IN it/PRP |   *EXP*-1/NN->-NONE-   | 's/VBZ ``/`` too/RB early
+/IN it/PRP *EXP*-1/-NONE- |      's/POS->VBZ       | ``/`` too/RB early/RB */-
+NONE- 's/VBZ ``/`` too/RB |      early/JJ->RB      | */-NONE- to/TO say/VB ''/
+B early/RB */-NONE- to/TO |      say/VBP->VB       | ''/'' whether/IN that/DT 
+hether/IN that/DT will/MD |     happen/NN->VB      | ./.
+                          |   Coincident/NN->JJ    | with/IN the/DT talks/NNS 
+ncident/JJ with/IN the/DT |     talks/NN->NNS      | ,/, the/DT State/NNP Depa
+e/DT talks/NNS ,/, the/DT |     State/NN->NNP      | Department/NNP said/VBD 0
+/NNS ,/, the/DT State/NNP |   Department/NN->NNP   | said/VBD 0/-NONE- it/PRP 
+D 0/-NONE- it/PRP has/VBZ |   permitted/NN->VBN    | a/DT Soviet/JJ bank/NN to
+as/VBZ permitted/VBN a/DT |     Soviet/NN->JJ      | bank/NN to/TO open/VB a/D
+T Soviet/JJ bank/NN to/TO |      open/JJ->VB       | a/DT New/NNP York/NNP bra
+ank/NN to/TO open/VB a/DT |      New/JJ->NNP       | York/NNP branch/NN ./.
+DT branch/NN of/IN the/DT |      Bank/NN->NNP      | for/IN Foreign/NNP Econom
+IN the/DT Bank/NNP for/IN |    Foreign/NN->NNP     | Economic/NNP Affairs/NNP 
+nk/NNP for/IN Foreign/NNP |    Economic/NN->NNP    | Affairs/NNP was/VBD appro
+ Foreign/NNP Economic/NNP |    Affairs/NN->NNP     | was/VBD approved/VBN *-1/
+c/NNP Affairs/NNP was/VBD |   approved/VBD->VBN    | *-1/-NONE- last/JJ spring
+              But/CC a/DT |     Soviet/NN->JJ      | bank/NN here/RB would/MD 
+CC a/DT Soviet/JJ bank/NN |      here/NN->RB       | would/MD be/VB crippled/V
+NN here/RB would/MD be/VB |    crippled/NN->VBN    | *-51/-NONE- unless/IN Mos
+uld/MD be/VB crippled/VBN |    *-51/NN->-NONE-     | unless/IN Moscow/NNP foun
+ crippled/VBN *-51/-NONE- |     unless/NN->IN      | Moscow/NNP found/VBD a/DT
+VBN *-51/-NONE- unless/IN |     Moscow/NN->NNP     | found/VBD a/DT way/NN 0/-
+ONE- unless/IN Moscow/NNP |     found/VBN->VBD     | a/DT way/NN 0/-NONE- */-N
+N 0/-NONE- */-NONE- to/TO |     settle/NN->VB      | the/DT $/$ 188/CD million
+/WDT *T*-1/-NONE- was/VBD |      lent/NN->VBN      | *-52/-NONE- to/TO the/DT 
+1/-NONE- was/VBD lent/VBN |    *-52/NN->-NONE-     | to/TO the/DT country/NN '
+ the/DT country/NN 's/POS |   short-lived/NN->JJ   | democratic/JJ Kerensky/NN
+/NN 's/POS short-lived/JJ |   democratic/NN->JJ    | Kerensky/NNP government/N
+rt-lived/JJ democratic/JJ |    Kerensky/NN->NNP    | government/NN before/IN t
+nment/NN before/IN the/DT |   Communists/NN->NNS   | seized/VBD power/NN in/IN
+/IN the/DT Communists/NNS |     seized/NN->VBD     | power/NN in/IN 1917/CD *T
+1934/CD law/NN ,/, the/DT |    Johnson/NN->NNP     | Debt/NNP Default/NNP Act/
+NN ,/, the/DT Johnson/NNP |      Debt/NN->NNP      | Default/NNP Act/NNP ,/, a
+e/DT Johnson/NNP Debt/NNP |    Default/NN->NNP     | Act/NNP ,/, as/RB */-NONE
+/NNP Debt/NNP Default/NNP |      Act/NN->NNP       | ,/, as/RB */-NONE- amende
+ct/NNP ,/, as/RB */-NONE- |    amended/NN->VBN     | *-1/-NONE- ,/, it/PRP *EX
+VBN *-1/-NONE- ,/, it/PRP |   *EXP*-2/NN->-NONE-   | 's/VBZ illegal/JJ for/IN 
+,/, it/PRP *EXP*-2/-NONE- |      's/POS->VBZ       | illegal/JJ for/IN America
+ 's/VBZ illegal/JJ for/IN |   Americans/NN->NNS    | to/TO extend/VB credit/NN
+or/IN Americans/NNS to/TO |     extend/NN->VB      | credit/NN to/TO countries
+to/TO countries/NNS in/IN |     default/VB->NN     | to/TO the/DT U.S./NNP gov
+.S./NNP government/NN ,/, |     unless/NN->IN      | they/PRP are/VBP members/
+nless/IN they/PRP are/VBP |    members/NN->NNS     | of/IN the/DT World/NNP Ba
+NS of/IN the/DT World/NNP |      Bank/NN->NNP      | and/CC International/NNP 
+ and/CC International/NNP |    Monetary/NN->NNP    | Fund/NNP ./.
+                   The/DT |    U.S.S.R./NN->NNP    | belongs/VBZ to/TO neither
+      The/DT U.S.S.R./NNP |    belongs/NN->VBZ     | to/TO neither/DT organiza
+.R./NNP belongs/VBZ to/TO |     neither/NN->DT     | organization/NN ./.
+                          |     Moscow/NN->NNP     | has/VBZ settled/VBN pre-1
+       Moscow/NNP has/VBZ |    settled/VBD->VBN    | pre-1917/JJ debts/NNS wit
+w/NNP has/VBZ settled/VBN |    pre-1917/NN->JJ     | debts/NNS with/IN other/J
+Z settled/VBN pre-1917/JJ |     debts/NN->NNS      | with/IN other/JJ countrie
+recent/JJ years/NNS at/IN |     less/RBR->JJR      | than/IN face/NN value/NN 
+NS at/IN less/JJR than/IN |      face/VB->NN       | value/NN ./.
+                   The/DT |     State/NN->NNP      | Department/NNP stressed/V
+         The/DT State/NNP |   Department/NN->NNP   | stressed/VBD the/DT pre-1
+ State/NNP Department/NNP |    stressed/NN->VBD    | the/DT pre-1933/JJ debts/
+t/NNP stressed/VBD the/DT |    pre-1933/NN->JJ     | debts/NNS as/IN the/DT ke
+ed/VBD the/DT pre-1933/JJ |     debts/NN->NNS      | as/IN the/DT key/NN to/TO
+/DT key/NN to/TO */-NONE- |   satisfying/NN->VBG   | the/DT Johnson/NNP Act/NN
+NE- satisfying/VBG the/DT |    Johnson/NN->NNP     | Act/NNP ./.
+ng/VBG the/DT Johnson/NNP |      Act/NN->NNP       | ./.
+            But/CC the/DT |    Soviets/NN->NNS     | might/MD still/RB face/VB
+might/MD still/RB face/VB |      legal/NN->JJ      | obstacles/NNS to/TO */-NO
+still/RB face/VB legal/JJ |   obstacles/NN->NNS    | to/TO */-NONE- raising/VB
+.S./NNP until/IN they/PRP |     settle/NN->VBP     | hundreds/NNS of/IN millio
+il/IN they/PRP settle/VBP |    hundreds/NN->NNS    | of/IN millions/NNS of/IN 
+le/VBP hundreds/NNS of/IN |    millions/NN->NNS    | of/IN dollars/NNS in/IN a
+ of/IN millions/NNS of/IN |    dollars/NN->NNS     | in/IN additional/JJ debt/
+ional/JJ debt/NN still/RB |   outstanding/NN->JJ   | from/IN the/DT World/NNP 
+ from/IN the/DT World/NNP |      War/NN->NNP       | II/NNP lend-lease/JJ prog
+ World/NNP War/NNP II/NNP |   lend-lease/NN->JJ    | program/NN ./.
+ the/DT economy/NN is/VBZ |    leveling/NN->VBG    | off/RP ,/, the/DT governm
+my/NN is/VBZ leveling/VBG |       off/IN->RP       | ,/, the/DT government/NN 
+that/IN orders/NNS for/IN |  manufactured/NN->VBN  | goods/NNS and/CC spending
+S for/IN manufactured/VBN |     goods/NN->NNS      | and/CC spending/NN on/IN 
+/NN on/IN construction/NN |     failed/NN->VBD     | *-1/-NONE- to/TO rise/VB 
+iled/VBD *-1/-NONE- to/TO |      rise/NN->VB       | in/IN September/NNP ./.
+                          |    Meanwhile/NN->RB    | ,/, the/DT National/NNP A
+NNP Association/NNP of/IN |   Purchasing/NN->NNP   | Management/NNP said/VBD 0
+/NNP of/IN Purchasing/NNP |   Management/NN->NNP   | said/VBD 0/-NONE- its/PRP
+PRP$ latest/JJS survey/NN |   indicated/NN->VBD    | that/IN the/DT manufactur
+icated/VBD that/IN the/DT | manufacturing/VBG->NN  | economy/NN contracted/VBD
+October/NNP for/IN the/DT |      sixth/NN->JJ      | consecutive/JJ month/NN .
+NP for/IN the/DT sixth/JJ |   consecutive/NN->JJ   | month/NN ./.
+                          |      Its/NN->PRP$      | index/NN inched/VBD up/RB
+/PRP$ index/NN inched/VBD |       up/RP->RB        | to/TO 47.6/CD %/NN in/IN 
+                          |       Any/NN->DT       | reading/NN below/IN 50/CD
+ng/NN below/IN 50/CD %/NN |    suggests/NN->VBZ    | 0/-NONE- the/DT manufactu
+gests/VBZ 0/-NONE- the/DT | manufacturing/VBG->NN  | sector/NN is/VBZ generall
+uring/NN sector/NN is/VBZ |    generally/NN->RB    | declining/VBG ./.
+                   The/DT |   purchasing/NN->VBG   | managers/NNS ,/, however/
+sing/VBG managers/NNS ,/, |     however/NN->RB     | ,/, also/RB said/VBD that
+/IN orders/NNS turned/VBD |       up/RP->RB        | in/IN October/NNP after/I
+                          |   Factories/NN->NNS    | booked/VBD $/$ 236.74/CD 
+            Factories/NNS |     booked/NN->VBD     | $/$ 236.74/CD billion/CD 
+- in/IN September/NNP ,/, |     nearly/NN->RB      | the/DT same/JJ as/IN the/
+P ,/, the/DT Commerce/NNP |   Department/NN->NNP   | said/VBD 0/-NONE- *T*-2/-
+                          |       If/NN->IN        | not/RB for/IN a/DT 59.6/C
+ers/NNS for/IN capital/NN |     goods/NN->NNS      | by/IN defense/NN contract
+oods/NNS by/IN defense/NN |  contractors/NN->NNS   | ,/, factory/NN orders/NNS
+ders/NNS would/MD have/VB |     fallen/NN->VBN     | 2.1/CD %/NN ./.
+               In/IN a/DT |    separate/NN->JJ     | report/NN ,/, the/DT depa
+   In/IN a/DT separate/JJ |     report/VB->NN      | ,/, the/DT department/NN 
+nstruction/NN spending/NN |      ran/NN->VBD       | at/IN an/DT annual/JJ rat
+/CD *U*/-NONE- ,/, not/RB |  significantly/NN->RB  | different/JJ from/IN the/
+/CD billion/CD *U*/-NONE- |   reported/VBD->VBN    | */-NONE- for/IN August/NN
+                          |     Private/NN->JJ     | construction/NN spending/
+on/NN spending/NN was/VBD |      down/RP->RB       | ,/, but/CC government/NN 
+ng/NN activity/NN was/VBD |       up/RP->RB        | ./.
+h/DT reports/NNS were/VBD |    adjusted/NN->VBN    | *-1/-NONE- */-NONE- to/TO
+*-1/-NONE- */-NONE- to/TO |     remove/NN->VB      | the/DT effects/NNS of/IN 
+E- to/TO remove/VB the/DT |    effects/NN->NNS     | of/IN usual/JJ seasonal/J
+ the/DT effects/NNS of/IN |      usual/NN->JJ      | seasonal/JJ patterns/NNS 
+ffects/NNS of/IN usual/JJ |    seasonal/NN->JJ     | patterns/NNS ,/, but/CC w
+f/IN usual/JJ seasonal/JJ |    patterns/NN->NNS    | ,/, but/CC were/VBD n't/R
+/, but/CC were/VBD n't/RB |    adjusted/NN->VBN    | for/IN inflation/NN ./.
+                          |    Kenneth/NN->NNP     | Mayland/NNP ,/, economist
+              Kenneth/NNP |    Mayland/NN->NNP     | ,/, economist/NN for/IN S
+P ,/, economist/NN for/IN |    Society/NN->NNP     | Corp./NNP ,/, a/DT Clevel
+ty/NNP Corp./NNP ,/, a/DT |   Cleveland/NN->NNP    | bank/NN ,/, said/VBD 0/-N
+orts/NNS of/IN factory/NN |     goods/NN->NNS      | is/VBZ beginning/VBG *-1/
+ning/VBG *-1/-NONE- to/TO |      taper/NN->VB      | off/RP ./.
+*-1/-NONE- to/TO taper/VB |       off/IN->RP       | ./.
+ the/DT spring/NN has/VBZ |     failed/NN->VBN     | *-1/-NONE- to/TO revive/V
+iled/VBN *-1/-NONE- to/TO |     revive/NN->VB      | the/DT residential/JJ con
+E- to/TO revive/VB the/DT |   residential/NN->JJ   | construction/NN industry/
+ What/WP sector/NN is/VBZ |   *T*-46/NN->-NONE-    | stepping/VBG forward/RB *
+r/NN is/VBZ *T*-46/-NONE- |    stepping/NN->VBG    | forward/RB *-2/-NONE- to/
+rward/RB *-2/-NONE- to/TO |      pick/NN->VB       | up/RP the/DT slack/NN ?/.
+/VB up/RP the/DT slack/NN |        ?/NN->.         | ''/'' he/PRP asked/VBD *T
+slack/NN ?/. ''/'' he/PRP |     asked/NN->VBD      | *T*-1/-NONE- ./.
+                    ``/`` |       I/NNP->PRP       | draw/VBP a/DT blank/NN ./
+              ``/`` I/PRP |      draw/NN->VBP      | a/DT blank/NN ./. ''/''
+           By/IN most/JJS |    measures/NN->NNS    | ,/, the/DT nation/NN 's/P
+ow/RB growing/VBG very/RB |     slowly/NN->RB      | --/: if/IN at/IN all/DT .
+                          |    Factory/NNP->NN     | payrolls/NNS fell/VBD in/
+               Factory/NN |    payrolls/NN->NNS    | fell/VBD in/IN September/
+                          |       So/IN->RB        | did/VBD *?*/-NONE- *T*-1/
+-NONE- the/DT Federal/NNP |    Reserve/NN->NNP     | Board/NNP 's/POS industri
+T Federal/NNP Reserve/NNP |     Board/NN->NNP      | 's/POS industrial-product
+erve/NNP Board/NNP 's/POS | industrial-production/NN->JJ | index/NN ./.
+                          |       Yet/NN->CC       | many/JJ economists/NNS ar
+           Yet/CC many/JJ |   economists/NN->NNS   | are/VBP n't/RB predicting
+omists/NNS are/VBP n't/RB |   predicting/NN->VBG   | that/IN the/DT economy/NN
+about/IN *-1/-NONE- to/TO |      slip/NN->VB       | into/IN recession/NN ./.
+                 They/PRP |      cite/NN->VBP      | a/DT lack/NN of/IN ``/`` 
+ a/DT lack/NN of/IN ``/`` |   imbalances/NN->NNS   | ''/'' that/WDT *T*-47/-NO
+lances/NNS ''/'' that/WDT |   *T*-47/NN->-NONE-    | provide/VBP early/JJ warn
+'' that/WDT *T*-47/-NONE- |    provide/NN->VBP     | early/JJ warning/NN signa
+e/VBP early/JJ warning/NN |    signals/NN->NNS     | of/IN a/DT downturn/NN ./
+                          |  Inventories/NN->NNS   | are/VBP closely/RB watche
+es/NNS are/VBP closely/RB |    watched/NN->VBN     | *-1/-NONE- for/IN such/JJ
+*-1/-NONE- for/IN such/JJ |     clues/NN->NNS      | ,/, for/IN instance/NN ./
+                          |   Economists/NN->NNS   | say/VBP 0/-NONE- a/DT bui
+NE- a/DT buildup/NN in/IN |  inventories/NN->NNS   | can/MD provoke/VB cutback
+IN inventories/NNS can/MD |     provoke/NN->VB     | cutbacks/NNS in/IN produc
+ies/NNS can/MD provoke/VB |    cutbacks/NN->NNS    | in/IN production/NN that/
+IN production/NN that/WDT |   *T*-48/NN->-NONE-    | can/MD lead/VB to/TO a/DT
+/WDT *T*-48/-NONE- can/MD |      lead/NN->VB       | to/TO a/DT recession/NN .
+POS factory/NN orders/NNS |     report/VB->NN      | had/VBD good/JJ news/NN o
+d/VBD 0/-NONE- factory/NN |  inventories/NN->NNS   | fell/VBD 0.1/CD %/NN in/I
+            ``/`` This/DT |    conforms/NN->VBZ    | to/TO the/DT `/`` soft/JJ
+conforms/VBZ to/TO the/DT |        `/NN->``        | soft/JJ landing/NN '/'' s
+rms/VBZ to/TO the/DT `/`` |      soft/NN->JJ       | landing/NN '/'' scenario/
+T `/`` soft/JJ landing/NN |       '/POS->''        | scenario/NN ,/, ''/'' sai
+/'' said/VBD *T*-1/-NONE- |    Elliott/NN->NNP     | Platt/NNP ,/, an/DT econo
+ *T*-1/-NONE- Elliott/NNP |     Platt/NN->NNP      | ,/, an/DT economist/NN at
+ an/DT economist/NN at/IN |   Donaldson/NN->NNP    | ,/, Lufkin/NNP &/CC Jenre
+N at/IN Donaldson/NNP ,/, |     Lufkin/NN->NNP     | &/CC Jenrette/NNP Securit
+n/NNP ,/, Lufkin/NNP &/CC |    Jenrette/NN->NNP    | Securities/NNP Corp/NNP .
+kin/NNP &/CC Jenrette/NNP |  Securities/NNPS->NNP  | Corp/NNP ./.
+                    ``/`` |       I/NNP->PRP       | do/VBP n't/RB see/VB any/
+``/`` I/PRP do/VBP n't/RB |       see/NN->VB       | any/DT signs/NNS that/IN 
+B see/VB any/DT signs/NNS |      that/WDT->IN      | inventories/NNS are/VBP e
+ any/DT signs/NNS that/IN |  inventories/NN->NNS   | are/VBP excessive/JJ ./. 
+N inventories/NNS are/VBP |    excessive/NN->JJ    | ./. ''/''
+                     A/DT |      soft/NN->JJ       | landing/NN is/VBZ an/DT e
+c/JJ slowdown/NN that/WDT |   *T*-49/NN->-NONE-    | eases/VBZ inflation/NN wi
+NN that/WDT *T*-49/-NONE- |     eases/NN->VBZ      | inflation/NN without/IN *
+/NN without/IN *-1/-NONE- |    leading/NN->VBG     | to/TO a/DT recession/NN .
+/-NONE- orders/NNS for/IN |   nondurable/NN->JJ    | goods/NNS --/: those/DT i
+/NNS for/IN nondurable/JJ |     goods/NN->NNS      | --/: those/DT intended/VB
+J goods/NNS --/: those/DT |    intended/NN->VBN    | */-NONE- to/TO last/VB fe
+tended/VBN */-NONE- to/TO |      last/JJ->VB       | fewer/JJR than/IN three/C
+/CD billion/CD *U*/-NONE- |      after/IN->RB      | *-1/-NONE- climbing/VBG 0
+NONE- after/RB *-1/-NONE- |    climbing/NN->VBG    | 0.9/CD %/NN the/DT month/
+9/CD %/NN the/DT month/NN |     before/IN->RB      | ./.
+                          |     Orders/NN->NNS     | for/IN durable/JJ goods/N
+        Orders/NNS for/IN |     durable/NN->JJ     | goods/NNS were/VBD up/RB 
+ers/NNS for/IN durable/JJ |     goods/NN->NNS      | were/VBD up/RB 0.2/CD %/N
+ble/JJ goods/NNS were/VBD |       up/RP->RB        | 0.2/CD %/NN to/TO $/$ 127
+9/CD %/NN the/DT month/NN |     before/IN->RB      | ./.
+partment/NN previously/RB |   estimated/VBN->VBD   | that/IN durable-goods/NNS
+/RB estimated/VBD that/IN | durable-goods/NN->NNS  | orders/NNS fell/VBD 0.1/C
+                          |    Factory/NNP->NN     | shipments/NNS fell/VBD 1.
+                          |   Shipments/NN->NNS    | have/VBP been/VBN relativ
+BP been/VBN relatively/RB |      level/NN->JJ      | since/IN January/NNP ,/, 
+P ,/, the/DT Commerce/NNP |   Department/NN->NNP   | noted/VBD 0/-NONE- *T*-1/
+                          | Manufacturers/NNP->NNS | '/POS backlogs/NNS of/IN 
+  Manufacturers/NNS '/POS |    backlogs/NN->NNS    | of/IN unfilled/JJ orders/
+ '/POS backlogs/NNS of/IN |    unfilled/NN->JJ     | orders/NNS rose/VBD 0.5/C
+*U*/-NONE- ,/, *-3/-NONE- |     helped/NN->VBN     | *-2/-NONE- by/IN strength
+/DT defense/NN capital/NN |     goods/NN->NNS      | sector/NN ./.
