@@ -2,7 +2,7 @@
 # I didn't see a shift-reduce parser
 #
 # Petrukha Tetiana Als-11
-# Chapter_8, Ex_2
+# Chapter_8, Ex_11
 
 # With pen and paper, manually trace the execution of a recursive descent parser
 # and a shift-reduce parser, for a CFG you have already seen, or one of your own devising.
@@ -17,6 +17,6 @@ V -> "started"
 NP -> "project"
 """)  # define a simple grammar
 sent = "I started project".split()
-rd_parser = nltk.RecursiveDescentParser(grammar1, trace = 3) 
-result = rd_parser.parse(sent) # create a parser
+sr_parse = nltk.ShiftReduceParser(grammar1, trace = 2) 
+result = sr_parse.parse(sent) # create a parser
 result.draw() # print a graphic representation of tree
