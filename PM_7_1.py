@@ -1,4 +1,5 @@
 import nltk
+# dodaemo text (information in a file)
 text='''
 We PRP B-NP
 saw VBD O
@@ -6,12 +7,13 @@ the DT B-NP
 little JJ I-NP
 dog NN I-NP
 '''
-nltk.chunk.conllstr2tree(text, chunk_types=['NP']).draw()
+nltk.chunk.conllstr2tree(text, chunk_types=['NP']).draw() # building a tree representation from the string
+# text only with I and O tags 
 text='''
 dog NN I-NP
 . . O
 '''
-nltk.chunk.conllstr2tree(text, chunk_types=['NP']).draw()
+nltk.chunk.conllstr2tree(text, chunk_types=['NP']).draw() # building a tree representation from the string
 
 # The most widespread file representation uses IOB tags. In this scheme, each token is tagged with one of three special
 # chunk tags, I (inside), O (outside), or B (begin). A token is tagged as B if it marks the
