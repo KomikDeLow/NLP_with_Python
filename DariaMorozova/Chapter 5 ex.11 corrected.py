@@ -15,17 +15,21 @@ text = 'Otherwise they can fail the test.'
 affix_tagger = nltk.AffixTagger(train_sents, affix_length=-2, min_stem_length=0)
 tags = affix_tagger.tag(nltk.word_tokenize(text))
 print tags
+print 'Evaluation = ',affix_tagger.evaluate(train_sents)
 affix_tagger.evaluate( train_sents)
 affix_tagger = nltk.AffixTagger(train_sents, affix_length=-1, min_stem_length=2)
 tags = affix_tagger.tag(nltk.word_tokenize(text))
 print tags
+print 'Evaluation = ',affix_tagger.evaluate(train_sents)
 affix_tagger.evaluate( train_sents)
 affix_tagger = nltk.AffixTagger(train_sents, affix_length=2, min_stem_length=2)
 tags = affix_tagger.tag(nltk.word_tokenize(text))
 print tags
 affix_tagger.evaluate( train_sents)
+print 'Evaluation = ',affix_tagger.evaluate(train_sents)
 affix_tagger = nltk.AffixTagger(train_sents, affix_length=2, min_stem_length=5)
 tags = affix_tagger.tag(nltk.word_tokenize(text))
 print tags
 affix_tagger.evaluate( train_sents)
+print 'Evaluation = ',affix_tagger.evaluate(train_sents)
 
