@@ -20,16 +20,16 @@ def ie_preprocess(document):
     print sentences # print sentences
 
     
-document = "Please, book me a room in this hotel "
+document = "Tall beautiful girls lay on the beach and look on the blue sky"
 print ie_preprocess(document)
-grammar = r"""
-NP: {<DT|JJ|NN.*>+}           # Chunk sequences of DT, JJ, NN
-PP: {<IN><NP>}                # Chunk prepositions followed by NP
-VP: {<VB.*><NP|PP|CLAUSE>+$}  # Chunk verbs and their arguments
-CLAUSE: {<NP><VP>}            # Chunk NP, VP
-"""
-sentence = [('Please', 'NN'), (',', ','), ('book', 'NN'), ('me', 'PRP'), ('a', 'DT'),('room', 'NN'),
-            ('in', 'IN'), ('this', 'DT'), ('hotel', 'NN')] # create sentence with POS tags
+grammar = """
+         NP:
+         {<DT>?<JJ>*<NN>*<NNS>*}
+         }<VBP|IN>+{
+         """
+sentence= [('Tall', 'JJ'), ('beautiful', 'JJ'), ('girls', 'NNS'), ('lay', 'VBP'), ('on', 'IN'),
+           ('the', 'DT'), ('beach', 'NN'), ('and', 'CC'), ('look', 'VBP'), ('on', 'IN'),
+           ('the', 'DT'), ('blue', 'JJ'), ('sky', 'NN')] # create sentence with POS tags
 cp = nltk.RegexpParser(grammar) # create a chunk parser
 result = cp.parse(sentence) # test a chunk parser on my example sentence
 print result  # print result
