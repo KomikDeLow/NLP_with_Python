@@ -1,3 +1,8 @@
+# TODO
+# You didn't inspect the missed and incorrect chunks only print len.
+#
+
+
 # Evaluating a chunker (on 100 sentenses from a chunked corpus) and displaying its mistakes
 # Copiyng a chunker builded in task 3 (Chapter 7)
 

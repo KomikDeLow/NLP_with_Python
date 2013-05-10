@@ -1,4 +1,11 @@
+# TODO
+# Please, describe me the algorithm of your solution
+#
+#
+
+
 import nltk
+
 from nltk.corpus import *
 
 list_of_words_NP=conll2000.chunked_words('train.txt', chunk_types=['NP'])

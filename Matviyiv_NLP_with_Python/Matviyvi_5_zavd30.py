@@ -1,3 +1,5 @@
+# fine but why does the precosion is low 
+#
 # TODO
 # Comments?
 # test and train data?

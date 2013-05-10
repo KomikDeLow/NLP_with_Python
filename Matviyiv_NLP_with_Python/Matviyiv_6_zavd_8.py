@@ -1,3 +1,10 @@
+﻿# fine 
+# Для вдосконалення використання Ворднету потрібно вирішити як його будемо використовувати. 
+# Чи просто збільшувати список частотних слів чи при видобуванні здійснювати перевірки
+# чи не має слово з тексту з частотним словом спільних гіпернімів, чи вони не синоміми і так далі
+# і пробувати врахувати всі можливі варіанти
+#
+
 # building a document classifier on the basis of the movie_rewiev classifier
 # and using the Word net added lexicon for greater accuracy of tagging the reviews
 
