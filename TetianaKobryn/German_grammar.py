@@ -1,3 +1,7 @@
+# fine
+# But you could have send german_new.fcfg
+#
+
 """
 How can I define this feature-based grammar in module and then work with it here,
 but not in the file 'grammars/book_grammars/german.fcfg'?

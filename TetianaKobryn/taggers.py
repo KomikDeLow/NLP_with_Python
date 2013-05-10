@@ -1,3 +1,7 @@
+﻿# fine
+# Але як це ви завжди виводите на екран "The accuracy of Portuguese tagger is worse than of English"
+# може перед цим зробити порівняння чисел
+
 # TODO
 # Comments?
 # How work your program?

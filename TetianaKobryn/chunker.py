@@ -1,3 +1,10 @@
+# TODO
+# Write a tag pattern ...
+# Add these patterns  to the grammar, one per line.
+# 
+#
+#
+#
 # Presented by Tetiana Kobryn
 
 # Chapter 7, Ex.5
