@@ -1,3 +1,6 @@
+# fine
+#
+
 #Прокулевич К. ПРЛс-11, Розділ6, Задача 7
 #building a consecutive classifier for labeling dialogue acts
 import nltk

@@ -1,3 +1,6 @@
+# TODO
+# ..., merging, or splitting.
+#
 #Прокулевич К. ПРЛс-11б Розділ7 Задача8
 #Develop a chunker using a regular expression–based chunk grammar RegexpChunk.
 import nltk

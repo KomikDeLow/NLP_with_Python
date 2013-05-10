@@ -1,3 +1,7 @@
+# fine
+#
+
+
 #TODO
 # Test your program on real sentences with NP that consist with JJ JJ NN...
 #

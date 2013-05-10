@@ -1,3 +1,5 @@
+# fine
+
 #Прокулевич К. ПРЛс-11, Розділ 7, Задача 6
 #A chunker that handles NP
 import nltk

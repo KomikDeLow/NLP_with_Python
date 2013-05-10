@@ -1,3 +1,7 @@
+# fine
+#
+#
+
 #Прокулевич К, ПРЛс-11, Задача №3, Розділ5
 # Tokenize and tag the sentence
 # TODO

@@ -1,3 +1,9 @@
+# TODO
+# #accuracy didn't increase. Why?
+# What are you do for accuracy increase?
+#
+
+
 #Прокулевич К. ПРЛс-11, Розділ 6 №8
 #Using the WordNet lexicon, augment the movie review
 #document classifier presented in this chapter to use features
