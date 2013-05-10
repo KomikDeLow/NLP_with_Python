@@ -1,3 +1,8 @@
+# TODO
+# Does this illustrate a problem?
+#
+
+
 # Andrew Melnyk ALs-12
 
 # In  Section 8.2, we claimed that there are linguistic regularities that cannot be

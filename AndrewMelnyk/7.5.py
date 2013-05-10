@@ -1,3 +1,10 @@
+# TODO
+# Читаємо уважно умову задачі
+# Write a  tag pattern ......
+# Add these patterns to the grammar, one per line.
+# Test ... some tagged sentences ...
+#
+
 # Andrew Melnyk ALs-12
 
 import nltk

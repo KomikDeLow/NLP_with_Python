@@ -1,3 +1,4 @@
+# fine на трієчку
 #Andrew Melnyk, ALs-12
 
 #The IOB format categorizes tagged tokens as  I,  O, and  B. Why are three tags

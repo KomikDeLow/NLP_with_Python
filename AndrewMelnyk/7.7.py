@@ -1,3 +1,8 @@
+# TODO
+# З chunkscore.incorrect() chunkscore.missed() розібрались - добре
+# а як використали - все на екран де треба здогадуватися 
+# Порівняння продуктивності чанкерів немає.
+# 
 # Andrew Melnyk ALs-12
 
 import nltk

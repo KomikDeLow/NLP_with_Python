@@ -1,3 +1,7 @@
+# TODO
+# Ўкода але текст вз€тий з http://grammar.quickanddirtytips.com/starting-a-sentence-with-however.aspx
+# Do a web search for however used at the start of the sentence
+
 # Andrew Melnyk ALs-12
 
 # "However" Without a Comma: Modifier

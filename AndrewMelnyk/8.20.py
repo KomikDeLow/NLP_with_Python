@@ -1,3 +1,14 @@
+# TODO
+# А дерева не відображаються
+# Порівняйте
+# import nltk
+# from nltk.draw.tree import draw_trees
+# tree1 = nltk.Tree('NP', ['Alice'])
+# tree2 = nltk.Tree('NP', ['the', 'rabbit'])
+# tree3 = nltk.Tree('VP', ['chased', tree2])
+# draw_trees(tree1, tree2,tree3)
+#
+
 # Andrew Melnyk ALs-12
 
 import nltk

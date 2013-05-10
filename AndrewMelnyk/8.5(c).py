@@ -1,3 +1,8 @@
+# fine
+# але граматика.....
+#
+#
+
 # Andrew Melnyk ALs-12
 
 import nltk

@@ -1,3 +1,7 @@
+# TODO
+# А яка точність вашого парсера?
+#
+
 # Andrew Melnyk ALs-12
 
 import nltk
