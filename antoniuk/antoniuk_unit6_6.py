@@ -1,3 +1,10 @@
+# TODO
+# Comments?
+# Prigramming style?
+# IndexError: list index out of range!
+#
+
+
 import nltk
 from nltk.corpus import brown
 featureset=[]
