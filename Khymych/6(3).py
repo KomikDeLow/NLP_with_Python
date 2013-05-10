@@ -2,10 +2,10 @@ import nltk
 import types
 from nltk.corpus import senseval #The Senseval 2 corpus is a word sense disambiguation corpus. 
                                  #Each item in the corpus corresponds to a single ambiguous word.
-								 #For each of these words, the corpus contains a list of instances, 
-								 #corresponding to occurences of that word.
-								 #Each instance provides the word; a list of word senses that apply to the word occurence; 
-								 #and the word's context. 
+				#For each of these words, the corpus contains a list of instances, 
+				#corresponding to occurences of that word.
+				#Each instance provides the word; a list of word senses that apply to the word occurence; 
+				#and the word's context. 
 senseval.fileids() #The Senseval 2 corpus contains data for 4 words: hard, interest, line, and serve.
 instances = senseval.instances('hard.pos') #I chose one of these words: "hard"
 features=[] #Transform instances to a needed look: list of tuples, each of them contains a dictionary and string. 
