@@ -1,3 +1,9 @@
+# TODO
+# This is the program of Halyna Khimka 
+#
+#
+
+
 #Irena Marunyshyn PRLs-12 Chapter5 Ex 27
 #Inspect the confusion matrix for the bigram tagger t2 defined in Section 5.5, and 
 #identify one or more sets of tags to collapse. Define a dictionary to do the mapping,
