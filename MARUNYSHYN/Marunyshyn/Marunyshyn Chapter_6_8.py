@@ -1,3 +1,7 @@
+# TODO
+# I was seeing this program many times...
+#
+
 # Irena Marunyshyn PRLs-12 Chapter6 Ex8
 import nltk
 import random

@@ -1,3 +1,10 @@
+﻿# TODO
+# Навіщо перші  два цикли? 
+# Далі зовсім все заплутано  key =="noun1? Що це за змінна key?
+# Функція find_verb є але не використовується. Чому?
+
+
+
 #Irena Marunyshyn PRLs-12  Write a program to find those verbs in the PP Attachment Corpus nltk.cor
 #pus.ppattach. Find any cases where the same verb exhibits two different at-
 #tachments, but where  the  first noun, or  second noun, or preposition  stays

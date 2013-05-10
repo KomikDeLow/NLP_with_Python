@@ -1,3 +1,8 @@
+# fine
+# The programming style is bad!
+#
+
+
 #Irena Marunyshyn PRLs-12 Chapter5 Ex32
 import nltk
 help(nltk.tag.brill.demo)#Brill's transformational rule-based tagger.

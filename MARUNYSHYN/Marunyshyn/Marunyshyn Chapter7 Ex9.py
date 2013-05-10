@@ -1,3 +1,9 @@
+# TODO
+# Look for other examples of correctly chunked noun phrases with incorrect tags.
+#
+#
+
+
 #Irena marunyshyn PRLs-12 Chapter 7 EX 9
 import nltk,re, pprint
 def ie_preprocess(document):

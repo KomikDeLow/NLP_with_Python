@@ -1,3 +1,10 @@
+﻿# fine
+# але хотілось би бачити що ви самі...
+#
+#
+
+
+
 #Irena Marunyshyn PRLs-12 Chapter8 Ex4
 import nltk
 from nltk.corpus import treebank# import Tree

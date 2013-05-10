@@ -1,3 +1,7 @@
+# fine
+#
+#
+
 #Irena Marunyshyn PRLs-12 Chapter7 Ex3
 import nltk, re, pprint
 sentence = [("the","DT"), ("little","JJ"), ("black","JJ"),("doc", "NN"), ("barked","VBD"),("at","IN"),("the","DT"),("cat","NN")]

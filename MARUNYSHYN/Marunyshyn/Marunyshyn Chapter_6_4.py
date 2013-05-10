@@ -1,3 +1,7 @@
+# fine
+#
+#
+
 # Marunyshyn Irena PRLs-12 Chapter 6 Ex 4
 #Using the movie review document classifier discussed in this chapter, generate
 #a list of the 30 features that the classifier finds to be most informative. Can you
