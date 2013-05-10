@@ -23,7 +23,7 @@ for inst in instances:
 	a.update(b) #add all items from the dictionary 'b' to the dictionary 'a'
 	features.append((a,' '.join(inst.senses))) #add the dictionary 'a' to the dictionary 'features'. 
 	                                           #Dictionary 'features' has a look of list of tuples. 
-											   #Tuples consist of dictionary 'a' + string, which note the word's sense.
+				                   #Tuples consist of dictionary 'a' + string, which note the word's sense.
 size = int(len(features) * 0.1) #Set the size of the data for training (10%)
 train_set, test_set = features[size:], features[:size] #divide all data in two parts - for training and testing 
 classifier = nltk.NaiveBayesClassifier.train(train_set) #Train the classifier
