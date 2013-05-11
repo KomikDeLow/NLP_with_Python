@@ -1,6 +1,3 @@
-# TODO
-# It isn't a Python module
-#
 import nltk
 import types
 from nltk.corpus import senseval
