@@ -17,8 +17,12 @@
 
 import nltk
 from nltk.corpus import conll2000
-#defining a  grammar with a regular expression rule
-grammar = "NP: {<DT>?<JJ>*<NN.?>*<VBG>*<NN.?>*}"
+#defining a  grammar with a regular expression rules
+grammar = r"""
+    NP: {<DT|NN.?>*<VBG><NN>}
+        {<DT>?<JJ>*<NN.?>+}  
+"""
+
 #creating a chunk parser
 new_chunk = nltk.RegexpParser(grammar)
 #some example phrases

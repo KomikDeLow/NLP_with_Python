@@ -58,5 +58,8 @@ print 'bigram_English', b1
 print 'bigram_Portuguese', b2
 print 'unigram_English', u1
 print 'unigram_Portuguese', u2
-
-print "The accuracy of Portuguese tagger is worse than of English"
+#Check up the accuracy of what tagger is better
+if (t1+b1+u1)>(t2+b2+u2):
+    print "The accuracy of Portuguese tagger is worse than of English"
+else:
+    print "The accuracy of English tagger is worse than of Portuguese"   
