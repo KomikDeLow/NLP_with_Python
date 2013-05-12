@@ -10,7 +10,7 @@ print cp.evaluate(test_sents)
 grammar = r"""
 PP:
 {<.*>+}                       
-}<NN|TO|PRP$|JJ|CC|NN.|VB.>+{
+}<NN|TO|PRP\$|JJ|CC|NN.|VB.>+{
 """  #{<.*>+} - Chunk everything. }<NN|TO|PRP$|JJ|CC|NN.|VB.>+{ - Chink sequences of NN,TO,PRP$,JJ,CC,NNS, NNP,VBZ
 sentence= [("In", "IN"),("addition", "NN"),("to", "TO"),("his", "PRP$"),("previous", "JJ"),("real-estate", "NN"),
            ("investment", "NN"),("and", "CC"),("asset-management", "NN"),("duties", "NNS"),("Mr.", "NNP"),("Meador", "NNP"),
