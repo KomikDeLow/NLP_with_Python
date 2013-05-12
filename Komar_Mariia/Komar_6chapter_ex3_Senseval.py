@@ -22,15 +22,16 @@ instances = senseval.instances('serve.pos') # choose data for word 'serve'
 features=[]
 for inst in instances:
 	comtext=[]
-	for i in inst.context:
-		if type(i) == types.TupleType:
-			comtext.append(i)
-		elif type(i) == types.StringType:
-			comtext.append(("None",i))
-			word_position={"word": inst.word,"position": inst.position,}
-			dictionary=dict(comtext)
-			word_position.update(dictionary)
-			features.append((word_position,' '.join(inst.senses)))
+	for i in inst.context: #оступаємося до прикладів з корпусу senseval
+		if type(i) == types.TupleType: # Якщо тип змінної "і" є Tuple
+			comtext.append(i)# тоді додаємо цей елемент до списку"comtext"
+		elif type(i) == types.StringType:# Якщо тип змінної "і" є String
+			comtext.append(("None",i))# тоді додаємо слово "None" і цей елемент до списку"comtext"
+			word_position={"word": inst.word,"position": inst.position,}#створюємо словник слів та їх позиції
+			dictionary=dict(comtext)#створюємо словник та записуємо туди усе з "comtext"
+			word_position.update(dictionary)#додаємо усе з словника "dictionary" до словника "word_position"
+			features.append((word_position,' '.join(inst.senses)))#додаємо усе з"word_position" до "features"
+
 
 	
 size = int(len(features) * 0.1) # choose data size for testing
