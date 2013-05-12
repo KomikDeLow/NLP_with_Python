@@ -14,7 +14,7 @@
 
 import nltk
 from nltk.corpus import treebank #import corpus treebank
-tree = treebank.parsed_sents('wsj_0005.mrg')[1] #отримуємо доступ до синтаксично розміченого речення
+tree = treebank.parsed_sents('wsj_0005.mrg')[0] #отримуємо доступ до синтаксично розміченого речення
 print 'Tree = ', tree #виводмо речення у вигляді дерева
 tree.productions() #виписуємо всі правила з цього дерева
 freqdist = nltk.FreqDist(tree.productions()) 

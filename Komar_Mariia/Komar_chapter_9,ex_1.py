@@ -15,7 +15,12 @@
 
 import nltk
 nltk.data.show_cfg('grammars/book_grammars/komar_ex_1.fcfg') #виводимо на екран створену граматику
-
+print '----------tree----------'
+tokens = 'I am happy '.split()
+from nltk import load_parser #import the load_parser function
+cp = load_parser('grammars/book_grammars/komar_ex_1.fcfg', trace=2)
+for tree in cp.nbest_parse(tokens):
+	print tree
 
   
 # % start S
