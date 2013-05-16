@@ -12,7 +12,7 @@ import nltk
 grammar= r"""
 	Np:
 	  {<.*>+}                               #chunk everything
-	  }<VB. |IN>+{                          #chink sequences of VB and IN
+	  }<VBD. |IN>+{                          #chink sequences of VBD and IN
 	  """
 sentence=[("The", "DT"), ("capable", "JJ"), ("agile", "JJ"), ("boy", "NN"),
           ("worked", "VBD"), ("at", "IN"),  ("the", "DT"), ("garden", "NN")]
