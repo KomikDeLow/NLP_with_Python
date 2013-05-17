@@ -6,7 +6,7 @@
 #ALs-12
 # Chapter 7 Ex.4
 import nltk
-# sentence=[('Mary','NN'),('saw','VBD'),('the','DT'),('cat','NN'),('sit','VB'),('on','IN'),('the','DT'),('mat','NN')]
+sentence=[('Mary','NN'),('saw','VBD'),('the','DT'),('cat','NN'),('sit','VB'),('on','IN'),('the','DT'),('mat','NN')]
 grammar=r"""
       NP:{<DT|JJ|NN.*>+} // chunk sequences of DT,JJ,NN
       PP:{<IN><NP>} // chunk prepositions followed by NP

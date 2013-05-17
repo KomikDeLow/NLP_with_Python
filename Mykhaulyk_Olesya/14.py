@@ -10,9 +10,6 @@ import nltk
 from nltk.corpus import brown
 words_brown=brown.tagged_words()
 tage_brown=[t for w,t in words_brown]
-for i,j in words_brown:
-        tage_brown.append(j)
 
-	
 set(sorted(tage_brown))
 
