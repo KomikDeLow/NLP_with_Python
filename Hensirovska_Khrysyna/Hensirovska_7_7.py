@@ -13,32 +13,32 @@
 #the errors made by your chunker. Discuss.
 #c. Compare the performance of your chunker to the baseline chunker discussed
 #in the evaluation section of this chapter.
-#import nltk
-#from nltk.corpus import conll2000
+import nltk
+from nltk.corpus import conll2000
 #Пишемо шаблон для регулярного виразу
-#grammar="NP: {<DT|IN|PRP|NN>?<VBG><DT>?<NN>*}"
+grammar="NP: {<DT|IN|PRP|NN>?<VBG><DT>?<NN>*}"
 #Створюємо синтаксичний аналізатор chunk.Це готовий клас,який створює
 #екземи,виділяє іменникові вирази
-#cp=nltk.RegexpParser(grammar)
+cp=nltk.RegexpParser(grammar)
 #We start off byestablishing a baseline for the trivial chunk parser cp that
 #creates no chunks
-#test_sents = conll2000.chunked_sents('test.txt'[:100], chunk_types=['NP'])
-#print cp.evaluate(test_sents)
-#sentence='His mother asks him cooking'
-#sentence=sentence.split()
+test_sents = conll2000.chunked_sents('test.txt'[:100], chunk_types=['NP'])
+print cp.evaluate(test_sents)
+sentence='His mother asks him cooking'
+sentence=sentence.split()
 #Now that we’ve defined our feature extractor, we can use it to train
-#tagged=nltk.pos_tag(sentence)
-#result=cp.parse(tagged)
-#print result
+tagged=nltk.pos_tag(sentence)
+result=cp.parse(tagged)
+print result
 #identify the errors made by my chunker
 #The chunks which were included in the guessed chunk structures, but not in
 #the correct chunk structures, listed in input order. 
-   	# print chunk
-#chunkscore = nltk.chunk.ChunkScore()
+print chunk
+chunkscore = nltk.chunk.ChunkScore()
 #The chunks which were included in the correct chunk structures, but not in
 #the guessed chunk structures, listed in input order.
-#chunkscore.score(test_sents,result)
-#for chunk in chunkscore.incorrect():
-	#print chunk
-#for chunk in chunkscore.missed():
-	#print chunk
+chunkscore.score(test_sents,result)
+for chunk in chunkscore.incorrect():
+	print chunk
+for chunk in chunkscore.missed():
+	print chunk
