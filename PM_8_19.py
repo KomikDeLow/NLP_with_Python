@@ -1,4 +1,3 @@
-# -*- coding: cp1251 -*-
 import nltk
 # define the grammar
 groucho_grammar = nltk.parse_cfg("""
