@@ -1,3 +1,6 @@
+#presented by Iryna Havryliak PRLc 13
+# Chapter 7, Ex.9
+
 import nltk
 from random import shuffle
 grammar = r'NP:  {<DT|JJ|NN>+}'
