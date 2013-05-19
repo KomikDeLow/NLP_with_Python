@@ -1,3 +1,5 @@
+#presented by Iryna Havryliak PRLc 13
+# Chapter 8, Ex.9
 """
 Possibly, but if the sentence will contain only the words that are written in the grammar, otherwise we get an error. 
 """
