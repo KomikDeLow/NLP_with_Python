@@ -1,3 +1,5 @@
+#presented by Iryna Havryliak PRLc 13
+# Chapter 7, Ex.1
 import nltk
 sentence = [("Rapunzel", "NNP"), ("let", "VBD"), ("down", "RP"), ("her", "PP$"), ("long", "JJ"), ("golden", "JJ"), ("hair", "NN")]
 grammar = r"""
