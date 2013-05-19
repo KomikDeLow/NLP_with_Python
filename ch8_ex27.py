@@ -1,3 +1,5 @@
+#presented by Iryna Havryliak PRLc 13
+# Chapter 8, Ex.27
 """
 In this algorithm, we write the position of words in a triangular matrix which has the form:
 |a11  a12	a13|
