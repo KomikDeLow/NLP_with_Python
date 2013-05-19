@@ -18,3 +18,4 @@ def tag(word,tag):
     return a
 tag('moon','NN')
 print tag('moon','NN')
+# zberegennia nabory tegiv, vidpovidno do slova, kotre mae danui teg

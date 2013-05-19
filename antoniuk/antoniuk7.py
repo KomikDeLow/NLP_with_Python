@@ -17,4 +17,5 @@ d2['member']='N'
 d1.update(d2)
 d1
 print d1
-# dode dani d2 do slovnuka d1
+# dodae dani d2 do slovnuka d1
+# dodae dani z slovnyka d2 z klychamu, kotrux nemae v d1
