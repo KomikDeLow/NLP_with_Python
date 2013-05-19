@@ -1,3 +1,6 @@
+#presented by Iryna Havryliak PRLc 13
+# Chapter 6, Ex.6
+
 import nltk
 from nltk.corpus import brown
 featureset=[]
