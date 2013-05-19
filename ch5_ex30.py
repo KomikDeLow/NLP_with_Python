@@ -1,3 +1,6 @@
+#presented by Iryna Havryliak PRLc 13
+# Chapter 5, Ex.30
+
 import nltk
 from nltk.corpus import brown
 brown_tagged_sents = brown.tagged_sents(categories='news')
