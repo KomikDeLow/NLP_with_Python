@@ -1,3 +1,5 @@
+#presented by Iryna Havryliak PRLc 13
+# Chapter 7, Ex.3
 # 3.1
 import nltk
 sentence = [("many", "JJ"), ("researches", "NNS"), (",", ","), ("two", "CD"), ("weeks", "NNS"), (",", ","), ("both", "DT"), ("new", "JJ"), ("positions", "NNS")]
