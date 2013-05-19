@@ -1,3 +1,6 @@
+#presented by Iryna Havryliak PRLc 13
+# Chapter 6, Ex.8
+
 import nltk, random
 from nltk. corpus import movie_reviews
 from nltk.corpus import wordnet as wn
