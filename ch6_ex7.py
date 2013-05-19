@@ -1,3 +1,6 @@
+#presented by Iryna Havryliak PRLc 13
+# Chapter 6, Ex.7
+
 import nltk
 posts = nltk.corpus.nps_chat.xml_posts()
 history=[]
