@@ -1,3 +1,6 @@
+#presented by Iryna Havryliak PRLc 13
+# Chapter 5, Ex.2
+
 import nltk
 train_sents = [
 [('I','PRO'), ('her','PRO'), ('its','PRO'), ('my','PRO'), ('us','PRO')],
