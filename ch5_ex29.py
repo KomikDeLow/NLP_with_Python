@@ -1,3 +1,5 @@
+#presented by Iryna Havryliak PRLc 13
+# Chapter 5, Ex.29
 import nltk
 from nltk.corpus import brown
 
