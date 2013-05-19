@@ -1,3 +1,6 @@
+#presented by Iryna Havryliak PRLc 13
+# Chapter 7, Ex.7
+
 # a
 
 import nltk
