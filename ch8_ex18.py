@@ -1,4 +1,3 @@
-
 #presented by Iryna Havryliak PRLc 13
 # Chapter 8, Ex.18
 def test():
