@@ -21,11 +21,11 @@ for tagged_sent in brown.tagged_sents():
 			 context={}
 print featureset[100]
 print featureset[125]
-print featureset[150]
+print featureset[350]
 size = int(len(featureset) * 0.1)
 train_set, test_set = featureset[size:], featureset[:size]
 classifier = nltk.NaiveBayesClassifier.train(train_set)
 print nltk.classify.accuracy(classifier, test_set)
 print classifier.classify({'sales':'NNS'})
 print classifier.classify({'chip':'NN'})
-## залежить від випалку вживання прекметника
+## залежить від випалку вживання прекметника та його характеристик
