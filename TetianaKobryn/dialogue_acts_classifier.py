@@ -13,11 +13,13 @@
 # See the code for the consecutive classifier for part-of-speech tags in Example 6-5
 # to get some ideas.
 
+"""This dialogue act classifier assigns labels to individual posts with considering
+the context in which the post is found. Type of previous message is taking into account."""
 
 import nltk
 posts = nltk.corpus.nps_chat.xml_posts()
 previous_post=[] # here the type of previous message will be saved
-
+# function for getting features from message
 def dialogue_act_features(post,i,previous_post):
     features = {}
     for word in nltk.word_tokenize(post):
@@ -43,3 +45,4 @@ print "Accuracy of the classifier:"
 print nltk.classify.accuracy(classifier, test_set)
 # Showing most informative features of the classifier
 classifier.show_most_informative_features(5)
+
