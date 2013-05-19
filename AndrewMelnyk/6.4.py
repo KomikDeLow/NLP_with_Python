@@ -1,7 +1,3 @@
-# TODO
-# Що таке стрічка документування?
-# Прошу почитати лаб 7 та 8
-#
 # Andrew Melnyk ALs-12
 
 import nltk, random

@@ -1,7 +1,4 @@
 # fine
-# TODO
-# result output?
-#
 
 # Andrew Melnyk ALs-12
 

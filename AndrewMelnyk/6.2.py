@@ -17,9 +17,9 @@ def gender_features(name): # Створюємо функцію яка буде видобувати лексичні особ
         return features
 # Розподіляємо корпус імен на 3 частини згідно умови завдання
 featuresets = [(gender_features(n), g) for (n,g) in names]
-train_set = featuresets[500:]
+test_set = featuresets[500:]
 dev_test_set = featuresets[500:1000]
-test_set = featuresets[1000:]
+train_set = featuresets[:6900]
 # Створюємо класифікатор NaiveBayes
 classifier = nltk.NaiveBayesClassifier.train(train_set)
 print nltk.classify.accuracy(classifier, dev_test_set)

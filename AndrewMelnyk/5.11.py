@@ -1,7 +1,4 @@
 # fine
-#
-# TODO
-# I didn't see your program result
 
 #Andrew Melnyk ALs-12 27.02.12
 import nltk

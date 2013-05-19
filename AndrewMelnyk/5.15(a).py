@@ -1,10 +1,3 @@
-# TODO
-# invalid syntax
-#
-# NameError: name 'fdist' is not defined
-#
-
-
 # Andrew Melnyk ALs-12
 import nltk
 from nltk.corpus import brown
@@ -22,11 +15,6 @@ for (w,t) in brown.tagged_words(categories='news'): # Відбір слів які мають тег 
 
 fdistpl = nltk.FreqDist(pl) # Створення частотного списку вищевказаних слів
 
-<<<<<<< HEAD
-for i in fdist.keys():	# Порівняння частоти входження в списки іменників. Якщо частота входженнь більша у множині ніж у однині то відбуваєтсья вивід на екран цього слова.
-	if fdistpl[i]>fdist[i]:
-=======
 for i in fdistpl.keys():	# Порівняння частоти входження в списки іменників. Якщо частота входженнь більша у множині ніж у однині то відбуваєтсья вивід на екран цього слова.
 	if fdistpl[i]>fdistsing[i]:
->>>>>>> Р’РёРїСЂР°Р»РµРЅС– Р·Р°РґР°С‡С–
 		print i
