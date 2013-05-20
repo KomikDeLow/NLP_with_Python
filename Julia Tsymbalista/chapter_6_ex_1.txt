@@ -1,0 +1,23 @@
+﻿Iuliia Tsumbalista ALs-13
+chapter 6, ex. 1
+
+Read up on one of the language technologies mentioned in this section, such as
+word sense disambiguation, semantic role labeling, question answering, machine
+translation, or named entity recognition. Find out what type and quantity of annotated
+data is required for developing such systems. Why do you think a large
+amount of data is required?
+
+
+
+Regarding machine translation, it is difficult because a given words could have several possible translations(depending on its meaning), and because word order must be changed in keeping with the grammatical structure of the target language. 
+Also the machine should be able to translate the text into another language, accurately conveying the meaning of the original text.
+For example In translating into French or German, we are forced to choose the gender of the
+pronoun and a correct translation actually depends on correct understanding
+of the pronoun.
+
+That's why working out the sense of a word, the subject of a verb, and the
+antecedent of a pronoun are steps in establishing the meaning of a sentence, things we
+would expect a language understanding system to be able to do.
+
+ 
+A large quantity of annotated data is needed to develop such software due to the complexity of the problem and various contexts in which  given words can occur. As with part-of-speach tagging, the more data a tagger sees in training, the more accurate it will be when asked to process new data.
