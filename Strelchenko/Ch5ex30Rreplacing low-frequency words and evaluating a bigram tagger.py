@@ -1,6 +1,6 @@
 # TODO
 # Is your program evaluating a bigram tagger?
-#
+# yes
 
 import nltk
 from nltk.corpus import brown
@@ -23,7 +23,7 @@ test_sents2 = new_tagged_sents[size:] # Build and train analyzers
 t0 = nltk.DefaultTagger('NN')
 t1 = nltk.UnigramTagger(train_sents1, backoff=t0)
 t2 = nltk.BigramTagger(train_sents1, backoff=t1)
-print t2.evaluate(test_sents1) # Evaluate the accuracy of their work
+print t2.evaluate(test_sents1) # Evaluate the accuracy of bigram tagger
                   
 t1 = nltk.UnigramTagger(train_sents2, backoff=t0)
 t2 = nltk.BigramTagger(train_sents2, backoff=t1)

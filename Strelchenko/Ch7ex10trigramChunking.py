@@ -1,6 +1,6 @@
 # TODO
 # What does your program do?
-#
+# it rebuilds trigram chunker in order to enhance accuracy
 
 import nltk
 chunk_data = [[(t,c) for w,t,c in nltk.chunk.tree2conlltags(chtree)] 

@@ -1,7 +1,4 @@
-# TODO
-# The precision is 0.127304731786
-# If use the grammar with one rule r'.+', 'NNS' the precision is 0.13
-#
+# redone
 
 import nltk
 from nltk.corpus import brown
@@ -39,7 +36,8 @@ patterns = [
 	(r'.*ly$', 'RB'), # Adverb -ly
 	(r'.*\'s$', 'NN$'), # possessive nouns
 	(r'.*s$', 'NNS'), # plural nouns
-	(r'^-?[0-9]+(.[0-9]+)?$', 'CD'), # carinal numbers
+	(r'^-?[0-9]+(.[0-9]+)?$', 'CD'),# carinal numbers
+        (r'.+', 'NNS'),
 	] # had added more regular expressions in order to improve its accuracy
 regexp_tagger=nltk.RegexpTagger(patterns) 
 print regexp_tagger.tag(brown_sents[5])
