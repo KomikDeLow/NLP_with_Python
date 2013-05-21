@@ -1,5 +1,5 @@
 #presented by Iryna Havryliak PRLc 13
-# Chapter 10, Ex.1
+# Chapter 10, Ex.2
 
 #Translate the following sentences into predicate-argument formulas of first-order logic.
 
