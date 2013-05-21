@@ -1,3 +1,4 @@
+# якщо змінити розмір інформації для тестування від 1 до 300, то частотність збільшується 
 # TODO
 # Plagiarism?
 # А вдосконалити?
@@ -43,7 +44,6 @@ for i, post in enumerate(posts): # process numbered list of posts
         history.append(post.get('class')) # append list of all types of posts
 
         
-size=int(len(feature_sets)*0.1) #choose data size for testing
-train_set, test_set = feature_sets[size:], feature_sets[:size] #divide data for train and test
+train_set, test_set = feature_sets[1:], feature_sets[:300] #divide data for train and test
 classifier = nltk.NaiveBayesClassifier.train(train_set) #create a classifier
 print 'Accuracy = ', nltk.classify.accuracy(classifier, test_set) #evaluate the accuracy of the work
