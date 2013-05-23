@@ -5,6 +5,7 @@
 # Rozdil 5 zad. 11
 # Morozova Daria PRLs-12
 # Variant 11
+# AffixTagger accuracy was added
 
 import nltk
 from nltk.corpus import *
@@ -18,15 +19,18 @@ text = 'Otherwise they can fail the test.'
 affix_tagger = nltk.AffixTagger(train_sents, affix_length=-2, min_stem_length=0)
 tags = affix_tagger.tag(nltk.word_tokenize(text))
 print tags
+print affix_tagger.evaluate(train_sents)
 affix_tagger = nltk.AffixTagger(train_sents, affix_length=-1, min_stem_length=2)
 tags = affix_tagger.tag(nltk.word_tokenize(text))
 print tags
+print affix_tagger.evaluate(train_sents)
 affix_tagger = nltk.AffixTagger(train_sents, affix_length=2, min_stem_length=2)
 tags = affix_tagger.tag(nltk.word_tokenize(text))
 print tags
+print affix_tagger.evaluate(train_sents)
 affix_tagger = nltk.AffixTagger(train_sents, affix_length=2, min_stem_length=5)
 print tags
-
+print affix_tagger.evaluate(train_sents)
 
 
 
