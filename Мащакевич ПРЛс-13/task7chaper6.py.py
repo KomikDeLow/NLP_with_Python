@@ -25,4 +25,6 @@ for i, post in enumerate(posts): ## examine a numerated list
 size = int(len(featuresets) * 0.1)
 train_set, test_set = featuresets[size:], featuresets[:size]
 classifier = nltk.NaiveBayesClassifier.train(train_set)
-accuracy=nltk.classify.accuracy(classifier, test_set)##accuracy
+accuracy=nltk.classify.accuracy(classifier, test_set)
+print accuracy
+##accuracy

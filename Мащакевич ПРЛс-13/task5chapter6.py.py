@@ -22,6 +22,8 @@ def entropy(labels):## function for determining the gender of names using entrop
     freqdist = nltk.FreqDist(labels)
     probs = [freqdist.freq(l) for l in nltk.FreqDist(labels)]
     return -sum([p * math.log(p,2) for p in probs])
-productivity=entropy(['male', 'female', 'male', 'male'])## result of productivity from entropy
+productivity=entropy(['male', 'female', 'male', 'male'])
+print productivity
+## result of productivity from entropy
 ## taking to consideration results, i want to make the conclusion. My research showed that
 ##using entropy we can have better results, as is uses search techniques to find a set of parameters that will maximize the performance of the ckassifier.

@@ -1,5 +1,3 @@
-# fine
-#
 # Khrystyna Maschakevich, AL-13, exercise 32
 import nltk
 help(nltk.tag.brill.demo) #   open help
