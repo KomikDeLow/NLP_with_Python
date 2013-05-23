@@ -13,7 +13,7 @@ def dialogue_act_features(post,i,history): #Функція для пошуку потрібних ознак
             features["prev-class"]=history[i-1]
         return features
 
-feature_sets=[]
+featuresets=[]
 for i,post in enumerate(posts): #Обробка пронумерованого списку повідомлень
     featuresets.append((dialogue_act_features(post.text,i,history),post.get('class')))
     history.append(post.get('class'))

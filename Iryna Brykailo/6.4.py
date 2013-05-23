@@ -8,9 +8,9 @@ documents= [(list(movie_reviews.words(fileid)),category) #Creating the randomize
         for fileid in movie_reviews.fileids(category)]
 
 random.shuffle(documents)
-words=nltk.FreqDist(w.lower() for w in movie_reviews.words()) #Frequency Distribution
+all_words=nltk.FreqDist(w.lower() for w in movie_reviews.words()) #Frequency Distribution
 word_features=all_words.keys() [:1000]
-def document_features(document) # Function for creating list of features
+def document_features(document): # Function for creating list of features
     document_words= set(document)
     features= {}
     for word in word_features:
