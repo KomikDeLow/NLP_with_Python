@@ -14,7 +14,7 @@ As = lp.parse('As')
 Bs = lp.parse('-Bs')
 R = lp.parse('As -> -Bs')
 prover = nltk.Prover9()
-prover.prove(Bs, [As, R])
+print "a.", prover.prove(Bs, [As, R])
 
 """b. Cyril runs and barks.
 Cr & Cb"""
@@ -23,7 +23,7 @@ Cr = lp.parse('Cr')
 Cb = lp.parse('Cb')
 B = lp.parse('Cr & Cb')
 prover = nltk.Prover9()
-prover.prove(Cr, [B])
+print "b.", prover.prove(Cr, [B])
 
 """c. It will snow if it doesn’t rain.
 Sn -> -Rn"""
@@ -32,7 +32,7 @@ Sn = lp.parse('Sn')
 NotRn = lp.parse('-Rn')
 C = lp.parse('Sn -> -Rn')
 prover = nltk.Prover9()
-prover.prove(Rn, [Sn, C])
+print "c.", prover.prove(NotRn, [Sn, C])
 
 """d. It’s not the case that Irene will be happy if Olive or Tofu comes.
 -Ih -> Oc|Tc"""
@@ -43,7 +43,7 @@ Tc = lp.parse('Tc')
 OoT = lp.parse('Oc|Tc')
 D = lp.parse('-Ih -> Oc|Tc')
 prover = nltk.Prover9()
-prover.prove(OoT, [NotIh, D])
+print "d.", prover.prove(OoT, [NotIh, D])
 
 """e. Pat didn’t cough or sneeze.
 -Pc | -Ps"""
@@ -52,7 +52,7 @@ NotC = lp.parse('-Pc')
 NotS = lp.parse('-Ps')
 E = lp.parse('-Pc | -Ps')
 prover = nltk.Prover9()
-prover.prove(E, [NotC, NotS])
+print "e.", prover.prove(E, [NotC, NotS])
 
 """f. If you don’t come if I call, I won’t come if you call.
 (-Yc -> -Ic)<->(-Ic -> Yc)"""
@@ -61,4 +61,4 @@ YNotcome = lp.parse('-Yc -> -Ic')
 INotcome = lp.parse('-Ic->Yc')
 All = lp.parse('(-Yc -> -Ic)<->(-Ic -> Yc)')
 prover = nltk.Prover9()
-prover.prove(All, [YNotcome, INotcome])
+print "f.", prover.prove(All, [YNotcome, INotcome])
