@@ -21,7 +21,7 @@ for instance in instances:
 	a={"word": instance.word,"position": instance.position,}
 	b=dict(emptylist)
 	a.update(b)
-	features.append((a,' '.join(inst.senses)))
+	features.append((a,' '.join(instance.senses)))
 size = int(len(features) * 0.1)#setting a size for a testing data
 train_set, test_set = features[size:], features[:size]
 classifier1 = nltk.NaiveBayesClassifier.train(train_set)#NaiveBayesClassifier is using as a baseline, using boolean word feature extraction

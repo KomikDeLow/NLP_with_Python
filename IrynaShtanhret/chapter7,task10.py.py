@@ -27,7 +27,6 @@ class BigramChunker(nltk.ChunkParserI):#Having built a unigram chunker, it is qu
         conlltags = [(word, pos, chunktag) for ((word,pos),chunktag)
                      in zip(sentence, chunktags)]
         return nltk.chunk.conlltags2tree(conlltags)  
-
 bigram_chunker = BigramChunker(train_sents)
 print bigram_chunker.evaluate(test_sents)             
 #by trying adding different features to the feature extractor function we see that we can further improve the performance of the NP chunker.	

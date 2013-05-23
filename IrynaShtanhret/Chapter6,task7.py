@@ -1,7 +1,3 @@
-# TODO
-#
-#
-
 #Iryna Shtanhret, AL-13, Task7, Chapter6
 import nltk#importing data
 posts = nltk.corpus.nps_chat.xml_posts()#The posts included 1)Hand privacy masked,2) Part-of-speech tagged; and
@@ -25,7 +21,11 @@ for i, post in enumerate(posts):#examine a numerated list
 size = int(len(featuresets) * 0.1)
 train_set, test_set = featuresets[size:], featuresets[:size]
 classifier = nltk.NaiveBayesClassifier.train(train_set)
-print nltk.classify.accuracy(classifier, test_set)#To check how reliable the resulting classifier is, we compute its accuracy on the test set
+print nltk.classify.accuracy(classifier, test_set)
+def ClassofPost(PreviousClass, word):
+        print classifier.classify({'prev-class': PreviousClass, 'contains(%s)' %word.lower():True})
+
+#To check how reliable the resulting classifier is, we compute its accuracy on the test set
 #Conclusion: there are usually limits to the number of features that you should use with a given learning algorithm — if you provide too many features, then the algorithm will have a higher chance of relying on idiosyncrasies of your training data that don't generalize well to new examples. 
 #This problem is known as overfitting, and can be especially problematic when working with small training sets. 
 #For example, if we train a naive Bayes classifier using the feature extractor shown in Example 6.2, it will overfit relatively small training set, resulting in a system whose accuracy is about 1% lower than the accuracy of a classifier that only pays attention to the final letter of each name:

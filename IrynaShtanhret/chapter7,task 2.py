@@ -1,4 +1,4 @@
-# -*- coding: cp1251 -*-
+
 #Iryna Shtanhret, Al-13, Task 2, Chapter 7
 #Протагуйте іменникові вирази, що містять іменники множини, наприклад,
 #many/JJ researchers/NNS, two/CD weeks/NNS, both/DT new/JJ positions/NNS .
