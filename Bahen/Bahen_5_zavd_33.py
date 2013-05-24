@@ -1,21 +1,13 @@
 # TODO
 # Comments?
-# What do your variables e,d,a,c,w mean?
 #
+#Bahen Diana, PRLs-11, Chapter 5, Exercise 33
 
 import nltk
+pos=nltk.defaultdict(dict) 
 brown_tagged=nltk.corpus.brown.tagged_words()
-def tag(word,tag):
-    w=dict()
-    a=nltk.defaultdict(dict)
-    c=[]
-    for i in range(len(brown_tagged)-1):
-        d=brown_tagged[i]
-        e=brown_tagged[i+1]
-        if d[0]==word and d[1]==tag:
-            c+=[e[1]]
-    w[tag]=set(c)
-    a[word]=w
-    return a
-tag('moon','NN')
-print tag('moon','NN')
+for ((w1,t1),(w2,t2)) in nltk.ibigrams(brown_tagged):
+    print w1+":", t1,[t2][:50]
+
+#w1,w2 - dictionaries
+#t1,t2 - tags
