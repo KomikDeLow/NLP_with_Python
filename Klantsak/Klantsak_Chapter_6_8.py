@@ -1,17 +1,7 @@
-Python 2.6.6 (r266:84297, Aug 24 2010, 18:46:32) [MSC v.1500 32 bit (Intel)] on win32
-Type "copyright", "credits" or "license()" for more information.
 
-    ****************************************************************
-    Personal firewall software may warn about the connection IDLE
-    makes to its subprocess using this computer's internal loopback
-    interface.  This connection is not visible on any external
-    interface and no data is sent to or received from the Internet.
-    ****************************************************************
-    
-IDLE 2.6.6
 # Veronika Klantsak ALs-11
 
->>> import nltk
+import nltk
 import random
 from nltk.corpus import movie_reviews
 from nltk.corpus import wordnet as wn
@@ -49,5 +39,4 @@ featuresets = [(document_features(d), c) for (d,c) in documents]
 train_set, test_set = featuresets[80:], featuresets[:20]
 classifier = nltk.NaiveBayesClassifier.train(train_set)
 print nltk.classify.accuracy(classifier, test_set)
-
->>> # Sliv dobavulosya 37, a tochnist tak i ne zbilwulas
+ # Sliv dobavulosya 37, a tochnist tak i ne zbilwulas
