@@ -1,7 +1,6 @@
 # TODO
 # Comments?
 # How does your program work?
-# Plagiarism!
 
 # Bahen Diana, PRLs-11, Chapter 6, Exercise 7
 
