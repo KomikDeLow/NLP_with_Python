@@ -1,18 +1,8 @@
-Python 2.6.6 (r266:84297, Aug 24 2010, 18:46:32) [MSC v.1500 32 bit (Intel)] on win32
-Type "copyright", "credits" or "license()" for more information.
 
-    ****************************************************************
-    Personal firewall software may warn about the connection IDLE
-    makes to its subprocess using this computer's internal loopback
-    interface.  This connection is not visible on any external
-    interface and no data is sent to or received from the Internet.
-    ****************************************************************
-    
-IDLE 2.6.6
 # Veronika Klantsak Als-11
 >>> >>> import nltk
 >>>posts = nltk.corpus.nps_chat.xml_posts()
->>>history=[] # zminna dkya zberezhennya tupy poperdnjogo povidomlennya(post’s dialogue act type)
+>>>history=[] # zminna dkya zberezhennya tupy poperdnjogo povidomlennya(postï¿½s dialogue act type)
 # fynkciya dlya vlychennhya vlastuvostej(oznak) z povidomlennya
 >>>def dialogue_act_features(post,i,history):
 features = {}
