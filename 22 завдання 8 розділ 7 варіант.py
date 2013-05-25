@@ -1,11 +1,12 @@
-# TODO
-# Нічого не зрозумів
-#  try to suggest some factors that influence
-# неоднозначність то не фактор
+import nltk
+entries = nltk.corpus.ppattach.attachments('training') 
+table = nltk.defaultdict(lambda: nltk.defaultdict(set)) 
+for entry in entries:
+  key = entry.noun1 + '-' + entry.prep + '-' + entry.noun2
+	table[key][entry.attachment].add(entry.verb)
 
-# На мою думку, на прийменникові вирази впливає неоднозначність. Наприклад, є два речення: 
-# a.    The policeman saw a burglar with a gun. (побачив саме цього грабіжника)
-# b.		The policeman saw a burglar with a telescope. (побачив грабіжника за допомогою телескопа)
+for key in sorted(table): 
+	if len(table[key]) > 1:
+		print key, 'N:', 'N depends on V:', sorted(table[key]['N']), 'V:', sorted(table[key]['V'])
 
-# У двох реченнях є прийменниковий вираз, який починається зі слова with. У першому випадку, слово with, змінює іменник burglar (грабіжник), а у другому дієслово saw (бачив).  Через такі неоднозначності, структура дерева змінюється докорінно. 
 
