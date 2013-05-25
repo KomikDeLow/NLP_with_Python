@@ -1,4 +1,4 @@
-
+import nltk
 help(nltk.tag.brill.demo)
 nltk.tag.brill.demo(num_sents=400, max_rules=100, min_score=3, error_output='errors.out', rule_output='rules.yaml', randomize=False, train=0.3, trace=3)
 nltk.tag.brill.demo(num_sents=600, max_rules=200, min_score=3, error_output='errors.out', rule_output='rules.yaml', randomize=False, train=0.3, trace=3)
