@@ -1,3 +1,4 @@
+# by Ivanna Kushniruk
 import nltk
 posts = nltk.corpus.nps_chat.xml_posts()
 prepost=[] # class of previous post will be here
