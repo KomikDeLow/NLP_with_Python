@@ -1,6 +1,6 @@
 # Valerii Androshchuk APL(s)-13
 # Chapter 5, Task 33
-# Write a code at builds a dictionary of dictionaries of sets.
+# Write a code that builds a dictionary of dictionaries of sets.
 # Use it to store thset of POS tags that can follow a given POS tag.
 
 import nltk
