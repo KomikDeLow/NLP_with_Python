@@ -1,25 +1,37 @@
-# TODO
-# It isn't Python modul
-#
-#
->>> import nltk
->>> posts = nltk.corpus.nps_chat.xml_posts()
->>> history=[]
->>> def dialogue_act_features(post,i,history):
-  features = {}
-	for word in nltk.word_tokenize(post):
-		features['contain(%s)' % word.lower()] = True
-		if i == 0:
-			features["prev-class"] = ""
-		    else:
-                        features["prev-class"] = hisrory[i-1]
-                return features
->>> featureset=[]
->>> for i, post in enumerate(posts) :
-	featuresets.append((dialogue_act_features(post.text, i, hitory), post.get('class')))
-	history.append(post.get('class'))
->>> size = int (len(features) * 0.1)
->>> train_set,test_set = featureset[size:], featuresets[:size]
->>> classifier = nltk.NaiveBayesClassifier.train(train_set)
->>> print nltk.classify.accuracy(classifier, test_set)
-0.644886363636
+import nltk
+def standart_method(post):
+    features = {}
+    for word in nltk.word_tokenize(post):
+        features['contains(%s)' % word.lower()] = True
+    return features
+
+def prev_class_method(post,i,history):
+    features = {}
+    for word in nltk.word_tokenize(post):
+        features['contains(%s)' % word.lower()] = True
+        if i:
+            features["prev-class"] = history[i-1]["class"]
+            features["prev-punct"] = history[i-1]["punctuation"]
+        features["punct"] = post[-1]
+    return features
+
+posts = nltk.corpus.nps_chat.xml_posts()
+history=[]
+featuresets = []
+for post in posts: 
+    featuresets.append((standart_method(post.text), post.get('class')))
+size = int(len(featuresets) * 0.1)
+train_set, test_set = featuresets[size:], featuresets[:size]
+standart_classifier = nltk.NaiveBayesClassifier.train(train_set)
+
+featuresets = []
+for i, post in enumerate(posts):
+    featuresets.append((prev_class_method(post.text, i, history), post.get('class')))
+    history.append({"class": post.get('class'),
+                    "punctuation": post.text[-1]})
+size = int(len(featuresets) * 0.1)
+train_set, test_set = featuresets[size:], featuresets[:size]
+modified_classifier = nltk.NaiveBayesClassifier.train(train_set)
+
+print "Standart method accuracy: ", nltk.classify.accuracy(standart_classifier, test_set)
+print "Modified method accuracy: ", nltk.classify.accuracy(modified_classifier, test_set)
