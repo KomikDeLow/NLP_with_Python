@@ -2,7 +2,7 @@
 # Veronika Klantsak Als-11
 >>> >>> import nltk
 >>>posts = nltk.corpus.nps_chat.xml_posts()
->>>history=[] # zminna dkya zberezhennya tupy poperdnjogo povidomlennya(post�s dialogue act type)
+>>>history=[] # zminna dkya zberezhennya tupy poperdnjogo povidomlennya(posts dialogue act type)
 # fynkciya dlya vlychennhya vlastuvostej(oznak) z povidomlennya
 >>>def dialogue_act_features(post,i,history):
 features = {}
