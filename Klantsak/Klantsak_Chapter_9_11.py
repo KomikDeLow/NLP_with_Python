@@ -3,8 +3,13 @@
 # (63) Heute sieht der Hund die Katze.
 
 import nltk
+<<<<<<< HEAD
 nltk.data.show_cfg('grammars/book_grammars/german.fcfg') # Ð²Ñ–Ð´Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð½Ñ Ñ€Ð¾Ð·ÑˆÐ¸Ñ€ÐµÐ½Ð¾Ñ— Ð½Ñ–Ð¼ÐµÑ†ÑŒÐºÐ¾Ñ— Ð³Ñ€Ð°Ð¼Ð°Ñ‚Ð¸ÐºÐ¸
 grammar=("""  # Ð½Ð¾Ð²Ð° Ð³Ñ€Ð°Ð¼Ð°Ñ‚Ð¸ÐºÐ°
+=======
+nltk.data.show_cfg('grammars/book_grammars/german.fcfg') # â³äîáðàæåííÿ ðîçøèðåíî¿ í³ìåöüêî¿ ãðàìàòèêè
+grammar=("""  # íîâà ãðàìàòèêà
+>>>>>>> Chapter_9_11 ta Chapter_5_15c
 S -> NP[CASE=nom, AGR=?a] VP[AGR=?a]
 NP[CASE=?c, AGR=?a] -> PRO[CASE=?c, AGR=?a]
 NP[CASE=?c, AGR=?a] -> Det[CASE=?c, AGR=?a] N[CASE=?c, AGR=?a]
