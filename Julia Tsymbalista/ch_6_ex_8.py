@@ -1,14 +1,6 @@
 #Iuliia Tsymbalista
 # CHAPTER 6 EX.8
-# task:
-#The dialogue act classifier assigns labels to individual posts, without considering
-#the context in which the post is found. However, dialogue acts are highly dependent
-#on context, and some sequences of dialogue act are much more likely than
-#others. For example, a ynQuestion dialogue act is much more likely to be answered
-#by a yanswer than by a greeting. Make use of this fact to build a consecutive classifier
-#for labeling dialogue acts. Be sure to consider what features might be useful.
-#See the code for the consecutive classifier for part-of-speech tags in Example 6-5
-#to get some ideas.
+
 
 
 #For comparison, check out the impact of hyponyms insted of  hypernyms.
