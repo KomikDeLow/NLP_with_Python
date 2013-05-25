@@ -1,3 +1,4 @@
+# Roman Borys PRLs-11
 import nltk
 from nltk.corpus import brown
 sent1=nltk.word_tokenize("Go away!") #After I have done tokenization of the first sentence

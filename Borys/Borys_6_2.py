@@ -1,3 +1,4 @@
+# Roman Borys PRLs-11
 import nltk
 from nltk.corpus import names
 names = ([(name, 'male') for name in names.words('male.txt')] +

@@ -1,3 +1,4 @@
+# Roman Borys PRLs-11
 import nltk
 from nltk.corpus import conll2000
 grammar="NP: {<DT|JJ>?<RB>?<VBN>?<NN.*>+}" # Creating grammar rule

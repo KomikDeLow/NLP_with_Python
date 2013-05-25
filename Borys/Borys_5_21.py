@@ -1,3 +1,4 @@
+# Roman Borys PRLs-11
 import nltk
 from nltk.corpus import brown
 verbs=['adore', 'love', 'like', 'prefer'] #checking for words
@@ -25,4 +26,5 @@ text=nltk.corpus.brown.tagged_words(categories='news')
 #checking if the process is done correctly
 a=[w for w in nltk.bigrams(text) if w[0][1].startswith('QL')
 and w[1][1].startswith('V') and w[1][0]=='operated']
+
 

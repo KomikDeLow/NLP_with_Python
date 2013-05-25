@@ -1,3 +1,4 @@
+# Roman Borys PRLs-11
 import nltk, random
 from nltk.corpus import movie_reviews
 documents = [(list(movie_reviews.words(fileid)), category) # Creating the list of movie reviews

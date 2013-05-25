@@ -1,3 +1,4 @@
+# Roman Borys PRLs-11
 import nltk
 sentence = [("many", "JJ"), ("researches", "NNS"),(",", ","), ("two", "CD"),
             ("weeks", "NNS"),(",", ","), ("both", "DT"), ("new", "JJ"),

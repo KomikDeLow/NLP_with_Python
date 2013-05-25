@@ -1,3 +1,4 @@
+# Roman Borys PRLs-11
 import nltk
 #Setting grammar
 grammar1 = nltk.parse_cfg("""
@@ -17,10 +18,10 @@ for t in rd_parser.nbest_parse(sent):
 sent = 'John ate a cat'.split() #changed sentence
 for t in rd_parser.nbest_parse(sent):
 	print t #results
-sent = 'Bob saw a telescope'.split() #експериментуємо створивши ще одне речення
+sent = 'Bob saw a telescope'.split() #creating one more sentence
 for t in rd_parser.nbest_parse(sent):
 	print t
-sent = 'Mary saw Bob with a cat'.split() #змінюємо речення
+sent = 'Mary saw Bob with a cat'.split() #changing sentence
 for t in rd_parser.nbest_parse(sent):
 	print t
 

@@ -1,42 +1,42 @@
-import nltk
-import random
+# Roman Borys PRLs-11
+#Using Movie Reviews Corpus
+import nltk, random
 from nltk.corpus import movie_reviews
 from nltk.corpus import wordnet as wn
-#Using Movie Reviews Corpus
-documents = [(list(movie_reviews.words(fileid)), category) 
-    for category in movie_reviews.categories() 
-    for fileid in movie_reviews.fileids(category)[:100]]
-random.shuffle(documents)
+documents=[(list(movie_reviews.words(fileid)),category) # List of movie reviews
+	    for category in movie_reviews.categories()
+	    	for fileid in movie_reviews.fileids(category)[:100]]
 
-#Determining amount of words to classify
-all_words = nltk.FreqDist(w.lower() for w in movie_reviews.words())
-   	 print len(all_words)
-   	 word_features = all_words.keys()[:200]
-#Checking words for presence
-   	 def document_features(document):
-   	 document_words = set(document) 
-         features = {} 
-   	for word in word_features: 
-        features['contains(%s)' % word] = (word in document_words) 
-   	return features
-Featuresets = [(document_features(d),c) for (d,c) in documents]
-train_set, test_set = featuresets[90:], featuresets[:30]
-classifier = nltk.NaiveBayesClassifier.train(train_set)
-print nltk.classify.accuracy(classifier, test_set)
-for word in all_words.keys()[:300]: 
-if all_words[word] < all_words[all_words.keys()[200]]: 
-for synset in wn.synsets(word): 
-for hypernyms in synset.hypernyms(): 
-for l_names in hypernyms.lemma_names: 
-if l_names in all_words.keys()[:200]: 
-if word not in word_features: 
-word_features.append(word)
- print len(word_features)
-featuresets = [(document_features(d), c) for (d,c) in documents]
-train_set, test_set = featuresets[90:], featuresets[:30]
-classifier = nltk.NaiveBayesClassifier.train(train_set)
-#Checking accuracy
-print nltk.classify.accuracy(classifier, test_set)
+random.shuffle(documents) # Shuffling reviews
+all_review_words=nltk.FreqDist(w.lower() for w in movie_reviews.words()) # Using most common words
+print len(all_review_words)
+word_features=all_review_words.keys()[:250]
+def document_features(document):
+	document_words=set(document)
+	features={}
+	for word in word_features:
+		features['%contains' %word]=(word in document_words)
+		return features
 
-#Accuracy63%, words 38
+# Sorting into two parts	
+featuresets=[(document_features(d),c) for (d,c) in documents]
+train_set, test_set=featuresets[20:], featuresets[:20]
+classifier=nltk.NaiveBayesClassifier.train(train_set)
+print nltk.classify.accuracy(classifier, test_set) # Checking accuracy
+for word in all_review_words.keys()[:350]: # Adding hypernyms to the most common words
+	if all_review_words[word]<all_review_words[all_review_words.keys()[250]]:
+		for synset in wn.synsets(word):
+			for hypernyms in synset.hypernyms():
+				for l_names in hypernyms.lemma_names:
+					for l_names in all_review_words.keys()[:250]:
+						if word not in word_features:
+							word_features.append(word)
+
+							
+featuresets=[(document_features(d),c) for (d,c) in documents]
+train_set,dev_set, test_set=featuresets[20:60],featuresets[60:], featuresets[:20]
+classifier=nltk.NaiveBayesClassifier.train(train_set)
+print nltk.classify.accuracy(classifier, dev_set) # Checking classifier accuracy
+print nltk.classify.accuracy(classifier, test_set) 
+
 

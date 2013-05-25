@@ -1,26 +1,10 @@
-import nltk
-sent = ['I', 'loved', 'rain'] #creating sentence
-grammar1 = nltk.parse_cfg("""
-#S -> NP VP
-#NP -> DET N PP
-#NP -> "I"
-#VP -> V NP
-#V -> "loved"
-#NP -> "rain"
-#""") #setting grammar
-sent = "I loved rain".split()
-rd_parser = nltk.RecursiveDescentParser(grammar1, trace = 3)
-result = rd_parser.parse(sent) #showing results
-result.draw()
-grammar1 = nltk.parse_cfg("""
-S -> NP VP
-NP -> NP PP
-NP -> "I"
-VP -> V NP
-V -> "loved"
-NP -> "rain"
-""")
-sent = "I loved rain".split()
-rd_parser = nltk.RecursiveDescentParser(grammar1, trace = 3) #parsing
-result = rd_parser.parse(sent)
+# Roman Borys PRLs-11
+
+# You can modify the grammar in the recursive descent parser demo by selecting
+# Edit Grammar in the Edit menu. Change the first expansion production, namely
+# NP -> Det N PP,  to  NP -> NP PP. Using the Step button, try to build a parse tree.
+# What happens?
+
+#  Program stucks (infinite loop) on the firs rule.
+#  It's recurring, that's why analyzer won't move to the next rule.
 
