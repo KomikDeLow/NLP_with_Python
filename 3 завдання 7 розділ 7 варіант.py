@@ -1,12 +1,12 @@
-# TODO
-# Comments?
-# "Inspect the data and try to observe any patterns in the POS tag sequences that make up
-# this kind of chunk."
-
 import nltk
-sentence = [("A", "DT"), ("white", "JJ"), ("light", "JJ"), ("bus", "NN"), ("came", "VBD"), ("to", "IN"), ("a", "DT"), ("stopt", "NN"), ("in", "IN"), ("front", "NN"), ("of", "IN"), ("the", "DT"), ("Flynn-Fletcher", "JJ"), ("residence", "NN"), ("that", "WDT"), ("same", "JJ"), ("evening", "NN"), (",", ","), ("in", "IN"), ("another", "DT"), ("demension", "NN"), (".", ".")]
-grammar = r"NP:  {<DT>?<JJ>*<NN>}"
-cp = nltk.RegexpParser(grammar)
-result = cp.parse(sentence)
-print result
-result.draw()
+from nltk import RegexpParser
+from nltk.corpus import conll2000
+
+for snt in conll2000.chunked_sents("test.txt", chunk_types=["NP"])[:5]:
+    print snt 
+grammar = "NP: {<DT>?<JJ>*<NN>}"
+sentence = [("the","DT"),("little","JJ"),("yellow","JJ"),
+            ("dog","NN"),("barked","VBD"),("at","IN"),
+            ("the","DT"),("cat","NN")]
+parser = RegexpParser(grammar)
+print parser.parse(sentence)
