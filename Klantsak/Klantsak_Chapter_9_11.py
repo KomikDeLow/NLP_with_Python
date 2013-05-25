@@ -3,8 +3,8 @@
 # (63) Heute sieht der Hund die Katze.
 
 import nltk
-nltk.data.show_cfg('grammars/book_grammars/german.fcfg') #feature-based grammar
-grammar=("""  # new grammar
+nltk.data.show_cfg('grammars/book_grammars/german.fcfg') # відображення розширеної німецької граматики
+grammar=("""  # нова граматика
 S -> NP[CASE=nom, AGR=?a] VP[AGR=?a]
 NP[CASE=?c, AGR=?a] -> PRO[CASE=?c, AGR=?a]
 NP[CASE=?c, AGR=?a] -> Det[CASE=?c, AGR=?a] N[CASE=?c, AGR=?a]
