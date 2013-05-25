@@ -1,38 +1,19 @@
-# TODO
-# It isn't Python modul
-#
-#
->>> import nltk
-from nltk
->>> from nltk.corpus import brown
->>> featureset=[]
->>> context={}
->>> for tagged_sent in brown.tagged_sents():
-  for (w1,t1), (w2,t2) in nltk.bigrams(tagged_sent):
-            if t1.startswith('JJ') and w1 == 'strong':
-	context[w2]=t2
-	featureset.append((context,w1))
-	context={}
-	if t1.startswith('JJ') and w1 == 'powerful':
-	context[w2]=t2
-	featureset.append((context,w1))
-	context={}
->>> featureset[100]
-({'to': 'TO'}, 'strong')
->>> featureset[150]
-({'emotion': 'NN'}, 'strong')
->>> featureset[202]
-({'and': 'CC'}, 'strong')
->>> size = int(len(featureset)* 0.1)
->>> train_set, test_set = featureset[size:], featureset[:size]
->>> classifier = nltk.NaiveBayesClassifier.train(train_set)
->>> nltk.classify.accuracy(classifier, test_set)
-0.59999999999999998
->>> classifier.classify({'sales':'NNS'})
-'strong'
->>> classifier.classify({'chip':'NN'})
-'strong'
->>> classifier.classify({'body':'NN'})
-'powerful'
->>> classifier.classify({'factor':'NN'})
-'powerful'
+
+import nltk
+from nltk.corpus import brown
+featureset = []
+S = "strong"
+P = "powerful"
+for tagged_sent in brown.tagged_sents():
+    for b1, b2 in nltk.bigrams(tagged_sent):
+        if b1[1].startswith('JJ') and b1[0] == S:
+            featureset.append(({b2[0]: b2[1]}, S))
+        elif b1[1].startswith('JJ') and b1[0] == P:
+            featureset.append(({b2[0]: b2[1]}, P))
+print len(featureset)
+size = int(len(featureset) * 0.1)
+train_set, test_set = featureset[size:], featureset[:size]
+classifier = nltk.NaiveBayesClassifier.train(train_set)
+nltk.classify.accuracy(classifier, test_set)
+for feature in test_set:
+    print classifier.classify(feature[0]), feature[0].keys()[0], feature
