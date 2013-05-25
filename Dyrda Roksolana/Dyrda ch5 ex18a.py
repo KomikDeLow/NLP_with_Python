@@ -1,3 +1,4 @@
+#Dyrda R, AL-13
 import nltk,re,pprint
 t= nltk.corpus.brown.tagged_words()
 st=nltk.ConditionalFreqDist((word.lower(),tag) for (word,tag) in t)
@@ -7,4 +8,5 @@ for w in st.conditions():
     if len (st[w])==1:
         zz+=1
         vse+=1
-print zz*100/vse
+print zz*100/vse # 100 of word types are always assigned the same part-of-speech tag
+
