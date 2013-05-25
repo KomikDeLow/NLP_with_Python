@@ -12,9 +12,8 @@ fs4 = fs1.unify(fs2)
 print fs4
 def shop(fsx,fsy):
     if fsx.subsumes(fsy):
-           print fsx.unify(fsy) 
+        print fsx.unify(fsy) 
     else:
-        print 'fsx ne vxodut v fsy'
+       print 'fsx ne vxodut v fsy'
 print shop(fs1,fs2)
 print shop(fs3,fs1)
-
