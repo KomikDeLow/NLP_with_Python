@@ -8,7 +8,7 @@ feature_structure2 = nltk.FeatStruct("[A = (1)[D = ?x, G = ?x], C = [B = ?x, E -
 feature_structure1.unify(feature_structure2)
 #Two features subsamed.
 feature_structure1=nltk.FeatStruct("[A= ?x, B= ?x]")
-feature_structure2 = nltk.FeatStruct("[B=k]")
+feature_structure2 = nltk.FeatStruct("[B=y]")
 feature_structure1.unify(feature_structure2)
 result=feature_structure1.unify(feature_structure2)
 print result
