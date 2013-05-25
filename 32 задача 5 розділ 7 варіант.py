@@ -1,9 +1,10 @@
-# TODO
-# What do you program do?
-# 
-#
-import nltk
+
 help(nltk.tag.brill.demo)
-nltk.tag.brill.demo(num_sents=90, max_rules=100, min_score=4, trace=7, train=0.9)
-nltk.tag.brill.demo(num_sents=1000, max_rules=100, min_score=4, trace=7, train=0.8)
-nltk.tag.brill.demo(num_sents=500, max_rules=100, min_score=4, trace=7, train=1)
+nltk.tag.brill.demo(num_sents=400, max_rules=100, min_score=3, error_output='errors.out', rule_output='rules.yaml', randomize=False, train=0.3, trace=3)
+nltk.tag.brill.demo(num_sents=600, max_rules=200, min_score=3, error_output='errors.out', rule_output='rules.yaml', randomize=False, train=0.3, trace=3)
+nltk.tag.brill.demo(num_sents=400, max_rules=100, min_score=3, error_output='errors.out', rule_output='rules.yaml', randomize=False, train=0.6, trace=3)
+nltk.tag.brill.demo(num_sents=600, max_rules=200, min_score=3, error_output='errors.out', rule_output='rules.yaml', randomize=False, train=0.6, trace=3)
+#This time I changed the number of sentences (num_sents) and maximum number of rule instances to create (max_rules), first 400 sentences and 100 rules, then with 600 sentences and 100 rules, respectively.
+#The greater quantity of training sentences is taken, the more accurate results can be observed ( an accuracy has improved from  0.702839 to 0.724707).
+#Now I changed the parameter "train" from 0.3 to 0.6, in order to get the greater amount of the corpus for training the tagger.
+#An accuracy has improved from 0.702839 to 0.741859 with 400 sentences and 100 rules, and from 0.724707 to 0.764432 for 600 sentences and 200 rules).
