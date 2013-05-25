@@ -80,8 +80,9 @@ TV[OBJCASE=dat, AGR=[NUM=pl,PER=3]] -> 'folgen' | 'helfen'
 # Adverbs
 ADV -> 'Heute'
 """
-# display the parse tree for our sentence containing 'heute'
+# define the sentence and split it
 tokens = 'Heute sieht der Hund die Katze'.split()
+# set the trace parameter of the load_parser() and display the parse tree for our sentence containing 'heute'
 from nltk import load_parser
 cp = load_parser('grammars/book_grammars/PM_german.fcfg')
 for tree in cp.nbest_parse(tokens):
