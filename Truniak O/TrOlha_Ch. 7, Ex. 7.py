@@ -1,5 +1,5 @@
 # Presented by Olha Truniak, ALs-13
-# Chapter 6, Ex. 7
+# Chapter 7, Ex. 7
 
 
 # Carry out the following evaluation tasks for any of the chunkers you have developed
