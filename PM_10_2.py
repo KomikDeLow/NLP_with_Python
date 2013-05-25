@@ -1,5 +1,3 @@
-import nltk
-lp = nltk.LogicParser()
 # translate sentences into predicate-argument formulas of first-order logic
 """a. Angus likes Cyril and Irene hates Cyril.
 like(Angus, Cyril) & hate(Irene, Cyril)
