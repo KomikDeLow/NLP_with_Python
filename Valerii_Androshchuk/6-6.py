@@ -31,8 +31,8 @@ print featureset[25]
 size = int(len(featureset) * 0.01) 
 train_set, test_set = featureset[size:], featureset[:size] 
 classifier = nltk.NaiveBayesClassifier.train(train_set)
-# I've built the classifier that predicts when these words shell be used.
-# I was not able combine them with "chip" and "sales"
-# So I decided to make two illustrations for each of them, but in different situation.
+# I built the classifier that predicts when these words shell be used.
+# I was not able to combine them with "chip" and "sales"
+# So I've decided to make two illustrations for each of them, but in different situation.
 
 
