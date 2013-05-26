@@ -1,4 +1,4 @@
-# Iuliia Tsymbalista APL(s)-13
+# Valerii Androshchuk APL(s)-13
 # chapter 10, Task 2
 # Translate the following sentences into
 # predicate-argument formulas of first-order logic.
@@ -15,7 +15,7 @@
 # 'love(Bruce, Bruce) and love (Pat, Bruce)'
 # 'love(x,x) and love(y,x)'
 
-# d)Cyril saw Bertie, but Angus didn’t.
+# d)Cyril saw Bertie, but Angus didnï¿½t.
 # 'saw(Cyril, Bertie) and -saw(Angus, Bertie)'
 # 'saw(x,y) and -saw(z,y)'
 
