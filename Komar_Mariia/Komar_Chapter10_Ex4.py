@@ -1,4 +1,5 @@
-﻿# Komar Mariia ALs-11
+﻿# fine
+# Komar Mariia ALs-11
 # Chapter_10, Ex_4
 
 #Translate the following verb phrases using λ-abstracts and quantified formulas of first-order logic.
