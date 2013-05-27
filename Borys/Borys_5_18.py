@@ -1,3 +1,4 @@
+# bad
 # Roman Borys PRLs-11
 import nltk
 from nltk.corpus import brown
