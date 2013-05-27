@@ -1,3 +1,4 @@
+# fine
 # Fuyarchuk O. Chapter 9 Task 5
 import nltk
 nltk.data.show_cfg('grammars/book_grammars/german.fcfg')

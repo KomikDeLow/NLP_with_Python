@@ -1,3 +1,4 @@
+# bad style
 import nltk
 import types
 from nltk.corpus import senseval

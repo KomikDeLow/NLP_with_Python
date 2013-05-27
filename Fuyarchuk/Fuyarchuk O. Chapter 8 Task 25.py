@@ -1,3 +1,4 @@
+# fine
 # Fuyarchuk O. Chapter 8 Task 25
 # The structure of sentence: S-simple sentence: S,S,CONJ S,...,S CONJ P S
 import nltk

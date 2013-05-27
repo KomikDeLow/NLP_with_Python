@@ -1,3 +1,4 @@
+#fine
 # Olya Fuyarchuk Chapter 8 task 20
 
 import nltk

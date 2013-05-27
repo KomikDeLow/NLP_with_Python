@@ -1,3 +1,4 @@
+# fine
 # Fuyarchuk O. Chapter 6 Task 3
 import nltk
 import types

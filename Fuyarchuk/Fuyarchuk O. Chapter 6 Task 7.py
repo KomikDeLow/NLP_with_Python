@@ -1,3 +1,4 @@
+# fine
 import nltk
 posts=nltk.corpus.nps_chat.xml_posts() 
 history=[] # змінна для зереження типу попереднього повідомлення 

@@ -1,3 +1,4 @@
+# fine
 # Fuyarchuk O/ Chapter 9 Task 3
 import nltk
 fs1=nltk.FeatStruct("[C =?x,A = [B = ?x]]")

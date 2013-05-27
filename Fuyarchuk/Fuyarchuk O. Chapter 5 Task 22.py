@@ -1,3 +1,4 @@
+# bad style
 import pprint
 from nltk import RegexpTagger, word_tokenize
 patterns = [
