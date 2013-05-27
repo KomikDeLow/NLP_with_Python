@@ -1,4 +1,6 @@
-﻿# Petrukha Tetiana Als-11
+﻿# fine
+
+# Petrukha Tetiana Als-11
 # Chapter_8, Ex_16
 
 # Write a program to find those verbs in the PP Attachment Corpus nltk.corpus.ppattach.
