@@ -1,3 +1,5 @@
+# fine
+
 #Прокулевич К. ПРЛс-11, Розділ9, Задача 9
 #List two feature structures that subsume [A=?x, B=?x].
 import nltk

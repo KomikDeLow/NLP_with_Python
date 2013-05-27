@@ -1,3 +1,5 @@
+# NameError: name 'entries' is not defined
+
 #Прокулевич К. ПРЛс-11, Розділ 8, Задача 16
 #Write a program to find those verbs in the PP Attachment Corpus nltk.corpus.ppattach.
 #Find any cases where the same verb exhibits two different attachments,

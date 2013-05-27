@@ -1,3 +1,5 @@
+# fine
+
 #Прокулевич К. ПРЛс-11, Розділ 9, Задача 5
 #Modify the German grammar in Example 9-4 to incorporate the treatment of
 #subcategorization presented in Section 9.3.

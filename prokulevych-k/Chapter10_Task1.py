@@ -1,3 +1,5 @@
+# fine
+
 #Прокулевич К. ПРЛс-11, Розділ 10, Завдання 1
 #Translate the following sentences into propositional logic and verify that they
 #parse with LogicParser. Provide a key that shows how the propositional variables

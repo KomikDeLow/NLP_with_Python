@@ -1,3 +1,5 @@
+# fine
+
 #Прокулевич К. ПРЛс-11, Розділ 9, Задача 11
 #Extend the German grammar in Example 9-4 so that it can handle so-called verbsecond
 #structures like the following:

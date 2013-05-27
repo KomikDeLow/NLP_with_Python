@@ -1,3 +1,5 @@
+# fine
+
 #Прокулевич К. ПРЛс-11, Розділ 10, Задача 2
 #Translate the following sentences into predicate-argument formulas of first-order
 #logic.

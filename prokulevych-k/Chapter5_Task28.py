@@ -1,3 +1,5 @@
+# NameError: name 'word_tag_fd' is not defined
+
 #Прокулевич К. ПРЛс-11, Розділ 5, Задача 28
 #Experiment with taggers using the simplified tagset (or make one of your own
 #by discarding all but the first character of each tag name).
