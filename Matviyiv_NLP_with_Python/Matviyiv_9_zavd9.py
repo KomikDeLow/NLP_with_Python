@@ -1,3 +1,5 @@
+# NameError: name 'fs1' is not defined
+
 #Building two structures which subsume the main one
 #the main structure consists of two features, with the same values "?x"
 

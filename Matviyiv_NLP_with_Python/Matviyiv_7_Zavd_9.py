@@ -1,3 +1,4 @@
+# bad style
 # TODO
 # Please, describe me the algorithm of your solution
 #

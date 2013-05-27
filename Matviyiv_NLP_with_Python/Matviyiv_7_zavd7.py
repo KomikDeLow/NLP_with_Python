@@ -1,3 +1,4 @@
+# fine
 # Evaluating a chunker (on 100 sentenses from a chunked corpus) and finding possible mistakes
 # on the basis of a chunker builded in task 3 (Chapter 7)
 
