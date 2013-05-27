@@ -24,5 +24,5 @@ for w in rd_parser.nbest_parse(sent):
 nltk.app.rdparser()
 rd_parser = nltk.RecursiveDescentParser(grammar1)
 sent = 'a man saw a dog'.split()
- for w in rd_parser.nbest_parse(sent):
+for w in rd_parser.nbest_parse(sent):
     print w
