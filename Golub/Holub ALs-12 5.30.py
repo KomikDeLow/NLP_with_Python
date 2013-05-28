@@ -1,0 +1,32 @@
+# Prizvuszcze / Grypa
+
+import nltk
+from nltk.corpus import brown
+brown_tagged_sents = brown.tagged_sents(categories='news')
+vocab = nltk.FreqDist(brown.words(categories='news')) # replacing low-frequency words with UNK
+mapping = nltk.defaultdict(lambda: 'UNK')
+for v,t in brown.tagged_words(categories='news'):
+   if vocab[v]>2:mapping[v],t = v,t                   #Frequency words in dictionary depicting themselves over
+                                                      # others are changed and the result is saved in new_tagged_sents
+new_tagged_sents=[]
+for i in brown.tagged_sents(categories='news'):new_tagged_sents.append([(mapping[v],t) for (v,t) in i])
+brown.tagged_sents(categories='news')[10]
+print new_tagged_sents[10]
+
+size = int(len(brown_tagged_sents) * 0.9)             #build data sets for training test
+train_sents1 = brown_tagged_sents[:size] 
+test_sents1 = brown_tagged_sents[size:]
+train_sents2 = new_tagged_sents[:size]
+test_sents2 = new_tagged_sents[size:]                 # Build and train analyzers
+t0 = nltk.DefaultTagger('NN')
+t1 = nltk.UnigramTagger(train_sents1, backoff=t0)
+t2 = nltk.BigramTagger(train_sents1, backoff=t1)
+print t2.evaluate(test_sents1)                        # Evaluate the accuracy of their work
+                  
+t1 = nltk.UnigramTagger(train_sents2, backoff=t0)
+t2 = nltk.BigramTagger(train_sents2, backoff=t1)
+                
+print t2.evaluate(test_sents2)
+t2 = nltk.BigramTagger(train_sents2, backoff=t0)
+                
+print t2.evaluate(test_sents2)
