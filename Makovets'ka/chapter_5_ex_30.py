@@ -1,4 +1,4 @@
-#analyzer of accuracy
+ #analyzer of accuracy
 #should rise
 #words with frequency=<2
 #change to UNK
