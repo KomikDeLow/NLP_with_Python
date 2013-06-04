@@ -1,5 +1,5 @@
 #Lesia Martsyniuk, ALs-12
-import nltk ##import all necessary functions, corpus, data
+import nltk ##import all necessary  functions, corpus, data
 from nltk.corpus import names
 import random
 import math
