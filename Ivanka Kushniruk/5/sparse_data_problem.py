@@ -1,3 +1,4 @@
+# AttributeError: 'module' object has no attribute 'corpu'
 # by Ivanka Kushniruk
 import nltk
 from nltk.corpus import brown
