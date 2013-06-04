@@ -1,5 +1,5 @@
 import  nltk
-fs1 = nltk.FeatStruct ("[A = ?x, B = ?x]") # asssigning values to features
+fs1 = nltk.FeatStruct ("[A = ?x, B = ?x]") # asssigning  values to features
 fs2 = nltk.FeatStruct ("[B = [C = d]]")    
 print fs1.unify(fs2)  
 fs1 = nltk.FeatStruct ("[A = ?x, B = ?x]")
