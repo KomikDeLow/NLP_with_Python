@@ -1,4 +1,4 @@
-#Iryna Brykailo, ALs-13
+#Iryna Brykailo,  ALs-13
 
 import nltk
 from nltk.corpus import movie_reviews
