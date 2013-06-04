@@ -1,4 +1,4 @@
-#Shtanhret Iryna AL-13, task 28
+#Shtanhret Iryna  AL-13, task 28
 import nltk
 from nltk.tag.simplify import simplify_wsj_tag
 from nltk.corpus import brown
