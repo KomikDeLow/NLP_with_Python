@@ -4,7 +4,7 @@
 import nltk
 import types
 from nltk.corpus import senseval #import senseval corpus
-instances = senseval.instances('serve.pos') # choose data for word 'serve'
+instances = senseval.instances('serve.pos') # choose data  for word 'serve'
 features=[]
 for inst in instances:
 	comtext=[]
