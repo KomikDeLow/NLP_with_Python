@@ -1,3 +1,4 @@
+# comoares
 # Khrystyna Maschakevich, AL-13, Chapter 8, Task 17
 
 # The program comoares the efficiency of top-down chart parser and descent parser.
