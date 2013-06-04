@@ -1,3 +1,4 @@
+# compare test_set = featuresets[500:] dev_test_set = featuresets[500:1000] train_set = featuresets[:6900]
 # TODO
 # and the remaining 6,900 words for the training set
 #
