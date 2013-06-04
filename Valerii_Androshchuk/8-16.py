@@ -1,7 +1,7 @@
 # Valerii Androshchuk APL(s)-13
 # Chapter 8, Task 16 (a).
 # Find any cases where the same verb exhibits two different attachments,
-# but where the first noun, or second noun or preposition stays unchanged
+# but where the first noun, or second  noun or preposition stays unchanged
 # using PP Attachment Corpus.
 
 import nltk
