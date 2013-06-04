@@ -1,4 +1,4 @@
-#Irena Marunyshyn PRLs-12 Chapter 7 ex 9
+#Irena Marunyshyn PRLs-12  Chapter 7 ex 9
 import nltk,re, pprint
 def ie_preprocess(document):
 	sentences = nltk.sent_tokenize(document)# default sentence segmenter
