@@ -1,4 +1,4 @@
-# Lesya Bas, AL-13, chapter 5, exercise 2
+# Lesya Bas,  AL-13, chapter 5, exercise 2
 
 import nltk
 from nltk.corpus import brown
