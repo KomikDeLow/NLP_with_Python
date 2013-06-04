@@ -1,3 +1,4 @@
+# error
 #Khrystyna Hensirovska,ALs-12
 #Chapter 9,task 10
 #Ignoring structure sharing, give an informal algorithm for unifying two feature
