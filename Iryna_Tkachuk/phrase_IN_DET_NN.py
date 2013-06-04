@@ -1,5 +1,5 @@
 # TODO
-# Are prepositional phrases in Brown
+# Are  prepositional phrases in Brown
 # What does PP consist? 
 # Look nltk.help.brown_tagset()
 
