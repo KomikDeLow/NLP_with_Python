@@ -1,4 +1,4 @@
-# Yakymchuk / AL-12
+ # Yakymchuk / AL-12
 
 d = {} 
 d['god']='NN'
