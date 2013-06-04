@@ -1,4 +1,4 @@
-Chapter 7 ex.7
+#Chapter 7 ex.7
 import nltk
  from nltk.corpus import conll2000
  grammar="NP: {<DT|IN|PRP|NN>?<VBG><DT>?<NN>*}" # creating rules for grammar
