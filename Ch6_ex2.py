@@ -1,3 +1,4 @@
+# error
 #presented by Iryna Havryliak PRLc 13
 # Chapter 6, Ex.2
 import nltk
