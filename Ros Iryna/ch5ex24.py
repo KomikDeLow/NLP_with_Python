@@ -4,7 +4,7 @@
 #from 1 to 6. Also assuming a tagset size of 102 and a vocabulary size of 105.
 #We tabulate the accuracy score.
 #WE have sparse data problem which can happen when we use N-gram Taggers. With the help 
-#of tagger context we find the correct tag. But when N is larger, the context is more specific. 
+#of tagger context we find the correct  tag. But when N is larger, the context is more specific. 
 #Unknown word would'nt be tagged.
 #The increase of the amount of training data would't solve the problem.
 #Thus the sparse data problem is one of the most important in NLP.
