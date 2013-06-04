@@ -1,5 +1,5 @@
 import nltk
-# call xml_posts() to get a data structure representing the XML annotation for each post
+# call xml_posts() to get a data  structure representing the XML annotation for each post
 posts=nltk.corpus.nps_chat.xml_posts()[:100]
 # define a simple feature extractor that checks what words the post contains
 def dialogue_act_features(post):
