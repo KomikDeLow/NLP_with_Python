@@ -1,4 +1,4 @@
-#Presented by Iuliia Tsymbalista
+#Presented by Iuliia  Tsymbalista
 #chapter 8, ex. 6;
 
 
