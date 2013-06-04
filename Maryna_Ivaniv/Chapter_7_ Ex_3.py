@@ -3,7 +3,7 @@
 # Inspect the data and try to observe any patterns in the POS tag sequences 
 # that make up this kind of chunk.
 # Develop a simple chunker using the regular expression chunker nltk.RegexpParser.
-# Discuss any tag sequences that are difficult to chunk reliably.
+# Discuss any tag sequences that are  difficult to chunk reliably.
 
 import nltk, re, pprint
 sentence = [("the", "DT"), ("little", "JJ"), ("yellow", "JJ"),("dog", "NN"),
