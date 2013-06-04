@@ -5,7 +5,7 @@ NP: {<DT>?<VBG>*<NN>}
 {<DT>?<NN>*<VBG>}
 {<NN>?<VBG>*<NN>}
 """
-cp = nltk.RegexpParser(grammar) # using this grammar, I create a chunk parser
+cp = nltk.RegexpParser(grammar) # using  this grammar, I create a chunk parser
 # define a sentence with gerunds to be chunked
 sentence = [("the", "DT"), ("receiving", "VBG"), ("end", "NN"), ("assistant", "NN"), ("managing", "VBG"), ("editor", "NN")]
 # run the chunker on this input
