@@ -1,6 +1,6 @@
 # Obriza Khrystyna, AL-11, Chapter 8, Task 15
 # The task was to extend grammar in grammar2 with productions that expand prepositions
-#as intransitive, transitive, and requiring a PP complement
+#as intransitive, transitive, and requiring  a PP complement
 import nltk, re, pprint
 grammar2 = nltk.parse_cfg("""
     S -> NP VP
