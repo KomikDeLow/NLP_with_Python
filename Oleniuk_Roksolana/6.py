@@ -12,4 +12,4 @@ test_data=featureSet[:120]
 train_data=featureSet[120:]
 classifier = nltk.NaiveBayesClassifier.train(train_data) 
 
-print 'Clasifier accuraci: ',100.0 * nltk.classify.accuracy(classifier, test_data),'%' 
+print 'Clasifier  accuraci: ',100.0 * nltk.classify.accuracy(classifier, test_data),'%' 
