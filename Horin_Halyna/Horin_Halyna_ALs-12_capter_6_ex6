@@ -1,0 +1,15 @@
+import nltk
+grammar = r"""
+        NP: {<DT><PRP\$><NN.>+<CC>*<NN.*>+}
+        {<NN.>+<CC>*<NN.>+}
+        """
+sentence = [("July", "NNP"), ("and", "CC"), ("August", "NNP"),(",", ","),
+            ("all", "DT"), ("your", "PRP$"), ("managers", "NNS"),("and", "CC"),
+            ("supervisors", "NNS"), ("company", "NN"),("courts", "NNS"),
+            ("and", "CC"), ("adjudicators", "NNS")]
+cp = nltk.RegexpParser(grammar)
+print cp.parse(sentence)
+#define a  grammar with a regular expression rules
+#some sentence for testing parser
+#create a chunk parser
+#represent result

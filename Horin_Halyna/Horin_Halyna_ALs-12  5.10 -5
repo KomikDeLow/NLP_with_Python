@@ -1,0 +1,11 @@
+d={}
+d['apple']=['N']
+d['drive']=['V']
+d['pretty']=['Adj']
+d['monkey']=['N']
+d.keys()
+d['xyz']
+# stvoryemo pystui slovnuk
+# dodaemo v slovnuk slova
+# peregladaemo spusok kly4iv slovnuka
+# probyemo dostyputusa do kly4a xyz, vubuvae pomulky dostypy,oskilku takui kly4 vidsytnii:
