@@ -1,4 +1,3 @@
-#Oksana Pokladok
 import nltk
 posts=nltk.corpus.nps_chat.xml_posts() 
 history=[] # A variable to save the type of previous message (post’s dialogue act type) 
